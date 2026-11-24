@@ -3,7 +3,7 @@ version = 1
 
 type = "game"
 id = "wuthering-waves"
-game = "Wuthering Waves"
+game = "鸣潮"
 default_channel = "cn"
 default_quality = "HD"
 
@@ -21,6 +21,10 @@ UHD = "超高清画质"
 # 仅在核实真实游戏文件及期望值后登记。示例和回归用例不能成为生产规则。
 [risk_control]
 rules = []
+
+# 登记游戏主程序的相对路径，若为空则由用户现在决定。若索引中没有主程序，则无法启动游戏。
+[main_routine]
+src = ""
 
 # 同一列表只包含同渠道的官方索引镜像。文件 CDN、分包和清单摘要由索引发布。
 [channels.cn]
