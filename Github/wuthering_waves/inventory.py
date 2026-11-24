@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 
-from .records import md5_text, relative_path
+from .records import PUBLISHER_GAME, md5_text, relative_path
 
 
 def blob_key(row):
@@ -37,7 +37,6 @@ def matches(local, target):
 
 @dataclass
 class Inventory:
-    game: str
     receipt: dict
     files: dict
     owned: dict
@@ -58,13 +57,13 @@ class Inventory:
         return [{"action": "restore_risk_from_receipt"}] if enabled else []
 
 
-def load_inventory(raw, game):
+def load_inventory(raw):
     # 已装回执和磁盘事实有不同来源。回执只决定所有权，不能替代现场校验。
     if not isinstance(raw, dict):
         raise ValueError("本机状态应为 JSON 对象")
     receipt = raw.get("installed") or {}
     if receipt:
-        validate_receipt(raw, receipt, game)
+        validate_receipt(raw, receipt)
     files = indexed(raw.get("files", []))
     originals = indexed(raw.get("originals", []))
     owned = indexed(receipt.get("files", []))
@@ -75,11 +74,11 @@ def load_inventory(raw, game):
     caches = raw.get("cache", {})
     capabilities = raw.get("capabilities", [])
     staged = set(map(blob_key, raw.get("staged", [])))
-    return Inventory(game, receipt, files, owned, caches, capabilities, staged)
+    return Inventory(receipt, files, owned, caches, capabilities, staged)
 
 
-def validate_receipt(raw, receipt, game):
-    if not isinstance(receipt, dict) or receipt["game"] != game or "files" not in raw:
+def validate_receipt(raw, receipt):
+    if not isinstance(receipt, dict) or receipt["game"] != PUBLISHER_GAME or "files" not in raw:
         raise ValueError("已装回执须对应当前游戏，并提供核验后的 files")
     # 缺少一个已装包的来源版本时，仍可走全量校验；所有权列表必须明确给出。
     missing = {"channel", "quality", "packs", "files"} - receipt.keys()
@@ -123,7 +122,7 @@ def uninstall_plan(local):
     # 仅移除回执拥有且内容匹配的文件，手动修改的文件单独列出来供核心展示。
     actions = retired_files(local, set(), "remove_owned")
     leftover = [row["path"] for key, row in local.owned.items() if key in local.files and not local.present(row)]
-    return {"schema": 1, "operation": "uninstall", "game": local.game, "prepare": local.restore_risk(),
+    return {"schema": 1, "operation": "uninstall", "game": PUBLISHER_GAME, "prepare": local.restore_risk(),
             "downloads": [], "patches": [], "actions": actions, "preserved": leftover, "download_bytes": 0,
             "risk_control": [], "finalize": [{"action": "restore_registration_from_receipt"},
                                              {"action": "remove_receipt"}]}

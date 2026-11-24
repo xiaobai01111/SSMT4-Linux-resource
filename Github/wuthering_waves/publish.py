@@ -5,7 +5,7 @@ import tomllib
 from pathlib import Path
 
 from .manifests import bundle_names, combine_packs, first_document, pack_contents, published_cdns
-from .records import md5_text, relative_path
+from .records import PUBLISHER_GAME, md5_text, relative_path
 from .storage import ObjectStore, read_target
 from ..catalog import InstallRelease, PUBLISHER_INDEX, write_install_catalog
 from ..client_data import json_bytes, write_descriptor
@@ -92,7 +92,7 @@ def generate_channel(store, config, channel):
         if release is None:
             releases["formal"]["predownload_pending"] = True
             continue
-        identity = {"game": config["game"], "channel": channel, "stage": stage, "source": source["index_urls"][0]}
+        identity = {"game": PUBLISHER_GAME, "channel": channel, "stage": stage, "source": source["index_urls"][0]}
         releases[stage] = generate_release(store, release, identity)
     return releases
 
@@ -157,7 +157,7 @@ def publish(config_path, destination, cache):
         channels = {key: generate_channel(store, config, key) for key in config["channels"]}
         if not channels:
             raise ValueError("资源包没有配置渠道")
-        index = {"schema": 1, "game": config["game"], "channels": channels}
+        index = {"schema": 1, "game": PUBLISHER_GAME, "channels": channels}
         (stage / PUBLISHER_INDEX).write_bytes(json_bytes(index))
         manifests = write_install_catalog(stage, config["id"], install_releases(stage, index))
         write_descriptor(config_path, stage, manifests)

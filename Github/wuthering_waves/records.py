@@ -3,6 +3,9 @@
 import re
 from urllib.parse import quote
 
+# 维护协议 v1 和已有回执使用这个固定标识，sources.toml 的 game 只用于展示。
+PUBLISHER_GAME = "Wuthering Waves"
+
 
 def relative_path(value):
     # dest 同时用于本地相对路径和 CDN 路径，必须保留原始大小写和分隔方式。

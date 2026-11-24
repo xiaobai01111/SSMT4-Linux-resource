@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from zlib import error as ZlibError
 
-from .records import content_url, file_record, md5_text, merge_files
+from .records import PUBLISHER_GAME, content_url, file_record, md5_text, merge_files
 
 
 # 预算仅用于索引和清单。网络传输及 gzip 展开后的内容分别受限。
@@ -156,7 +156,7 @@ def manifest(config, channel, quality):
     url, release = first_document(config["channels"][channel]["index_urls"])
     cdns = published_cdns(release["cdnList"])
     parts = [read_pack(name, release["resourcePacks"][name], cdns) for name in bundle_names(release, quality)]
-    return {"game": config["game"], "channel": channel, "version": release["resourcePacks"]["common"]["version"],
+    return {"game": PUBLISHER_GAME, "channel": channel, "version": release["resourcePacks"]["common"]["version"],
             "quality": quality, "source": url, **combine_packs(parts)}
 
 

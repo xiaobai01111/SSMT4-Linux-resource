@@ -19,7 +19,7 @@ def fetch_command(args, config):
 def plan_command(args, config):
     # 空安装可省略状态文件。更新、转服和卸载须使用核心实际核验的回执。
     state = json.loads(args.state.read_bytes()) if args.state else {}
-    local = load_inventory(state, config["game"])
+    local = load_inventory(state)
     save_manifest(build_plan(args, config, local), args.output)
 
 

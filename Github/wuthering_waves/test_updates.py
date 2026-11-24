@@ -10,6 +10,7 @@ from dataclasses import dataclass, field
 from Github.wuthering_waves.inventory import load_inventory
 from Github.wuthering_waves.planner import build_plan
 from Github.wuthering_waves.publish import complete_bundles
+from Github.wuthering_waves.records import PUBLISHER_GAME
 from Github.wuthering_waves.storage import ObjectStore, json_bytes, object_path
 
 
@@ -26,7 +27,7 @@ OLD = official("client.pak", "1", 100)
 NEW = official("client.pak", "2", 120)
 DIRECT = {**official("info.txt", "3", 12), "fromFolder": "special/"}
 TRANSPORT = official("delta.krpdiff", "4", 7)
-CONFIG = {"game": "Test", "default_channel": "bilibili", "default_quality": "HD",
+CONFIG = {"default_channel": "bilibili", "default_quality": "HD",
           "channels": {"bilibili": {"app_id": "10004"}}}
 
 
@@ -44,7 +45,7 @@ class UpdateFixture:
     def state(self):
         # 故意只提供差分组实际所需的旧文件，直接完整文件在本机缺失。
         old_files = [local_file(OLD)]
-        receipt = {"game": "Test", "channel": "bilibili", "quality": "HD", "version": "1.0",
+        receipt = {"game": PUBLISHER_GAME, "channel": "bilibili", "quality": "HD", "version": "1.0",
                    "packs": {"common": "1.0"}, "files": old_files}
         return {"installed": receipt, "files": old_files, "capabilities": ["krpdiff"]}
 
@@ -56,7 +57,7 @@ class UpdateFixture:
         # 正式与预下载各有带身份及摘要的目标文件，公共包以外的档位由单独的发布测试覆盖。
         rows = [{**local_file(r), "url": "https://cdn.example/full/" + r["dest"], "pack": "common"}
                 for r in (NEW, DIRECT)]
-        target = {"game": "Test", "channel": "bilibili", "stage": stage, "version": version, "quality": "HD",
+        target = {"game": PUBLISHER_GAME, "channel": "bilibili", "stage": stage, "version": version, "quality": "HD",
                   "packs": [{"name": "common", "version": version}], "files": rows}
         ref = ObjectStore(self.root, self.root).write_target(target)
         return {"version": version, "qualities": {"HD": ref}, "cdns": ["https://cdn.example", "https://mirror.example"],
@@ -68,11 +69,11 @@ class UpdateFixture:
         releases = {"formal": self.release("formal", formal_version)}
         if stage == "predownload":
             releases[stage] = self.release(stage, "2.0")
-        index = {"schema": 1, "game": "Test", "channels": {"bilibili": releases}}
+        index = {"schema": 1, "game": PUBLISHER_GAME, "channels": {"bilibili": releases}}
         (self.root / "publisher.json").write_bytes(json_bytes(index))
         args = argparse.Namespace(config=self.root.parent / "sources.toml", channel=None, quality=None,
                                   operation="update", catalog=None, stage=stage, full_files=False)
-        return build_plan(args, CONFIG, load_inventory(state, "Test"))
+        return build_plan(args, CONFIG, load_inventory(state))
 
 
 class UpdateTests(unittest.TestCase):

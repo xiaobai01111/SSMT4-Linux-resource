@@ -9,7 +9,7 @@
 
 `Game/<游戏目录>/` 使用统一的 [目录、字段和安装清单协议](docs/game-resource-packs.md)。客户端按固定 Git 提交和 `manifests/package.json` 校验数据，只解析规范安装清单；`Github/` 中的发布工具负责转换各发行商的原始数据，不在客户端执行。
 
-游戏图标和背景分别使用 `icon.webp`、`background.webp`，保留原始尺寸，图标无损编码，背景有损压缩。替换素材时在 `sources.toml` 的 `entrypoints` 登记路径，并更新 `manifests/package.json` 中配置和图片的大小与 SHA-256。
+游戏图标和背景分别使用 `icon.webp`、`background.webp`，保留原始尺寸，图标无损编码，背景有损压缩。替换素材时在 `sources.toml` 的 `entrypoints` 登记路径。修改配置、图像或安装清单时，同一提交内更新 `manifests/package.json` 中对应的字节数与 SHA-256；离线检查会在发布前核对交付单。
 
 在本仓库根目录使用 Python 3.11 或更新版本：
 

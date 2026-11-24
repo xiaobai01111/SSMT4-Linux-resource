@@ -6,7 +6,7 @@ from pathlib import Path
 
 from ..catalog import PUBLISHER_INDEX
 from ..client_data import CATALOG
-from .records import relative_path
+from .records import PUBLISHER_GAME, relative_path
 from .inventory import blob_key, channel_cache, fingerprint, matches, retired_files, uninstall_plan
 from .rules import risk_actions
 from .storage import read_target
@@ -43,7 +43,7 @@ def select_target(args, config, local):
     default_path = Path(CATALOG).with_name(PUBLISHER_INDEX)
     path = args.catalog or args.config.parent / default_path
     index = json.loads(path.read_bytes())
-    if index["schema"] != 1 or index["game"] != local.game:
+    if index["schema"] != 1 or index["game"] != PUBLISHER_GAME:
         raise ValueError("资源目录协议或游戏不匹配")
     # 总索引、目标表、更新对象都从一个固定提交的根目录打开。
     stages = index["channels"][channel]
@@ -56,7 +56,7 @@ def select_target(args, config, local):
     reference = release["qualities"][quality]
     target = read_target(path.parent, reference)
     identity = (target["game"], target["channel"], target["quality"], target["stage"], target["version"])
-    if identity != (local.game, channel, quality, args.stage, release["version"]):
+    if identity != (PUBLISHER_GAME, channel, quality, args.stage, release["version"]):
         raise ValueError("目标清单与资源目录登记不匹配")
     return Selection(target, release, reference, path.parent)
 
@@ -97,7 +97,7 @@ def empty_plan(operation, selection, local):
     target = selection.manifest
     # 显式带回原服，隔离源文件与恢复目标缓存时使用不同命名空间。
     source_channel = local.receipt.get("channel")
-    return {"schema": 1, "operation": operation, "game": local.game, "channel": target["channel"],
+    return {"schema": 1, "operation": operation, "game": PUBLISHER_GAME, "channel": target["channel"],
             "quality": target["quality"], "version": target["version"], "stage": target["stage"],
             "target_sha256": selection.reference["sha256"], "from_channel": source_channel,
             "prepare": local.restore_risk(),

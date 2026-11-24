@@ -7,6 +7,8 @@ import unittest
 from pathlib import Path
 
 from Github import catalog
+from Github.client_data import entry
+from Github.sync import GAME_ROOT
 
 
 # 待发布与已发布共用同一个规范的配置，仅图标状态不同。
@@ -29,6 +31,17 @@ def channel(_source):
 
 
 class CatalogTests(unittest.TestCase):
+    def test_committed_deliveries_match_payloads(self):
+        # 在访问发行商之前发现未随配置、图片或清单更新的旧交付摘要。
+        descriptors = sorted(GAME_ROOT.glob("*/manifests/package.json"))
+        self.assertTrue(descriptors)
+        for descriptor in descriptors:
+            root = descriptor.parent.parent
+            files = json.loads(descriptor.read_bytes())["files"]
+            with self.subTest(game=root.name):
+                actual = [entry(root / row["path"], row["path"]) for row in files]
+                self.assertEqual(actual, files)
+
     def test_missing_icon_keeps_snapshot_out_of_client_discovery(self):
         root = Path(self.enterContext(tempfile.TemporaryDirectory()))
         config = root / "sources.toml"

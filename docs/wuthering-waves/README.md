@@ -29,6 +29,8 @@ python3 -B -m Github wuthering-waves plan switch --state local-state.json --chan
 
 同服更新使用 `plan update --state local-state.json`，卸载使用 `plan uninstall --state local-state.json`。鸣潮适配器生成清单、补丁和风控动作；实际执行及状态登记属于客户端核心。生产风控列表目前为空。
 
+`sources.toml` 的 `game` 是客户端的显示名，可以本地化；通用安装清单使用 `id`。维护协议 v1 的 `game` 固定为 `Wuthering Waves`，因而改显示名不需要重写厂商快照或已有维护回执。
+
 生成候选时，脚本复用已发布快照中通过校验的对象。所有渠道校验成功后，统一入口只同步变动的文件。
 
 ```sh

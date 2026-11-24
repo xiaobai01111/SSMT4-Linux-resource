@@ -11,6 +11,7 @@ on:
       - 'Game/*/*.jpg'
       - 'Game/*/*.jpeg'
       - 'Game/*/*.webp'
+      - 'Game/*/manifests/**'
       - 'Github/**'
       - '.github/workflows/game-resources.yml'
   pull_request:

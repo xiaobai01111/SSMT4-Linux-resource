@@ -17,7 +17,7 @@ CONFIG = tomllib.loads(DEFAULT_CONFIG.read_text())
 def plan(operation, state, channel=None):
     request = argparse.Namespace(operation=operation, config=DEFAULT_CONFIG, catalog=None, channel=channel,
                                  quality="HD", stage="formal")
-    return build_plan(request, CONFIG, load_inventory(state, CONFIG["game"]))
+    return build_plan(request, CONFIG, load_inventory(state))
 
 
 def installed(channel):
