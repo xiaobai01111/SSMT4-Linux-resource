@@ -6,6 +6,7 @@ import tomllib
 from pathlib import Path
 
 from .arknights_endfield.publish import publish as generate_endfield
+from .client_data import stage_game_version
 from .hoyoplay.publish import publish as generate_hoyoplay
 from .snapshot import apply_snapshot
 from .wuthering_waves.publish import publish as generate_wuwa
@@ -50,12 +51,14 @@ def generate(game, output, root=GAME_ROOT):
 
 
 def sync_game(game, root):
-    current = manifest_dir(config_path(game, root))
+    source = config_path(game, root)
+    current = manifest_dir(source)
     # 完整候选通过上游校验后才计算差异，暂存与正式清单位于同一文件系统。
     with tempfile.TemporaryDirectory(prefix=".game-resources-", dir=current.parent) as work:
         candidate = Path(work, "manifests")
         generate(game, candidate, root)
-        return apply_snapshot(candidate, current)
+        config_change = stage_game_version(source, candidate, current)
+        return apply_snapshot(candidate, current, config_change)
 
 
 def sync_games(games, root=GAME_ROOT):

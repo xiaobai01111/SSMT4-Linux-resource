@@ -1,13 +1,17 @@
 """在独立资源树中验证游戏之间不会串写，也不会因单个上游失败而阻塞。"""
 
 import io
+import json
 import tempfile
+import tomllib
 import unittest
 from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
 
 from Github import sync
+from Github.client_data import entry, write_descriptor
+from Github.game_version import bumped_config, next_version
 
 
 def make_generator(outputs):
@@ -22,6 +26,8 @@ def make_generator(outputs):
             target.write_bytes(data)
         if "index.json" not in files:
             raise ValueError("上游索引不可用")
+        delivered = [entry(output / name, f"manifests/{name}") for name in sorted(files) if name != "publisher.json"]
+        write_descriptor(config, output, delivered)
     return generate
 
 
@@ -37,7 +43,11 @@ class SyncTests(unittest.TestCase):
         for game in self.games:
             config = sync.config_path(game, self.root)
             config.parent.mkdir(parents=True)
-            config.write_text(f'type = "game"\nid = "{game}"\n', encoding="utf-8")
+            # 从已有的整数版快照开始，两款游戏的上游更新可分别控制。
+            config.write_text(f'type = "game"\nid = "{game}"\ngame = "{game}"\nversion = 1 # 资源\n'
+                              '[entrypoints]\ncatalog = "manifests/index.json"\nicon = "icon.png"\n', encoding="utf-8")
+            config.with_name("icon.png").write_bytes(b"icon")
+            sync.generate(game, self.manifest(game), self.root)
 
     def sync_all(self):
         # 抓取两个流，区分同步成功的状态报告和单款游戏的错误。
@@ -48,6 +58,40 @@ class SyncTests(unittest.TestCase):
 
     def manifest(self, game):
         return sync.config_path(game, self.root).with_name("manifests")
+
+    def check_version(self, game, expected):
+        config = sync.config_path(game, self.root)
+        self.assertEqual(tomllib.loads(config.read_text(encoding="utf-8"))["version"], expected)
+        # 校验发布后的真实字节，避免版号正确而桌面端拒收旧摘要。
+        package = json.loads((self.manifest(game) / "package.json").read_bytes())
+        self.assertIn(entry(config, "sources.toml"), package["files"])
+
+    def test_bump_preserves_comments_newlines_and_nested_versions(self):
+        root = Path(self.enterContext(tempfile.TemporaryDirectory()))
+        source = root / "sources.toml"
+        # 多行说明和渠道的同名键不能被当作资源版号。
+        original = b"note = '''\r\nversion = 9\r\n'''\r\n'version' = \"\"\"\r\n3.9.19\"\"\"  # release\r\n[channel]\r\nversion = 4\r\n"
+        source.write_bytes(original)
+        self.assertEqual(bumped_config(source), original.replace(b'"""\r\n3.9.19"""', b'"3.9.20"'))
+        for value in (True, -1, "1.02.3", "1.0", "1.0.1-rc", "1.0.18446744073709551615"):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                next_version(value)
+
+    def test_only_changed_delivery_increments_once(self):
+        self.fixture()
+        config = sync.config_path("beta", self.root)
+        original = config.read_bytes()
+        for version in ("1.0.1", "1.0.2"):
+            self.outputs["beta"]["index.json"] += b"\n"
+            self.assertEqual(self.sync_all()[0], 0)
+            self.check_version("beta", version)
+            self.check_version("alpha", 1)
+            self.assertEqual(config.read_bytes(), original.replace(b"version = 1", f'version = "{version}"'.encode()))
+            self.assertEqual(self.sync_all(), (0, "alpha：无变化\nbeta：无变化\n", ""))
+        # 发行端私有缓存的变化不会改变玩家实际收到的包。
+        self.outputs["beta"]["publisher.json"] = b"{}"
+        self.assertEqual(self.sync_all()[0], 0)
+        self.check_version("beta", "1.0.2")
 
     def test_update_keeps_unchanged_files_in_changed_game(self):
         self.fixture()
@@ -60,7 +104,7 @@ class SyncTests(unittest.TestCase):
         # 根目录也必须保留；只检查文件摘要会漏掉整目录替换。
         directory_before = beta.stat()
         (beta / "retired.json").write_text("{}", encoding="utf-8")
-        # 版本号不变，只有内容和文件名集合变化。
+        # 上游索引版本不变，仍应按实际内容和文件集合更新。
         self.outputs["beta"]["index.json"] = b'{"version":1,"quality":"HD"}'
         self.outputs["beta"]["formal/SD.json"] = b'{"files":["new"]}'
         status, log, _ = self.sync_all()
@@ -91,6 +135,8 @@ class SyncTests(unittest.TestCase):
         self.assertEqual((self.manifest("alpha") / "index.json").read_bytes(), previous)
         self.assertEqual((self.manifest("beta") / "index.json").read_bytes(), self.outputs["beta"]["index.json"])
         self.assertFalse((self.manifest("alpha") / "partial.json").exists())
+        self.check_version("alpha", 1)
+        self.check_version("beta", "1.0.1")
 
     def test_publish_error_restores_previous_files(self):
         self.fixture()
@@ -112,5 +158,6 @@ class SyncTests(unittest.TestCase):
         self.assertIn("索引无法写入", errors)
         self.assertEqual((active / "formal/HD.json").read_bytes(), b'{"files":[]}')
         self.assertEqual((active / "index.json").read_bytes(), b'{"version":1}')
+        self.check_version("alpha", 1)
         # 正常回滚后不留下需要人工处理的备份或暂存目录。
         self.assertFalse(list(active.parent.glob(".game-resources-*")))

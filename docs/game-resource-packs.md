@@ -28,7 +28,7 @@ python3 -B -m Github update --game wuthering-waves
 
 | 路径（相对于单个游戏包） | 字段与约束 |
 | --- | --- |
-| `sources.toml` | `type = "game"`；`id` 是 `[a-z0-9][a-z0-9_-]{0,95}` 的稳定标识；`game` 是非空显示名；`version` 是非负配置版本号，不是游戏发行版本。 |
+| `sources.toml` | `type = "game"`，`id` 是 `[a-z0-9][a-z0-9_-]{0,95}` 的稳定标识，`game` 是非空显示名。`version` 是这款游戏的资源版号，接受旧非负整数和三段十进制字符串，如 `1`、`"1.0.1"`。 |
 | `[entrypoints]` | `catalog` 固定写 `manifests/index.json`；`icon` 为相对图片路径，`background` 可省略。推荐根目录 `icon.webp` 和 `background.webp`。 |
 | `manifests/package.json` | 交付单：`schema = 1`、`type = "game"`、`id` 和 `files`。每项记录包根相对 `path`、原始字节 `size`、小写十六进制 `sha256`。只交付配置、引用图像、安装索引、安装目标和被引用的 Sophon 压缩索引；每文件最多 32 MiB，整包最多 512 MiB。未登记图标时生成不供发现的 `package.pending.json`。 |
 | `manifests/index.json` | 唯一的客户端安装索引。 |

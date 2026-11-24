@@ -45,8 +45,10 @@ def publish(changes, backup):
         undo.pop_all()
 
 
-def apply_snapshot(staged, active):
+def apply_snapshot(staged, active, config_change):
     changes = list(entry_changes(staged, active))
+    if config_change:
+        changes.insert(0, config_change)
     if not changes:
         return False
     # 备份独立于候选暂存目录；回滚失败时保留尚可恢复的原件。

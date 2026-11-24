@@ -6,6 +6,8 @@ import re
 import tomllib
 from pathlib import Path
 
+from .game_version import bumped_config, version_parts
+from .snapshot import same_file
 
 CATALOG = "manifests/index.json"
 
@@ -37,10 +39,9 @@ def picture(root, name):
 def validate_config(config):
     if config["type"] != "game" or not re.fullmatch(r"[a-z0-9][a-z0-9_-]{0,95}", config["id"]):
         raise ValueError("游戏数据包需要 type=game 和稳定的 id")
-    # 布尔值在 Python 是整数的子类，但不能用作 TOML 版号。
-    version = config["version"]
-    if type(version) is not int or not 0 <= version < 2**63 or not config["game"].strip():
-        raise ValueError("游戏配置需要非负 version 和非空显示名")
+    version_parts(config["version"])
+    if not config["game"].strip():
+        raise ValueError("游戏配置需要非空显示名")
     if config["entrypoints"]["catalog"] != CATALOG:
         raise ValueError("发行配置中的 catalog 须指向已生成的总索引")
 
@@ -61,3 +62,26 @@ def write_descriptor(config_path, stage, manifests):
     # 现有客户端要求图标。留空的包仍可生成摘要，但使用非发现名称。
     name = "package.json" if entries["icon"] else "package.pending.json"
     (stage / name).write_bytes(json_bytes(descriptor))
+
+
+def stage_game_version(source, stage, current):
+    # 先用原版号生成交付单，与客户端一样比较整包摘要覆盖的内容。
+    package = stage / "package.json"
+    if not package.exists():
+        # 缺图标的游戏也保留可验证的候选，补齐素材后才允许桌面端发现。
+        package = stage / "package.pending.json"
+    if same_file(package, current / package.name):
+        return None
+    config = stage.parent / "sources.toml"
+    config.write_bytes(bumped_config(source))
+    descriptor = json.loads(package.read_bytes())
+    # 配置本身也受交付单保护，两个文件必须随同一份候选发布和回滚。
+    proof = entry(config, "sources.toml")
+    for item in descriptor["files"]:
+        if item["path"] == proof["path"]:
+            item.update(proof)
+            break
+    else:
+        raise ValueError("游戏交付单缺少 sources.toml")
+    package.write_bytes(json_bytes(descriptor))
+    return config, source
