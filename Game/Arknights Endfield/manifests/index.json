@@ -1,6 +1,34 @@
 {
   "gameId": "arknights-endfield",
-  "releases": [],
+  "releases": [
+    {
+      "path": "manifests/releases/bilibili/default.quality.json",
+      "selection": {
+        "channel": "bilibili",
+        "quality": "",
+        "version": "1.6.4"
+      },
+      "sha256": "1bf57454c40876765ce9a21c14c3128c6354cbbce678a811154bca952ccc5700"
+    },
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "selection": {
+        "channel": "cn",
+        "quality": "",
+        "version": "1.6.4"
+      },
+      "sha256": "1f68873c6f3ab724f656033354f5d571fa0686d2d9e6e11454c63404da02ca84"
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "selection": {
+        "channel": "global",
+        "quality": "",
+        "version": "1.6.4"
+      },
+      "sha256": "f423d8726d9dea8c33df0fce1ee78356687230e4538a0c60112c8018ab4d3507"
+    }
+  ],
   "schema": 2,
   "type": "game-install"
 }

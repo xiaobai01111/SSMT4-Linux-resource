@@ -52,6 +52,12 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
         with:
           python-version: '3.11'
+      - name: 安装发布端元数据工具
+        run: |
+          if ! command -v zstd >/dev/null || ! command -v openssl >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y zstd openssl
+          fi
       - name: 同步已登记游戏的清单
         id: sync
         continue-on-error: true

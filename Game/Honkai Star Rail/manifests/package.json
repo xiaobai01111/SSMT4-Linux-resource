@@ -17,8 +17,38 @@
     },
     {
       "path": "manifests/index.json",
-      "sha256": "ab86e3bb24180738e42bfc3fdfc9ca644442769f5a5c7c356726f56a17ab86fe",
-      "size": 94
+      "sha256": "31a811b0b7f75fd0dc407d1b2bfa715c2086c0613ae85233842512dac5524f70",
+      "size": 626
+    },
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "sha256": "24daa9437476e91a1e2787298a27dd81147e916185ca5c83309b1d78f6096179",
+      "size": 885
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "sha256": "dabec6396ef0ff1ed3a7a53ee2643d523da26bfb2d969a5f188865c29c336973",
+      "size": 899
+    },
+    {
+      "path": "manifests/sophon/17e27e86e8c125fe5fdf0654cfe9d913.zst",
+      "sha256": "7022c3f57abdffad0d356491c836dfa582cc46a267a6f68927bad44eee5240c2",
+      "size": 1042647
+    },
+    {
+      "path": "manifests/sophon/38615c5752d4bdeb90700ad54e5a54b1.zst",
+      "sha256": "814c40e5cac067cb29c2dd181e56f08849338cb6660a090998cecd4bcda6698f",
+      "size": 7841243
+    },
+    {
+      "path": "manifests/sophon/538657f961efa5766813f93b24963fb4.zst",
+      "sha256": "7114c0884d72e2637b06e1eaf15aa21ec228f40d4621b75d6778c1e34c8c4b6d",
+      "size": 857061
+    },
+    {
+      "path": "manifests/sophon/6110fa9c21b26d52920107fb5e71d9d2.zst",
+      "sha256": "f59d0afdffbf1693301ea698a0930ea41b2242b550f27557488d1381d6e07618",
+      "size": 7842325
     }
   ],
   "id": "honkai-star-rail",

@@ -1,6 +1,25 @@
 {
   "gameId": "zenless-zone-zero",
-  "releases": [],
+  "releases": [
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "selection": {
+        "channel": "cn",
+        "quality": "",
+        "version": "3.3.0"
+      },
+      "sha256": "8f4a3c4967c41aee84fb7693203fc41a3462cf7a1903dd3001cb43dec8154f3b"
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "selection": {
+        "channel": "global",
+        "quality": "",
+        "version": "3.3.0"
+      },
+      "sha256": "ece18d5c28930f1aaa8b1e8b37ea56f6a2cd530bbaf35628c32086c4a64f47e6"
+    }
+  ],
   "schema": 2,
   "type": "game-install"
 }

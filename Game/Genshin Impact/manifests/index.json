@@ -1,6 +1,25 @@
 {
   "gameId": "genshin-impact",
-  "releases": [],
+  "releases": [
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "selection": {
+        "channel": "cn",
+        "quality": "",
+        "version": "7.2.0"
+      },
+      "sha256": "878fe9c79f31b303a10bb9c2c201ad240911e8c0f25f5f3cd58fb67263ceead6"
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "selection": {
+        "channel": "global",
+        "quality": "",
+        "version": "7.2.0"
+      },
+      "sha256": "7345e1816e95c11b597d764e6b9e17e14867cb6ccce9a2c0af886d4303b084b2"
+    }
+  ],
   "schema": 2,
   "type": "game-install"
 }

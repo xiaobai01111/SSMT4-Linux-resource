@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "entry": "StarRail.exe",
+  "gameId": "honkai-star-rail",
+  "install": {
+    "components": [
+      {
+        "chunkPrefix": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20261030/4.7.0/83LId4LQZKoD",
+        "manifest": "manifests/sophon/38615c5752d4bdeb90700ad54e5a54b1.zst",
+        "unpackedBytes": 15298561,
+        "unpackedMd5": "38615c5752d4bdeb90700ad54e5a54b1"
+      },
+      {
+        "chunkPrefix": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20261030/4.7.0/83LId4LQZKoD",
+        "manifest": "manifests/sophon/17e27e86e8c125fe5fdf0654cfe9d913.zst",
+        "unpackedBytes": 1982948,
+        "unpackedMd5": "17e27e86e8c125fe5fdf0654cfe9d913"
+      }
+    ],
+    "kind": "sophon"
+  },
+  "schema": 1,
+  "selection": {
+    "channel": "global",
+    "quality": "",
+    "version": "4.7.0"
+  },
+  "type": "game-install-target"
+}

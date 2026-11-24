@@ -17,8 +17,98 @@
     },
     {
       "path": "manifests/index.json",
-      "sha256": "d60ba5ee938a35e74f245bdc42733c57852a96d9352eef9291096b847fc6cd45",
-      "size": 95
+      "sha256": "0a035af3a55eb605f1635a9156f321283b296b9aaa3b558b1598cb2e513794d8",
+      "size": 1673
+    },
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "sha256": "73f0bc5de667cc5c536500c2b0603545c7fade363b163eed2b720d10d99a9c93",
+      "size": 887
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "sha256": "0be88ffb03f8b0a3250b580ae1d4bdfc6485892ee32df5ce6f81331f9d3418f6",
+      "size": 913
+    },
+    {
+      "path": "manifests/releases/jp/default.quality.json",
+      "sha256": "10ccd30b0f8c6bb52a471ab48097910967ddfbd32ec07a8688ae7a40320725cd",
+      "size": 907
+    },
+    {
+      "path": "manifests/releases/kr/default.quality.json",
+      "sha256": "119c9e9fce2df40ff89ed5e807622d526a34aa664ca1efa9576538a7a090e316",
+      "size": 907
+    },
+    {
+      "path": "manifests/releases/sea/default.quality.json",
+      "sha256": "8e6d71040ebd029fe62af408d3293f8ed24cc1a661daed26f0e0bbc7ddf8c6a9",
+      "size": 908
+    },
+    {
+      "path": "manifests/releases/tw/default.quality.json",
+      "sha256": "ca4ecb44709cd2ea3d39318dbe4cd5c9bbae971191b58255be1fad66f53a3093",
+      "size": 911
+    },
+    {
+      "path": "manifests/sophon/022a404a92ff01c74feb0c35921c6e04.zst",
+      "sha256": "f4d6e8cb0216960b4ef1a1f13e7aa775de4d8c5e60e5a1743ae599ef60860590",
+      "size": 2385982
+    },
+    {
+      "path": "manifests/sophon/094fd6f62976785fde06c73b4f3d2b1f.zst",
+      "sha256": "445777a2cd6934842670a4a77b4afbbf8ecfc0a18f46d8514176cd98615b678c",
+      "size": 2312354
+    },
+    {
+      "path": "manifests/sophon/114412bee1711a32bc75f04713ec44ce.zst",
+      "sha256": "ab383a6bd2b4dafb1e6a771fed3a962c2a953e0fdf6667a990cc55b2f68d4175",
+      "size": 106294
+    },
+    {
+      "path": "manifests/sophon/1ecb213b82d56d1c43a9b7742493fb71.zst",
+      "sha256": "a67d90291ff8e4394c658fb1ca9ed1fc83b90cb57fcb3753be5e891ae9beb538",
+      "size": 104732
+    },
+    {
+      "path": "manifests/sophon/4097dbbb08b3931dd48531682a9a277c.zst",
+      "sha256": "1d4a307091f372f8065ef6e55c5a993dc52a711bfd972a6703a9119978c2c93e",
+      "size": 110522
+    },
+    {
+      "path": "manifests/sophon/5fac572b66a2e59bdffe3fbf3641a2ef.zst",
+      "sha256": "c5f09c07e672be7ead7a5187444beac155a70992ad2ccb3bf5171cfd2cb2f57f",
+      "size": 2328934
+    },
+    {
+      "path": "manifests/sophon/84c18a31b9b3fe01615e3e41eaacf11e.zst",
+      "sha256": "369472a08714e0d49d3d9baf0699e73b2e763ec71d0ea60dc0de5f37a40c49fb",
+      "size": 2311845
+    },
+    {
+      "path": "manifests/sophon/8995cc9d5338be0ecd1a41b3ea39e85b.zst",
+      "sha256": "2d0be645c737848f0873c3e0328e52503029a2f2f456286ee734e89e75da742d",
+      "size": 2406972
+    },
+    {
+      "path": "manifests/sophon/ad1e5601d72b35cc9762fe4dfa5078a7.zst",
+      "sha256": "1854e1fc4be268b2721e8bf88e759c24c5b6518734fd6ed13e7b7d091b235a4f",
+      "size": 104554
+    },
+    {
+      "path": "manifests/sophon/ca147c6baf702d2db95eac8c6158123b.zst",
+      "sha256": "0ef04e0ba13fe2d933db54b70048ba02378ba46b4dc7cacaa44b72da938bed4e",
+      "size": 133314
+    },
+    {
+      "path": "manifests/sophon/dd931a31d0d936463113e0f0311c4d9e.zst",
+      "sha256": "aa9b4b39e57cfa27d4fd75bff1fe3f75cccb57531816ed198bf0d4f9a23ea071",
+      "size": 106143
+    },
+    {
+      "path": "manifests/sophon/ee9d634d2263bb88f8774a968e8e92f0.zst",
+      "sha256": "e729d3421936f20c93102b6fb82ae467241919b1ad932d78b5aefefe0c33594e",
+      "size": 2329750
     }
   ],
   "id": "honkai-impact-3rd",

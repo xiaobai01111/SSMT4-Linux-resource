@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "entry": "BH3.exe",
+  "gameId": "honkai-impact-3rd",
+  "install": {
+    "components": [
+      {
+        "chunkPrefix": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20261014/9.1.0/36GsmHuQtol7",
+        "manifest": "manifests/sophon/114412bee1711a32bc75f04713ec44ce.zst",
+        "unpackedBytes": 210579,
+        "unpackedMd5": "114412bee1711a32bc75f04713ec44ce"
+      },
+      {
+        "chunkPrefix": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20261014/9.1.0/36GsmHuQtol7",
+        "manifest": "manifests/sophon/022a404a92ff01c74feb0c35921c6e04.zst",
+        "unpackedBytes": 4449204,
+        "unpackedMd5": "022a404a92ff01c74feb0c35921c6e04"
+      }
+    ],
+    "kind": "sophon"
+  },
+  "schema": 1,
+  "selection": {
+    "channel": "global",
+    "quality": "",
+    "version": "9.1.0"
+  },
+  "type": "game-install-target"
+}

@@ -1,13 +1,11 @@
 """按资源配置生成所有渠道的正式清单及已开放的预下载清单。需要 Python 3.11+。"""
 
-import tempfile
 import tomllib
-from pathlib import Path
 
 from .manifests import bundle_names, combine_packs, first_document, pack_contents, published_cdns
 from .records import PUBLISHER_GAME, md5_text, relative_path
 from .storage import ObjectStore, read_target
-from ..catalog import InstallRelease, PUBLISHER_INDEX, write_install_catalog
+from ..catalog import InstallRelease, PUBLISHER_INDEX, staged_snapshot, write_install_catalog
 from ..client_data import json_bytes, write_descriptor
 from ..publisher import public_url
 
@@ -145,21 +143,15 @@ def install_releases(stage, index):
 
 
 def publish(config_path, destination, cache):
-    # 输出目录须是新路径。临时目录与其同盘，所有渠道验证成功后一起改名交付。
-    if destination.exists():
-        raise ValueError(f"输出目录已存在，请指定新目录：{destination}")
     config = tomllib.loads(config_path.read_text(encoding="utf-8"))
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(dir=destination.parent) as temporary:
-        stage = Path(temporary, "snapshot")
+    with staged_snapshot(destination) as stage:
         (stage / "upstream").mkdir(parents=True)
         store = ObjectStore(stage, cache)
         channels = {key: generate_channel(store, config, key) for key in config["channels"]}
+        # 维护索引沿用协议 v1 的固定游戏名，客户端目标独立使用稳定 ID。
         if not channels:
             raise ValueError("资源包没有配置渠道")
         index = {"schema": 1, "game": PUBLISHER_GAME, "channels": channels}
         (stage / PUBLISHER_INDEX).write_bytes(json_bytes(index))
         manifests = write_install_catalog(stage, config["id"], install_releases(stage, index))
         write_descriptor(config_path, stage, manifests)
-        # 外部只在所有子清单都可读时看见目标目录。
-        stage.rename(target=destination)

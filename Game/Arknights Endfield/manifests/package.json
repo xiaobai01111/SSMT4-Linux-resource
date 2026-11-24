@@ -17,8 +17,23 @@
     },
     {
       "path": "manifests/index.json",
-      "sha256": "a67ee26228835e89d304f873260f4be0ff51f9771b1811c5f2ddaa440762f4ba",
-      "size": 96
+      "sha256": "90df0538c2b34f92fab5805e931a32e1f23fead0855c2451177f9eefb830a247",
+      "size": 901
+    },
+    {
+      "path": "manifests/releases/bilibili/default.quality.json",
+      "sha256": "1bf57454c40876765ce9a21c14c3128c6354cbbce678a811154bca952ccc5700",
+      "size": 674042
+    },
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "sha256": "1f68873c6f3ab724f656033354f5d571fa0686d2d9e6e11454c63404da02ca84",
+      "size": 651013
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "sha256": "f423d8726d9dea8c33df0fce1ee78356687230e4538a0c60112c8018ab4d3507",
+      "size": 654961
     }
   ],
   "id": "arknights-endfield",

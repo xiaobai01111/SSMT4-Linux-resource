@@ -1,6 +1,61 @@
 {
   "gameId": "honkai-impact-3rd",
-  "releases": [],
+  "releases": [
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "selection": {
+        "channel": "cn",
+        "quality": "",
+        "version": "9.1.0"
+      },
+      "sha256": "73f0bc5de667cc5c536500c2b0603545c7fade363b163eed2b720d10d99a9c93"
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "selection": {
+        "channel": "global",
+        "quality": "",
+        "version": "9.1.0"
+      },
+      "sha256": "0be88ffb03f8b0a3250b580ae1d4bdfc6485892ee32df5ce6f81331f9d3418f6"
+    },
+    {
+      "path": "manifests/releases/jp/default.quality.json",
+      "selection": {
+        "channel": "jp",
+        "quality": "",
+        "version": "9.1.0"
+      },
+      "sha256": "10ccd30b0f8c6bb52a471ab48097910967ddfbd32ec07a8688ae7a40320725cd"
+    },
+    {
+      "path": "manifests/releases/kr/default.quality.json",
+      "selection": {
+        "channel": "kr",
+        "quality": "",
+        "version": "9.1.0"
+      },
+      "sha256": "119c9e9fce2df40ff89ed5e807622d526a34aa664ca1efa9576538a7a090e316"
+    },
+    {
+      "path": "manifests/releases/sea/default.quality.json",
+      "selection": {
+        "channel": "sea",
+        "quality": "",
+        "version": "9.1.0"
+      },
+      "sha256": "8e6d71040ebd029fe62af408d3293f8ed24cc1a661daed26f0e0bbc7ddf8c6a9"
+    },
+    {
+      "path": "manifests/releases/tw/default.quality.json",
+      "selection": {
+        "channel": "tw",
+        "quality": "",
+        "version": "9.1.0"
+      },
+      "sha256": "ca4ecb44709cd2ea3d39318dbe4cd5c9bbae971191b58255be1fad66f53a3093"
+    }
+  ],
   "schema": 2,
   "type": "game-install"
 }

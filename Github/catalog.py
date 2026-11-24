@@ -3,6 +3,7 @@
 import re
 import tempfile
 import tomllib
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -113,22 +114,37 @@ def write_publisher_index(config, stage, load_channel):
     # 默认渠道与实际产出的发布项使用同一份配置。
     if config["default_channel"] not in channels:
         raise ValueError("未配置默认发布渠道")
-    results = {key: write_channel(stage, key, load_channel(source)) for key, source in channels.items()}
-    index = {"schema": 1, "type": "game-resource-catalog", "gameId": config["id"], "channels": results}
+    releases = {}
+    references = {}
+    for key, source in channels.items():
+        channel = load_channel(source)
+        releases[key] = channel
+        references[key] = write_channel(stage, key, channel)
+    index = {"schema": 1, "type": "game-resource-catalog", "gameId": config["id"], "channels": references}
     (stage / PUBLISHER_INDEX).write_bytes(json_bytes(index))
+    return releases
 
 
-def publish(config_path, destination, load_channel):
+@contextmanager
+def staged_snapshot(destination):
+    # 候选与最终目录同盘，所有渠道校验结束才对外发布；不覆盖现有快照。
     if destination.exists() or destination.is_symlink():
         raise ValueError(f"输出目录已存在，请指定新目录：{destination}")
-    config = tomllib.loads(config_path.read_text(encoding="utf-8"))
     destination.parent.mkdir(parents=True, exist_ok=True)
-    # 任一上游渠道缺失时保留整份旧快照，不发布可用渠道集合残缺的目录。
     with tempfile.TemporaryDirectory(dir=destination.parent) as directory:
         stage = Path(directory, "snapshot")
         stage.mkdir(mode=0o755)
-        write_publisher_index(config, stage, load_channel)
-        # 上游卷表或组件统计不证明运行入口及精确的解包大小。
-        manifests = write_install_catalog(stage, config["id"])
-        write_descriptor(config_path, stage, manifests)
-        return stage.rename(destination)
+        yield stage
+        stage.rename(target=destination)
+
+
+def publish(config_path, destination, adapter):
+    load_channel, install_targets = adapter
+    config = tomllib.loads(config_path.read_text(encoding="utf-8"))
+    with staged_snapshot(destination) as stage:
+        channels = write_publisher_index(config, stage, load_channel)
+        # 只有适配器提供可验证的首装目标时，客户端才显示下载入口。
+        releases, extra = install_targets(stage, channels) if install_targets else ((), ())
+        manifests = write_install_catalog(stage, config["id"], releases)
+        write_descriptor(config_path, stage, [*manifests, *extra])
+    return destination

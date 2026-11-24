@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "entry": "YuanShen.exe",
+  "gameId": "genshin-impact",
+  "install": {
+    "components": [
+      {
+        "chunkPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO",
+        "manifest": "manifests/sophon/06e75961ce537e3ffb0c1118f8a22325.zst",
+        "unpackedBytes": 17305013,
+        "unpackedMd5": "06e75961ce537e3ffb0c1118f8a22325"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO",
+        "manifest": "manifests/sophon/84f2b057bd198543eef85d7d5b45d4a3.zst",
+        "unpackedBytes": 1827048,
+        "unpackedMd5": "84f2b057bd198543eef85d7d5b45d4a3"
+      }
+    ],
+    "kind": "sophon"
+  },
+  "schema": 1,
+  "selection": {
+    "channel": "cn",
+    "quality": "",
+    "version": "7.2.0"
+  },
+  "type": "game-install-target"
+}

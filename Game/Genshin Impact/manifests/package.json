@@ -17,8 +17,38 @@
     },
     {
       "path": "manifests/index.json",
-      "sha256": "ba0f225def0efbb03a9768b8b5afbf3aaa744a2c0852c7119b7b06a70acd2431",
-      "size": 92
+      "sha256": "f6fdb3967856eb81d82059c8ea484e600b568e385371cab93007594906aac447",
+      "size": 624
+    },
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "sha256": "878fe9c79f31b303a10bb9c2c201ad240911e8c0f25f5f3cd58fb67263ceead6",
+      "size": 869
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "sha256": "7345e1816e95c11b597d764e6b9e17e14867cb6ccce9a2c0af886d4303b084b2",
+      "size": 878
+    },
+    {
+      "path": "manifests/sophon/06e75961ce537e3ffb0c1118f8a22325.zst",
+      "sha256": "096a22fcd5aaba973a0daeee202c600c3a6e6fb11198d39df9f7d87e72b7ae32",
+      "size": 9270626
+    },
+    {
+      "path": "manifests/sophon/2b4ef596e7440779759717433d1c86d9.zst",
+      "sha256": "c8944fd011c6f7160e8e8fb5b7c9b6ec0d7c31a9ae84156712967919605ef2e1",
+      "size": 9268781
+    },
+    {
+      "path": "manifests/sophon/84f2b057bd198543eef85d7d5b45d4a3.zst",
+      "sha256": "d2a38ebaf6d165e1bc4090bb5957c67c5142a510c08274e10180d4a8222f3a6e",
+      "size": 984786
+    },
+    {
+      "path": "manifests/sophon/860f28f0e5bfd9b243a35760a8243968.zst",
+      "sha256": "d6d2741671a80ae6060542c1a5c37412e04ce252764cbda5e3ca7cad2dc1fb5d",
+      "size": 1267539
     }
   ],
   "id": "genshin-impact",

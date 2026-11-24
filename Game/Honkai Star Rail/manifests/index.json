@@ -1,6 +1,25 @@
 {
   "gameId": "honkai-star-rail",
-  "releases": [],
+  "releases": [
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "selection": {
+        "channel": "cn",
+        "quality": "",
+        "version": "4.7.0"
+      },
+      "sha256": "24daa9437476e91a1e2787298a27dd81147e916185ca5c83309b1d78f6096179"
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "selection": {
+        "channel": "global",
+        "quality": "",
+        "version": "4.7.0"
+      },
+      "sha256": "dabec6396ef0ff1ed3a7a53ee2643d523da26bfb2d969a5f188865c29c336973"
+    }
+  ],
   "schema": 2,
   "type": "game-install"
 }

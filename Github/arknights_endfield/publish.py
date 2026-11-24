@@ -4,6 +4,7 @@ from urllib.parse import urlencode
 
 from .. import catalog
 from ..publisher import byte_count, document, md5, name, public_url
+from .install import targets
 from .volumes import archives
 
 
@@ -51,4 +52,4 @@ def load_channel(source):
 
 
 def publish(config, output, _cache):
-    catalog.publish(config, output, load_channel)
+    catalog.publish(config, output, (load_channel, targets))

@@ -5,6 +5,7 @@ from urllib.parse import urlencode
 
 from .. import catalog
 from ..publisher import byte_count, document, md5, name, public_url, url_name
+from .install import targets
 from .sophon import category_map, full_components, patch_components
 
 
@@ -92,7 +93,14 @@ def load_channel(source, data):
     return catalog.Channel(details, formal, pre)
 
 
-def publish(config, output, _cache):
+def publish(config, output, previous):
     # 海外各区共用一次分支响应。下一轮生成重新查询已发布的版本。
     combo = cache(response)
-    catalog.publish(config, output, lambda source: load_channel(source, combo(combo_url(source))))
+    # 只把正式组件交给目标生成器；差分和预下载仍保留在维护索引。
+    def load(source):
+        return load_channel(source, combo(combo_url(source)))
+
+    def deliver(stage, channels):
+        return targets(stage, channels, previous)
+
+    catalog.publish(config, output, (load, deliver))

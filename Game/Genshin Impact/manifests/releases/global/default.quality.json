@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "entry": "GenshinImpact.exe",
+  "gameId": "genshin-impact",
+  "install": {
+    "components": [
+      {
+        "chunkPrefix": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/msj5r4DqSLOw",
+        "manifest": "manifests/sophon/2b4ef596e7440779759717433d1c86d9.zst",
+        "unpackedBytes": 17314861,
+        "unpackedMd5": "2b4ef596e7440779759717433d1c86d9"
+      },
+      {
+        "chunkPrefix": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/msj5r4DqSLOw",
+        "manifest": "manifests/sophon/860f28f0e5bfd9b243a35760a8243968.zst",
+        "unpackedBytes": 2351116,
+        "unpackedMd5": "860f28f0e5bfd9b243a35760a8243968"
+      }
+    ],
+    "kind": "sophon"
+  },
+  "schema": 1,
+  "selection": {
+    "channel": "global",
+    "quality": "",
+    "version": "7.2.0"
+  },
+  "type": "game-install-target"
+}

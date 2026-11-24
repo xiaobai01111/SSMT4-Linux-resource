@@ -11,7 +11,7 @@
 
 游戏图标和背景分别使用 `icon.webp`、`background.webp`，保留原始尺寸，图标无损编码，背景有损压缩。替换素材时在 `sources.toml` 的 `entrypoints` 登记路径。修改配置、图像或安装清单时，同一提交内更新 `manifests/package.json` 中对应的字节数与 SHA-256；离线检查会在发布前核对交付单。
 
-在本仓库根目录使用 Python 3.11 或更新版本：
+在本仓库根目录使用 Python 3.11 或更新版本。拉取 HoYoPlay 和终末地资源还需要 `zstd` 和 `openssl`，仅在线发布时使用：
 
 ```sh
 python3 -B -m Github update

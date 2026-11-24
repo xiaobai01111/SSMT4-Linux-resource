@@ -1,0 +1,695 @@
+{
+  "assets": [],
+  "entry": "ZenlessZoneZero.exe",
+  "gameId": "zenless-zone-zero",
+  "install": {
+    "components": [
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ed9bba74e11dda2190c268ccba14be1c.zst",
+        "unpackedBytes": 9671718,
+        "unpackedMd5": "ed9bba74e11dda2190c268ccba14be1c"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/1fe8438392db59ed9df7026122760c27.zst",
+        "unpackedBytes": 575406,
+        "unpackedMd5": "1fe8438392db59ed9df7026122760c27"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/dadc4a76f8f9080941be1a5a4dbca8bf.zst",
+        "unpackedBytes": 16291,
+        "unpackedMd5": "dadc4a76f8f9080941be1a5a4dbca8bf"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ae144efa04d0bc01575314cada052a39.zst",
+        "unpackedBytes": 7964,
+        "unpackedMd5": "ae144efa04d0bc01575314cada052a39"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/997aa542b01252444ffdfc19bcb5cad5.zst",
+        "unpackedBytes": 868,
+        "unpackedMd5": "997aa542b01252444ffdfc19bcb5cad5"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/45698706ee0dfffbef57ba13184150a7.zst",
+        "unpackedBytes": 126008,
+        "unpackedMd5": "45698706ee0dfffbef57ba13184150a7"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/17e39d13143cb03dd6ac51624e254c61.zst",
+        "unpackedBytes": 1303,
+        "unpackedMd5": "17e39d13143cb03dd6ac51624e254c61"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/4d77bad0a9be788df7fc0eb1ad98b678.zst",
+        "unpackedBytes": 58119,
+        "unpackedMd5": "4d77bad0a9be788df7fc0eb1ad98b678"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/2b81834dbbed8e9974c07ec7e0bd3e60.zst",
+        "unpackedBytes": 41263,
+        "unpackedMd5": "2b81834dbbed8e9974c07ec7e0bd3e60"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/b236d6496f8f566f1cf9ced901897167.zst",
+        "unpackedBytes": 5190,
+        "unpackedMd5": "b236d6496f8f566f1cf9ced901897167"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/8ea5255d8c6c4d32d864a801d7130e46.zst",
+        "unpackedBytes": 4890,
+        "unpackedMd5": "8ea5255d8c6c4d32d864a801d7130e46"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/0c141140703f30b05b0c7823f27486d4.zst",
+        "unpackedBytes": 1013,
+        "unpackedMd5": "0c141140703f30b05b0c7823f27486d4"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/e0a2784f1646aff94ca7c21ee44f0917.zst",
+        "unpackedBytes": 6015,
+        "unpackedMd5": "e0a2784f1646aff94ca7c21ee44f0917"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/fb249505a4f0b2105dac2dd5335dd6da.zst",
+        "unpackedBytes": 856,
+        "unpackedMd5": "fb249505a4f0b2105dac2dd5335dd6da"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/cf41a1a2ebb3b55ce228d5386dc45d72.zst",
+        "unpackedBytes": 10599,
+        "unpackedMd5": "cf41a1a2ebb3b55ce228d5386dc45d72"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/cc6d415c1986ae6932d04fffdbc2c90d.zst",
+        "unpackedBytes": 7667,
+        "unpackedMd5": "cc6d415c1986ae6932d04fffdbc2c90d"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/82d20b6e2521f0eca2f1b037c044919f.zst",
+        "unpackedBytes": 57914,
+        "unpackedMd5": "82d20b6e2521f0eca2f1b037c044919f"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/d0fd90b2b4e0c1839aaca6d4404a2537.zst",
+        "unpackedBytes": 868,
+        "unpackedMd5": "d0fd90b2b4e0c1839aaca6d4404a2537"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/660e63b174aec2c54b5cdab0122aed85.zst",
+        "unpackedBytes": 145429,
+        "unpackedMd5": "660e63b174aec2c54b5cdab0122aed85"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/6bc45de41aadfe2116d66c50fe7f7e57.zst",
+        "unpackedBytes": 4746,
+        "unpackedMd5": "6bc45de41aadfe2116d66c50fe7f7e57"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/5ceca86e8296f93705992edf21937bd8.zst",
+        "unpackedBytes": 869,
+        "unpackedMd5": "5ceca86e8296f93705992edf21937bd8"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/e57073f74bac7d9d9ad3975d2cd1bad0.zst",
+        "unpackedBytes": 4624,
+        "unpackedMd5": "e57073f74bac7d9d9ad3975d2cd1bad0"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/da06c2b5a558fe0e25a48d61a4da1d3b.zst",
+        "unpackedBytes": 5180,
+        "unpackedMd5": "da06c2b5a558fe0e25a48d61a4da1d3b"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/22addb2ee0e1d0c0717c435db7c633f5.zst",
+        "unpackedBytes": 12395,
+        "unpackedMd5": "22addb2ee0e1d0c0717c435db7c633f5"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f96e5612e80eb42e682f932ecc3f2cab.zst",
+        "unpackedBytes": 1155,
+        "unpackedMd5": "f96e5612e80eb42e682f932ecc3f2cab"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/6ff91acbd3c1b375da16b3161f455fe2.zst",
+        "unpackedBytes": 3022,
+        "unpackedMd5": "6ff91acbd3c1b375da16b3161f455fe2"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/245fbddb30198386597154e5d378f8fe.zst",
+        "unpackedBytes": 6339,
+        "unpackedMd5": "245fbddb30198386597154e5d378f8fe"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/088d6f49911f2fd50396fcf736fc354a.zst",
+        "unpackedBytes": 12469,
+        "unpackedMd5": "088d6f49911f2fd50396fcf736fc354a"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/d3ae1115e52f13fefa2b37627a49051b.zst",
+        "unpackedBytes": 6347,
+        "unpackedMd5": "d3ae1115e52f13fefa2b37627a49051b"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f160ad16a7b30581cb78b00a50cd4611.zst",
+        "unpackedBytes": 5062,
+        "unpackedMd5": "f160ad16a7b30581cb78b00a50cd4611"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/e4bb4b3a3284f20e880d11063a168eb9.zst",
+        "unpackedBytes": 7526,
+        "unpackedMd5": "e4bb4b3a3284f20e880d11063a168eb9"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/65ce126ae0c2227c884a6cb47c69a12d.zst",
+        "unpackedBytes": 5514,
+        "unpackedMd5": "65ce126ae0c2227c884a6cb47c69a12d"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/3a4293ce55fcee75df50fa70082c9cca.zst",
+        "unpackedBytes": 1013,
+        "unpackedMd5": "3a4293ce55fcee75df50fa70082c9cca"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f22bf3af4372b40232471fafce4beb77.zst",
+        "unpackedBytes": 1149,
+        "unpackedMd5": "f22bf3af4372b40232471fafce4beb77"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/2310168b67d4c295a90fe0796e1b6a18.zst",
+        "unpackedBytes": 24466,
+        "unpackedMd5": "2310168b67d4c295a90fe0796e1b6a18"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/75a363118947318cc8cd64bad8d82028.zst",
+        "unpackedBytes": 20717,
+        "unpackedMd5": "75a363118947318cc8cd64bad8d82028"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/1f537dbb0caa6856c6402de802d5cd56.zst",
+        "unpackedBytes": 81133,
+        "unpackedMd5": "1f537dbb0caa6856c6402de802d5cd56"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/e4f6573916157c7c8dcd93df066f81a6.zst",
+        "unpackedBytes": 13064,
+        "unpackedMd5": "e4f6573916157c7c8dcd93df066f81a6"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/5cbca1c4088aa32cd1bdee93d70343e1.zst",
+        "unpackedBytes": 32149,
+        "unpackedMd5": "5cbca1c4088aa32cd1bdee93d70343e1"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/db5341e3713dbf0e0b8d377337248f3c.zst",
+        "unpackedBytes": 4613,
+        "unpackedMd5": "db5341e3713dbf0e0b8d377337248f3c"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/a4d0b4efc7d934500263e4ee34bb57a3.zst",
+        "unpackedBytes": 23803,
+        "unpackedMd5": "a4d0b4efc7d934500263e4ee34bb57a3"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/24c7b9b654f9159ede7ed24bfae4791c.zst",
+        "unpackedBytes": 7633,
+        "unpackedMd5": "24c7b9b654f9159ede7ed24bfae4791c"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/1ab5579d6a243e7655fbc9572876f0a1.zst",
+        "unpackedBytes": 867,
+        "unpackedMd5": "1ab5579d6a243e7655fbc9572876f0a1"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/c6a6389b103a6a6230dd06a96ed89e92.zst",
+        "unpackedBytes": 1008,
+        "unpackedMd5": "c6a6389b103a6a6230dd06a96ed89e92"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/224608137bc87b3be036777c56133b34.zst",
+        "unpackedBytes": 78336,
+        "unpackedMd5": "224608137bc87b3be036777c56133b34"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/efd72f5918a7ff6322cfdcf54c29bb2e.zst",
+        "unpackedBytes": 90910,
+        "unpackedMd5": "efd72f5918a7ff6322cfdcf54c29bb2e"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/142cb6983eefbb8d7be7d3eb1e19d93d.zst",
+        "unpackedBytes": 31944,
+        "unpackedMd5": "142cb6983eefbb8d7be7d3eb1e19d93d"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7b2a0c75446a4a0b1fff1e4668472898.zst",
+        "unpackedBytes": 93542,
+        "unpackedMd5": "7b2a0c75446a4a0b1fff1e4668472898"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/32daabf4e663c43bc2fe138508fcacd7.zst",
+        "unpackedBytes": 577,
+        "unpackedMd5": "32daabf4e663c43bc2fe138508fcacd7"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ffd0cea462f861c54da7aa075e5e64c1.zst",
+        "unpackedBytes": 5208,
+        "unpackedMd5": "ffd0cea462f861c54da7aa075e5e64c1"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/b0de0b2b028ee33c476681a7de22895e.zst",
+        "unpackedBytes": 21295,
+        "unpackedMd5": "b0de0b2b028ee33c476681a7de22895e"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7aa82bb40881f1737fced69a70dcf955.zst",
+        "unpackedBytes": 577,
+        "unpackedMd5": "7aa82bb40881f1737fced69a70dcf955"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/358b519114b42989439743c1bae3237c.zst",
+        "unpackedBytes": 9520,
+        "unpackedMd5": "358b519114b42989439743c1bae3237c"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/afe4bacf219807b51fc2acf882d56ca8.zst",
+        "unpackedBytes": 857,
+        "unpackedMd5": "afe4bacf219807b51fc2acf882d56ca8"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/4bcb970c1d7bc298003c63cdabefdba3.zst",
+        "unpackedBytes": 50893,
+        "unpackedMd5": "4bcb970c1d7bc298003c63cdabefdba3"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/4364cc283d4cd7e0aabcc8ae01123c71.zst",
+        "unpackedBytes": 6078,
+        "unpackedMd5": "4364cc283d4cd7e0aabcc8ae01123c71"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/e62e400cc2f55e9e7e6c8cf3c11f96f0.zst",
+        "unpackedBytes": 60939,
+        "unpackedMd5": "e62e400cc2f55e9e7e6c8cf3c11f96f0"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7ffd78d237a9dc93ebb22eb5562af6d4.zst",
+        "unpackedBytes": 6769,
+        "unpackedMd5": "7ffd78d237a9dc93ebb22eb5562af6d4"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/d376649a553a74a7ea12b3d3b98c7f40.zst",
+        "unpackedBytes": 719,
+        "unpackedMd5": "d376649a553a74a7ea12b3d3b98c7f40"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/2308f6b0ec203923b6cc9d61974cd78e.zst",
+        "unpackedBytes": 65220,
+        "unpackedMd5": "2308f6b0ec203923b6cc9d61974cd78e"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/1e8234fb4ce52285b3bbe87ad4e37483.zst",
+        "unpackedBytes": 7099,
+        "unpackedMd5": "1e8234fb4ce52285b3bbe87ad4e37483"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/55192aba75d650a0fd6759b0571f838d.zst",
+        "unpackedBytes": 1291,
+        "unpackedMd5": "55192aba75d650a0fd6759b0571f838d"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ddb3c06d93c9f42aa7334f70dfe6c2b6.zst",
+        "unpackedBytes": 6642,
+        "unpackedMd5": "ddb3c06d93c9f42aa7334f70dfe6c2b6"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/09ffd246eb7270690eb11d05509ab05d.zst",
+        "unpackedBytes": 86082,
+        "unpackedMd5": "09ffd246eb7270690eb11d05509ab05d"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/6af7694eacc2a2fd056f34684c9ab4b2.zst",
+        "unpackedBytes": 69977,
+        "unpackedMd5": "6af7694eacc2a2fd056f34684c9ab4b2"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/92049e47f6f56f9cdcb4b477779a11ef.zst",
+        "unpackedBytes": 12573,
+        "unpackedMd5": "92049e47f6f56f9cdcb4b477779a11ef"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/c00f5f2c9737a0eab52ca3e18e33a510.zst",
+        "unpackedBytes": 30489,
+        "unpackedMd5": "c00f5f2c9737a0eab52ca3e18e33a510"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/3d249539e42983e0ac7cbd5a1621147e.zst",
+        "unpackedBytes": 114055,
+        "unpackedMd5": "3d249539e42983e0ac7cbd5a1621147e"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/5cb659f826e54c38eed36ea39f6a3063.zst",
+        "unpackedBytes": 282,
+        "unpackedMd5": "5cb659f826e54c38eed36ea39f6a3063"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ad985e71abb664e571ea9e0f7b33eded.zst",
+        "unpackedBytes": 40167,
+        "unpackedMd5": "ad985e71abb664e571ea9e0f7b33eded"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/040e27861eda3031a6835c56a5a8f72a.zst",
+        "unpackedBytes": 8111,
+        "unpackedMd5": "040e27861eda3031a6835c56a5a8f72a"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/9136c624d5ce2b367812fe5822da9741.zst",
+        "unpackedBytes": 14387,
+        "unpackedMd5": "9136c624d5ce2b367812fe5822da9741"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/54e96aba462e6e1b0b0e8f27db10d4e7.zst",
+        "unpackedBytes": 6245,
+        "unpackedMd5": "54e96aba462e6e1b0b0e8f27db10d4e7"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/a9f33ce6f632d738e3d254aaa0867408.zst",
+        "unpackedBytes": 48557,
+        "unpackedMd5": "a9f33ce6f632d738e3d254aaa0867408"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/3a4c6acd3ecb73d29b55921e9c763be7.zst",
+        "unpackedBytes": 859,
+        "unpackedMd5": "3a4c6acd3ecb73d29b55921e9c763be7"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/090008eb8ad69ea3d535c64111c464d9.zst",
+        "unpackedBytes": 7269,
+        "unpackedMd5": "090008eb8ad69ea3d535c64111c464d9"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/78a5689f691d255e71e4d30cb0306026.zst",
+        "unpackedBytes": 1237,
+        "unpackedMd5": "78a5689f691d255e71e4d30cb0306026"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/a407216782f8a52536bd778e701b5106.zst",
+        "unpackedBytes": 423,
+        "unpackedMd5": "a407216782f8a52536bd778e701b5106"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/42373a05fd892f52da4060dc6f608883.zst",
+        "unpackedBytes": 78264,
+        "unpackedMd5": "42373a05fd892f52da4060dc6f608883"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/979ec84999861ab190f7b77fbc0a97b8.zst",
+        "unpackedBytes": 38268,
+        "unpackedMd5": "979ec84999861ab190f7b77fbc0a97b8"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7741cacb48dfecb0e2962c3b714fbefc.zst",
+        "unpackedBytes": 38007,
+        "unpackedMd5": "7741cacb48dfecb0e2962c3b714fbefc"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f0ad6a57017a5523470a346a7226eb0a.zst",
+        "unpackedBytes": 19280,
+        "unpackedMd5": "f0ad6a57017a5523470a346a7226eb0a"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ba9313a586354320a5cac786fde1af20.zst",
+        "unpackedBytes": 22770,
+        "unpackedMd5": "ba9313a586354320a5cac786fde1af20"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ec79b126c3d2af2c17d942a667a9ce54.zst",
+        "unpackedBytes": 16293,
+        "unpackedMd5": "ec79b126c3d2af2c17d942a667a9ce54"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7b78af7b3241997e44ce6427b3823319.zst",
+        "unpackedBytes": 23067,
+        "unpackedMd5": "7b78af7b3241997e44ce6427b3823319"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/4203c4c643b68d7f9be5af5b8517eef5.zst",
+        "unpackedBytes": 45214,
+        "unpackedMd5": "4203c4c643b68d7f9be5af5b8517eef5"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/d7186f211aa8b9513725d8701abacafa.zst",
+        "unpackedBytes": 20502,
+        "unpackedMd5": "d7186f211aa8b9513725d8701abacafa"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/1afc12ea812a73d0b256e8684cac67cf.zst",
+        "unpackedBytes": 15259,
+        "unpackedMd5": "1afc12ea812a73d0b256e8684cac67cf"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/3d3163f34169919eb4da5ce1c4a1d580.zst",
+        "unpackedBytes": 13983,
+        "unpackedMd5": "3d3163f34169919eb4da5ce1c4a1d580"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/90811836ada6cc2e051cb89be1cc4a4c.zst",
+        "unpackedBytes": 14506,
+        "unpackedMd5": "90811836ada6cc2e051cb89be1cc4a4c"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ecc6ae1e3714304ddbd9808ff17e8970.zst",
+        "unpackedBytes": 21020,
+        "unpackedMd5": "ecc6ae1e3714304ddbd9808ff17e8970"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7238be592a5fd2742759b5c12efa93d1.zst",
+        "unpackedBytes": 12385,
+        "unpackedMd5": "7238be592a5fd2742759b5c12efa93d1"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/1004a8f26ce233b4e5279ab33397cb6b.zst",
+        "unpackedBytes": 17079,
+        "unpackedMd5": "1004a8f26ce233b4e5279ab33397cb6b"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/0a5bc9f9e9425570d30c8ab6d331a8e8.zst",
+        "unpackedBytes": 8966,
+        "unpackedMd5": "0a5bc9f9e9425570d30c8ab6d331a8e8"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/bfc31b7946ce0ce1431370f007bf3256.zst",
+        "unpackedBytes": 49873,
+        "unpackedMd5": "bfc31b7946ce0ce1431370f007bf3256"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f742f046146daaed3067775719a8a01b.zst",
+        "unpackedBytes": 48114,
+        "unpackedMd5": "f742f046146daaed3067775719a8a01b"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/9a2182b91c4997f1a4aa13a12b7208f8.zst",
+        "unpackedBytes": 54647,
+        "unpackedMd5": "9a2182b91c4997f1a4aa13a12b7208f8"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/b47cc888fd121afb2ac2d6eb8fdabb7e.zst",
+        "unpackedBytes": 52414,
+        "unpackedMd5": "b47cc888fd121afb2ac2d6eb8fdabb7e"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/bd35fd46121fd7d8e3216c9abf6ce0f3.zst",
+        "unpackedBytes": 17564,
+        "unpackedMd5": "bd35fd46121fd7d8e3216c9abf6ce0f3"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/636bd57601ea7fd5761318aed6b55029.zst",
+        "unpackedBytes": 615,
+        "unpackedMd5": "636bd57601ea7fd5761318aed6b55029"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/7bf7a56c8d72743cae1a0915af674b77.zst",
+        "unpackedBytes": 20141,
+        "unpackedMd5": "7bf7a56c8d72743cae1a0915af674b77"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/bed190745d6a12da0014e43cfc2d1d8f.zst",
+        "unpackedBytes": 14343,
+        "unpackedMd5": "bed190745d6a12da0014e43cfc2d1d8f"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/a7ce5c8d8c4e8be7723687aa4ef26ec8.zst",
+        "unpackedBytes": 13753,
+        "unpackedMd5": "a7ce5c8d8c4e8be7723687aa4ef26ec8"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/cc3918f3056583f4e34764e8f5653fd4.zst",
+        "unpackedBytes": 17518,
+        "unpackedMd5": "cc3918f3056583f4e34764e8f5653fd4"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f2086180a8a4cedcfd366ef3d587db04.zst",
+        "unpackedBytes": 5316,
+        "unpackedMd5": "f2086180a8a4cedcfd366ef3d587db04"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/31cb68177f8846e3c4f1dd1a0d13f533.zst",
+        "unpackedBytes": 71104,
+        "unpackedMd5": "31cb68177f8846e3c4f1dd1a0d13f533"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/b1a39d3e0b5f8bc97590939c5cbfd351.zst",
+        "unpackedBytes": 97190,
+        "unpackedMd5": "b1a39d3e0b5f8bc97590939c5cbfd351"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/06c9f00db425ef73353123f4998e8473.zst",
+        "unpackedBytes": 32219,
+        "unpackedMd5": "06c9f00db425ef73353123f4998e8473"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/73d12a0d3afb06527fb8e5f0f0e3f39f.zst",
+        "unpackedBytes": 64514,
+        "unpackedMd5": "73d12a0d3afb06527fb8e5f0f0e3f39f"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/f42655ad4767d77864b731cf57d9b244.zst",
+        "unpackedBytes": 4550,
+        "unpackedMd5": "f42655ad4767d77864b731cf57d9b244"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/ee05bc8d8e5ad94cb136cce4657f59ec.zst",
+        "unpackedBytes": 44170,
+        "unpackedMd5": "ee05bc8d8e5ad94cb136cce4657f59ec"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/cd63f5ef6cc9e5abd63bdbb9fd834802.zst",
+        "unpackedBytes": 52974,
+        "unpackedMd5": "cd63f5ef6cc9e5abd63bdbb9fd834802"
+      },
+      {
+        "chunkPrefix": "https://autopatchcn.juequling.com/pclauncher/chunks/cxi9diu5aadc/20260928/3.3.0/4EEwCYcQ9GWt",
+        "manifest": "manifests/sophon/df0a1736ca8e114cb2f0ab5e4a43da96.zst",
+        "unpackedBytes": 177853,
+        "unpackedMd5": "df0a1736ca8e114cb2f0ab5e4a43da96"
+      }
+    ],
+    "kind": "sophon"
+  },
+  "schema": 1,
+  "selection": {
+    "channel": "cn",
+    "quality": "",
+    "version": "3.3.0"
+  },
+  "type": "game-install-target"
+}

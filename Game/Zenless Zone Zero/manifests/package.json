@@ -17,8 +17,598 @@
     },
     {
       "path": "manifests/index.json",
-      "sha256": "80f64b75771d343fc99336b61fb0e2d33fa4cd09f92454c246ee1ab734cd3d22",
-      "size": 95
+      "sha256": "1e1da3388966384adc0a5f0d46df7143f3e5d6f258f2520ff0a34d6655cd622d",
+      "size": 627
+    },
+    {
+      "path": "manifests/releases/cn/default.quality.json",
+      "sha256": "8f4a3c4967c41aee84fb7693203fc41a3462cf7a1903dd3001cb43dec8154f3b",
+      "size": 34470
+    },
+    {
+      "path": "manifests/releases/global/default.quality.json",
+      "sha256": "ece18d5c28930f1aaa8b1e8b37ea56f6a2cd530bbaf35628c32086c4a64f47e6",
+      "size": 35152
+    },
+    {
+      "path": "manifests/sophon/040e27861eda3031a6835c56a5a8f72a.zst",
+      "sha256": "1c5deb3ec642774c665e7e0e867db454a75a9d39164b1176ae4a0f844ca158f6",
+      "size": 4556
+    },
+    {
+      "path": "manifests/sophon/06c9f00db425ef73353123f4998e8473.zst",
+      "sha256": "2082b0d3153e8004f3b014a3cb40d415748aed9e60d8a985be8a2ee5ce674e4e",
+      "size": 17584
+    },
+    {
+      "path": "manifests/sophon/088d6f49911f2fd50396fcf736fc354a.zst",
+      "sha256": "b4c7ef3365e9f4765023979f68d60bc2accc7204cc4ea75317e0d9b9baf51390",
+      "size": 6915
+    },
+    {
+      "path": "manifests/sophon/090008eb8ad69ea3d535c64111c464d9.zst",
+      "sha256": "ffe86dc890e106a2cef51f5383f8a9ad59f3a74b40a34eb4f88bd64663977aab",
+      "size": 3658
+    },
+    {
+      "path": "manifests/sophon/09ffd246eb7270690eb11d05509ab05d.zst",
+      "sha256": "0fc8dfb2135401b7d1f0797d4bc0b7c616f46182cd88e8c55a9f1f304048f5c0",
+      "size": 46271
+    },
+    {
+      "path": "manifests/sophon/0a5bc9f9e9425570d30c8ab6d331a8e8.zst",
+      "sha256": "18e989d57f810523482ef7375a7234ec25cf6eadbcd294d0afb4de9b2180935b",
+      "size": 4752
+    },
+    {
+      "path": "manifests/sophon/0c141140703f30b05b0c7823f27486d4.zst",
+      "sha256": "c994ee0d6997f917d6513dd578838d8e96c8efd1e21327a642ade0460393957f",
+      "size": 670
+    },
+    {
+      "path": "manifests/sophon/1004a8f26ce233b4e5279ab33397cb6b.zst",
+      "sha256": "6a48a99300be19e17bc637acd8f546bab12702938771ddfbfb49d20d6c1ad28e",
+      "size": 8932
+    },
+    {
+      "path": "manifests/sophon/142cb6983eefbb8d7be7d3eb1e19d93d.zst",
+      "sha256": "e34a4eb32e32633c6c0e7c8d4d4772534c254a1ffe00f6fdf7ddbae64172a44c",
+      "size": 17053
+    },
+    {
+      "path": "manifests/sophon/17e39d13143cb03dd6ac51624e254c61.zst",
+      "sha256": "eaea6f58f969bad1b4da654139836aa061c7f5215c2aa0a90a8193849654ebdc",
+      "size": 825
+    },
+    {
+      "path": "manifests/sophon/1ab5579d6a243e7655fbc9572876f0a1.zst",
+      "sha256": "4eea59709c73dd49ec1d71ae1fc04c9579c6a690a42c5369edbee239cba7f9f7",
+      "size": 589
+    },
+    {
+      "path": "manifests/sophon/1afc12ea812a73d0b256e8684cac67cf.zst",
+      "sha256": "42c6727aded01f49710694df3793dc64afc361a813803d13061d819db779f7b6",
+      "size": 7974
+    },
+    {
+      "path": "manifests/sophon/1e8234fb4ce52285b3bbe87ad4e37483.zst",
+      "sha256": "31dbbded7c26142e6820b55bca7fb5b1a1751f9982fc887e39da63c697b55ecf",
+      "size": 4002
+    },
+    {
+      "path": "manifests/sophon/1f537dbb0caa6856c6402de802d5cd56.zst",
+      "sha256": "13af4c0c181a7160cc14fc0ac8b157d36c119959d8c7046bd9db5a06f565e708",
+      "size": 43787
+    },
+    {
+      "path": "manifests/sophon/1fe8438392db59ed9df7026122760c27.zst",
+      "sha256": "2d8891498f7acfa80eefc8e7d9c4488fa44cd95c35e8975cc4d2b950e8b8e43f",
+      "size": 309857
+    },
+    {
+      "path": "manifests/sophon/224608137bc87b3be036777c56133b34.zst",
+      "sha256": "a8fbafef1f243dd5e393edc44d8ed9454324c0fc0bd5b0b5e072b3b961ee6afc",
+      "size": 42251
+    },
+    {
+      "path": "manifests/sophon/22addb2ee0e1d0c0717c435db7c633f5.zst",
+      "sha256": "17deb152fd2a14bd604e7f510bb7a8c4a8557d1ebc1b4c41eb2a2ca6e0cec4f1",
+      "size": 6816
+    },
+    {
+      "path": "manifests/sophon/2308f6b0ec203923b6cc9d61974cd78e.zst",
+      "sha256": "63a96228fd3ff2143e0b526bb15b397da0b7d26cce2f8ff89c3bc216210de95d",
+      "size": 35221
+    },
+    {
+      "path": "manifests/sophon/2310168b67d4c295a90fe0796e1b6a18.zst",
+      "sha256": "79246d42f02844ee97da47c17685e3f3c48e20c6fa07db0867db724244279034",
+      "size": 13329
+    },
+    {
+      "path": "manifests/sophon/245fbddb30198386597154e5d378f8fe.zst",
+      "sha256": "2a5c70411f5fcc7d0d192fd2c0de9f9db937eaf8aabb5daa1109f96e427c6fc5",
+      "size": 3084
+    },
+    {
+      "path": "manifests/sophon/24c7b9b654f9159ede7ed24bfae4791c.zst",
+      "sha256": "2ad4e1dbf3606f89b05ac80ab0a927bb7486ba086fb45c3ef8a940b1fee5f179",
+      "size": 4237
+    },
+    {
+      "path": "manifests/sophon/2b81834dbbed8e9974c07ec7e0bd3e60.zst",
+      "sha256": "68f84097662ab529ff7edaaad1d72b1d906073e8463da80f220d6e56a38017a8",
+      "size": 22369
+    },
+    {
+      "path": "manifests/sophon/31cb68177f8846e3c4f1dd1a0d13f533.zst",
+      "sha256": "10011c2da21036cf1576cfbefb9055180ecded575317bc17d1372f106b31ab8e",
+      "size": 38337
+    },
+    {
+      "path": "manifests/sophon/32daabf4e663c43bc2fe138508fcacd7.zst",
+      "sha256": "4ccb0a7a776cce20a6bd6fdbf5914471f3022f481d7d757ececc0527488ac33f",
+      "size": 419
+    },
+    {
+      "path": "manifests/sophon/358b519114b42989439743c1bae3237c.zst",
+      "sha256": "95920f1393512aadaf4c3322100a7c703fb2cdd346dfe7520de2bee44c5a4f13",
+      "size": 5287
+    },
+    {
+      "path": "manifests/sophon/3a4293ce55fcee75df50fa70082c9cca.zst",
+      "sha256": "8fdc103c137410a339dccde44fd22d6bd1f9e9448dad555c87703cd954666db0",
+      "size": 667
+    },
+    {
+      "path": "manifests/sophon/3a4c6acd3ecb73d29b55921e9c763be7.zst",
+      "sha256": "9c045f28ef2bd5b5fb0407dc17e0224070bae41162f76e46c5cc5fef1a440a6c",
+      "size": 391
+    },
+    {
+      "path": "manifests/sophon/3d249539e42983e0ac7cbd5a1621147e.zst",
+      "sha256": "842dfabd648cd6f1db81b0fb4597c1c7f4f8f25f0497827482bab138e6148ada",
+      "size": 61060
+    },
+    {
+      "path": "manifests/sophon/3d3163f34169919eb4da5ce1c4a1d580.zst",
+      "sha256": "0cb7ba843567ee3d91a52ee8128cdfb60fbd1da5dc53e32f62c0755bca6721a6",
+      "size": 7371
+    },
+    {
+      "path": "manifests/sophon/4203c4c643b68d7f9be5af5b8517eef5.zst",
+      "sha256": "3e9ecfc6c9de57600d7af5628c5c34efe12aefffd0aa1fa404d7023841292572",
+      "size": 23778
+    },
+    {
+      "path": "manifests/sophon/42373a05fd892f52da4060dc6f608883.zst",
+      "sha256": "2f23ddd95366ff1ce2616c98063b7d7ef36586c9283ad722e964b25068b19e32",
+      "size": 41053
+    },
+    {
+      "path": "manifests/sophon/4364cc283d4cd7e0aabcc8ae01123c71.zst",
+      "sha256": "7b77b539d76b2f9070e5bc9361f7367f996c463c0b8e82416846d631fb08f7da",
+      "size": 3453
+    },
+    {
+      "path": "manifests/sophon/45698706ee0dfffbef57ba13184150a7.zst",
+      "sha256": "9db3713fd060668bd57942e88e98f2b97d20af4fee88d763cbfed5846f019717",
+      "size": 67979
+    },
+    {
+      "path": "manifests/sophon/4bcb970c1d7bc298003c63cdabefdba3.zst",
+      "sha256": "1248ddaac574d49fa1c1a54afe175258cd791897ffec7336a76ce0193c2b4ae8",
+      "size": 27456
+    },
+    {
+      "path": "manifests/sophon/4d77bad0a9be788df7fc0eb1ad98b678.zst",
+      "sha256": "2a6a36c5fcca45fbdf47e9f220aecdda88b3cc0e65b8403bc7f293a665150a4a",
+      "size": 31310
+    },
+    {
+      "path": "manifests/sophon/54e96aba462e6e1b0b0e8f27db10d4e7.zst",
+      "sha256": "9c74b1e4b9d3dc607bcc47f03871f4f227e644c34a6510bdf3de74124782ad28",
+      "size": 3086
+    },
+    {
+      "path": "manifests/sophon/55192aba75d650a0fd6759b0571f838d.zst",
+      "sha256": "8d758cddf83741e3d1480a21a3fd0d74e786ac4cfa25dccfd889f46d13cd93ce",
+      "size": 814
+    },
+    {
+      "path": "manifests/sophon/5cb659f826e54c38eed36ea39f6a3063.zst",
+      "sha256": "57eb6cb139044dad336bcc0ade61f9b5c5566f011e0be575f693f3fdd33867c6",
+      "size": 220
+    },
+    {
+      "path": "manifests/sophon/5cbca1c4088aa32cd1bdee93d70343e1.zst",
+      "sha256": "25ae80dc6d23e05e243ec8c0415df86869d729bd60188ef7e2d4c04eabfbf5a9",
+      "size": 15795
+    },
+    {
+      "path": "manifests/sophon/5ceca86e8296f93705992edf21937bd8.zst",
+      "sha256": "8dd8d2345410a639c2755e93739b1a20ef26a5764c13a8632a19a93e10fc4733",
+      "size": 592
+    },
+    {
+      "path": "manifests/sophon/636bd57601ea7fd5761318aed6b55029.zst",
+      "sha256": "8679debcef22de10b766060b908b8a376ef776ee88b57b75db67a2e693ba9d15",
+      "size": 386
+    },
+    {
+      "path": "manifests/sophon/65ce126ae0c2227c884a6cb47c69a12d.zst",
+      "sha256": "b25a1a2f6819ae70ae75e3acfd45e8217c4285dd1693ff0758088068ede2a0fe",
+      "size": 2653
+    },
+    {
+      "path": "manifests/sophon/65e76ca3428b916f377f86f0202dc897.zst",
+      "sha256": "4b38f3b1e1ff0cee23dc24a3c0ddf4d73e31f4831e20293beb4a12253d5167dd",
+      "size": 7458
+    },
+    {
+      "path": "manifests/sophon/660e63b174aec2c54b5cdab0122aed85.zst",
+      "sha256": "939c312c0e57f6795c607cd008c0368027d1a9943b47d1a1c21881c7f7794af6",
+      "size": 47029
+    },
+    {
+      "path": "manifests/sophon/6af7694eacc2a2fd056f34684c9ab4b2.zst",
+      "sha256": "9afed7d198991d8e8c872af475d4a1eec84e4cbc2589408c20c14d183b018d36",
+      "size": 37659
+    },
+    {
+      "path": "manifests/sophon/6bc45de41aadfe2116d66c50fe7f7e57.zst",
+      "sha256": "2c6ef74f9179eccc493cc9fa7994ddd3d6811e09009192ce27c310838707e0be",
+      "size": 2309
+    },
+    {
+      "path": "manifests/sophon/6ff91acbd3c1b375da16b3161f455fe2.zst",
+      "sha256": "781112d29ed52e3a4dfeb92453212c614c7c7f787acb5aa431a4e1576864e24b",
+      "size": 1543
+    },
+    {
+      "path": "manifests/sophon/7238be592a5fd2742759b5c12efa93d1.zst",
+      "sha256": "5f3d75c3a5dcd65afa3840b507661eebfcf7fc65e6c34fffd997016252669d71",
+      "size": 6600
+    },
+    {
+      "path": "manifests/sophon/73d12a0d3afb06527fb8e5f0f0e3f39f.zst",
+      "sha256": "a3449ac3f1b19f48c6d3a99aa184f76d376eb32698af78ea661552eb8e218d07",
+      "size": 34697
+    },
+    {
+      "path": "manifests/sophon/75a363118947318cc8cd64bad8d82028.zst",
+      "sha256": "fa6314096eaf442ac04c0801d9c959f4d292172d591012577c9fffb8be31a9f3",
+      "size": 11362
+    },
+    {
+      "path": "manifests/sophon/7741cacb48dfecb0e2962c3b714fbefc.zst",
+      "sha256": "cb26c065785aac0e39e5a0f0a72251fa08afb54847e4de06d7564f03c38b51eb",
+      "size": 20067
+    },
+    {
+      "path": "manifests/sophon/78a5689f691d255e71e4d30cb0306026.zst",
+      "sha256": "9e6bb055b7c2e2359b7fb5e142bd1ab4f2f4cc03032132de199485dc18f6ec10",
+      "size": 566
+    },
+    {
+      "path": "manifests/sophon/7aa82bb40881f1737fced69a70dcf955.zst",
+      "sha256": "dca0616576d9cc6f53e346516cd2ba2637ce6b22adbdd60928fe6d4fefe5cd5e",
+      "size": 423
+    },
+    {
+      "path": "manifests/sophon/7b2a0c75446a4a0b1fff1e4668472898.zst",
+      "sha256": "4148496e99e3a716bb04ff62df3bc0952caee3c9f383792fd1af32cf27d3cc28",
+      "size": 50300
+    },
+    {
+      "path": "manifests/sophon/7b78af7b3241997e44ce6427b3823319.zst",
+      "sha256": "2d8ab7609905e80dfb1893d0ee90165c760312645278b09f450467bf91c76b16",
+      "size": 12251
+    },
+    {
+      "path": "manifests/sophon/7bf7a56c8d72743cae1a0915af674b77.zst",
+      "sha256": "b084045a45c24d2deb6bd049a99287615f29e792bb7a6e8811a5c0eb1dd16e66",
+      "size": 10817
+    },
+    {
+      "path": "manifests/sophon/7ffd78d237a9dc93ebb22eb5562af6d4.zst",
+      "sha256": "97fa8a1e23841f0105847605515d2dd21785be0a7c31165be19d2f80d7d48be0",
+      "size": 3816
+    },
+    {
+      "path": "manifests/sophon/82d20b6e2521f0eca2f1b037c044919f.zst",
+      "sha256": "848a5b66d21f3b698598e51c6962793ee4f3645566025a45c909e07d8eaf08b0",
+      "size": 31340
+    },
+    {
+      "path": "manifests/sophon/8ea5255d8c6c4d32d864a801d7130e46.zst",
+      "sha256": "471ecb16b9d66e0d0e61a16e93666b33fcb1f721a4440a09fb700ad1fa2de5f8",
+      "size": 2415
+    },
+    {
+      "path": "manifests/sophon/90811836ada6cc2e051cb89be1cc4a4c.zst",
+      "sha256": "04d077714d7f46ab5d567c6031c4ec3cb975f7a0e9496a202ffa1af0265a6997",
+      "size": 7615
+    },
+    {
+      "path": "manifests/sophon/9136c624d5ce2b367812fe5822da9741.zst",
+      "sha256": "cee8164f292faee7afd15f161e24863fd252ad4543b723a3c1bf4731f83270b1",
+      "size": 7475
+    },
+    {
+      "path": "manifests/sophon/92049e47f6f56f9cdcb4b477779a11ef.zst",
+      "sha256": "ada57d322a2a7b651cf7944aaa19ea1040ee1bfac3abdee226c7ee99df883ebc",
+      "size": 6940
+    },
+    {
+      "path": "manifests/sophon/979ec84999861ab190f7b77fbc0a97b8.zst",
+      "sha256": "f1369b487f086bf4e49fcba71e67b2a4592224f1c7f5f2af902d9beb23d1759a",
+      "size": 20097
+    },
+    {
+      "path": "manifests/sophon/997aa542b01252444ffdfc19bcb5cad5.zst",
+      "sha256": "2151ad5e87691ace87388fd913c31f7a39880b66293228b4adb42fa6c6e4a02f",
+      "size": 589
+    },
+    {
+      "path": "manifests/sophon/9a2182b91c4997f1a4aa13a12b7208f8.zst",
+      "sha256": "e76d5ba3b362c05d5685c068cb822d571d07953dc70a7c2a734f4c8fc3410cdd",
+      "size": 27834
+    },
+    {
+      "path": "manifests/sophon/9e52d5132ba03a37ec0161c5cedbaafc.zst",
+      "sha256": "19c69094ca43de18b03b7398c64dad7432ad3aa47cd8facde759284ee0f4b72e",
+      "size": 4937940
+    },
+    {
+      "path": "manifests/sophon/a407216782f8a52536bd778e701b5106.zst",
+      "sha256": "49fd19bfa8be68f1d6b70af28e3edc86aae4c5ed5c6da5aea2770a8fd1abc96a",
+      "size": 321
+    },
+    {
+      "path": "manifests/sophon/a4d0b4efc7d934500263e4ee34bb57a3.zst",
+      "sha256": "0f15731f61e70ec91316c3c83a61751a7c5424d8c5de20f55d95b13522011cf2",
+      "size": 12793
+    },
+    {
+      "path": "manifests/sophon/a7ce5c8d8c4e8be7723687aa4ef26ec8.zst",
+      "sha256": "f13801aaf618b0064b5affeb9a5d897972e380e2460adce42f46714cdaca0ff3",
+      "size": 7465
+    },
+    {
+      "path": "manifests/sophon/a9f33ce6f632d738e3d254aaa0867408.zst",
+      "sha256": "2191984f51a8af433f85db6dc1e48e5ae541df04f86918b10eb630475e00855a",
+      "size": 26140
+    },
+    {
+      "path": "manifests/sophon/ad985e71abb664e571ea9e0f7b33eded.zst",
+      "sha256": "43540faf58fd973c78d5d36bba4161895ee657630a07013f0e5623a19ec07453",
+      "size": 21654
+    },
+    {
+      "path": "manifests/sophon/ae144efa04d0bc01575314cada052a39.zst",
+      "sha256": "0791a89745bb79d0c0ea0de9d6b3b1b0dd1342d6e2262ea28706ccd7cc63b002",
+      "size": 4475
+    },
+    {
+      "path": "manifests/sophon/afe4bacf219807b51fc2acf882d56ca8.zst",
+      "sha256": "bf7f7270a47bda5562dc411768b77d1f53f46fd4e897b87d484faa333a249647",
+      "size": 577
+    },
+    {
+      "path": "manifests/sophon/b0de0b2b028ee33c476681a7de22895e.zst",
+      "sha256": "1fb381f60bcee88aa5e2504f076b0752a86d72202d9e55b53e5f69045a5cbee6",
+      "size": 10734
+    },
+    {
+      "path": "manifests/sophon/b1a39d3e0b5f8bc97590939c5cbfd351.zst",
+      "sha256": "27614d733af672b04d4b0d6bb56f44b29a77386972a3769c2f174cd01716d9a1",
+      "size": 51882
+    },
+    {
+      "path": "manifests/sophon/b236d6496f8f566f1cf9ced901897167.zst",
+      "sha256": "14d2c56391da4253c3480a60c4eed928464f5a760315cc7006aa590e6333ac4d",
+      "size": 2502
+    },
+    {
+      "path": "manifests/sophon/b47cc888fd121afb2ac2d6eb8fdabb7e.zst",
+      "sha256": "5c3e1711c065e993cc346a36eab246fb4807a6eab99310394a88ca095c02fe22",
+      "size": 26753
+    },
+    {
+      "path": "manifests/sophon/ba9313a586354320a5cac786fde1af20.zst",
+      "sha256": "0376f4488ec70cded15f9306699d6f81db36dab554ec9fd85cc5ce89783eea9b",
+      "size": 12133
+    },
+    {
+      "path": "manifests/sophon/bd35fd46121fd7d8e3216c9abf6ce0f3.zst",
+      "sha256": "b55c02e8c19ad90f5bd967929f2e1e27ad9b29cbae7f59cc7966759fce3a1179",
+      "size": 9183
+    },
+    {
+      "path": "manifests/sophon/bed190745d6a12da0014e43cfc2d1d8f.zst",
+      "sha256": "23d2386f2e4a9e76d1eacb36cf3482b32d9c26638bde97652d20105f6e1975c8",
+      "size": 7803
+    },
+    {
+      "path": "manifests/sophon/bfc31b7946ce0ce1431370f007bf3256.zst",
+      "sha256": "8984a9af66f3b1bff264d3810929e0587ccb2a48dba70730a0bfaba18f70b126",
+      "size": 25412
+    },
+    {
+      "path": "manifests/sophon/c00f5f2c9737a0eab52ca3e18e33a510.zst",
+      "sha256": "073d7880a44201349370c93ac10ce459259ac77ad416826251486ec66caa05e6",
+      "size": 16621
+    },
+    {
+      "path": "manifests/sophon/c6a6389b103a6a6230dd06a96ed89e92.zst",
+      "sha256": "2ee630b1fc33a1e8d1ad189e6b8e60724b825541ca1656d3aa01663d75868fed",
+      "size": 665
+    },
+    {
+      "path": "manifests/sophon/cc3918f3056583f4e34764e8f5653fd4.zst",
+      "sha256": "130ba25b054af127f52a7f9a157037c966e637ef6fd8a18e1b67482654934a31",
+      "size": 9393
+    },
+    {
+      "path": "manifests/sophon/cc6d415c1986ae6932d04fffdbc2c90d.zst",
+      "sha256": "7f95d392defb6e236d30e581705574cd73cb22f218dc2fd610c6b1ebd02a07a0",
+      "size": 4311
+    },
+    {
+      "path": "manifests/sophon/cd63f5ef6cc9e5abd63bdbb9fd834802.zst",
+      "sha256": "0a1c6b9190adb05050957a85bfa908595754300c96a2ea2b7a05d04321bed2cf",
+      "size": 28488
+    },
+    {
+      "path": "manifests/sophon/cf41a1a2ebb3b55ce228d5386dc45d72.zst",
+      "sha256": "ddfeff3821b295c6243aa7d616aa24a1403a46171e67780528d03e7f21825d2f",
+      "size": 5904
+    },
+    {
+      "path": "manifests/sophon/d0fd90b2b4e0c1839aaca6d4404a2537.zst",
+      "sha256": "2a80b00f27608a5f98393178502faf4b66777eec3a0799781acaf69d88f35b9e",
+      "size": 588
+    },
+    {
+      "path": "manifests/sophon/d376649a553a74a7ea12b3d3b98c7f40.zst",
+      "sha256": "c4e536efe4dca8342154ce50bceaa64d488d47c0aa12ce19a481bbf80891337a",
+      "size": 504
+    },
+    {
+      "path": "manifests/sophon/d3ae1115e52f13fefa2b37627a49051b.zst",
+      "sha256": "b521eb995ca4df2a417ff8775ed0786b4f3f53675200322e3857d05f0e8977ac",
+      "size": 3072
+    },
+    {
+      "path": "manifests/sophon/d7186f211aa8b9513725d8701abacafa.zst",
+      "sha256": "3f38b82fce9e213f848d696d44fa57a5b83a64a420b96ff7fde30098f3f78b7a",
+      "size": 10783
+    },
+    {
+      "path": "manifests/sophon/da06c2b5a558fe0e25a48d61a4da1d3b.zst",
+      "sha256": "4cecf76bfd8d2b1961b155d43d89479d180279a9b0e0f8353e4f87ec31a7027b",
+      "size": 2949
+    },
+    {
+      "path": "manifests/sophon/dadc4a76f8f9080941be1a5a4dbca8bf.zst",
+      "sha256": "0ff6f9f4c2d99f4576e248c4c106a0115570b8ee34589956df6fd1e65d9702ea",
+      "size": 8865
+    },
+    {
+      "path": "manifests/sophon/db5341e3713dbf0e0b8d377337248f3c.zst",
+      "sha256": "f39644075a92fc0c64dc4ce6d7c08936feb62f2faf80d85291f5137214e70444",
+      "size": 2668
+    },
+    {
+      "path": "manifests/sophon/ddb3c06d93c9f42aa7334f70dfe6c2b6.zst",
+      "sha256": "fe5b0754fe57ce7682bf36522a8ed8025e82df899563dca66263e2f188fc3b5c",
+      "size": 3741
+    },
+    {
+      "path": "manifests/sophon/df0a1736ca8e114cb2f0ab5e4a43da96.zst",
+      "sha256": "08cd573e7a27e00e4ebfc33e3e9ef8cc514549a4ee5c30389fa3104af5fbe1a9",
+      "size": 91126
+    },
+    {
+      "path": "manifests/sophon/e0a2784f1646aff94ca7c21ee44f0917.zst",
+      "sha256": "c3bc0b29a611cd7b3c5bea09a8cddf6f49f6807824f409d17d7077b08010c364",
+      "size": 2908
+    },
+    {
+      "path": "manifests/sophon/e4bb4b3a3284f20e880d11063a168eb9.zst",
+      "sha256": "95181791783f2a3bb89ee10410e5a362c3e0ac6d4be02b6151031f366f7573b3",
+      "size": 4242
+    },
+    {
+      "path": "manifests/sophon/e4f6573916157c7c8dcd93df066f81a6.zst",
+      "sha256": "62881391696ff0bc947a38aa9f300e2f058cac40a3f3be1a79a833ecf2fa3d59",
+      "size": 7227
+    },
+    {
+      "path": "manifests/sophon/e57073f74bac7d9d9ad3975d2cd1bad0.zst",
+      "sha256": "5b8fd3c23697707fae0d163676a6454aa82cc354ea5b67920a2a77a8b195c117",
+      "size": 2293
+    },
+    {
+      "path": "manifests/sophon/e62e400cc2f55e9e7e6c8cf3c11f96f0.zst",
+      "sha256": "f81940c97dc96109b6cbd67c3c973cacc9380b7ffdf86984bc79ce073a010cbc",
+      "size": 32706
+    },
+    {
+      "path": "manifests/sophon/e9405b4eb4f515fad11616458a0be27e.zst",
+      "sha256": "16604889641f6699928ba7d0055ea566404272173500f74beb29eef729ddd2d6",
+      "size": 319688
+    },
+    {
+      "path": "manifests/sophon/ec79b126c3d2af2c17d942a667a9ce54.zst",
+      "sha256": "968d07a388ffb3a23de22c0f833d362de7c244f91a3ae4b24e4a39665da9e756",
+      "size": 8559
+    },
+    {
+      "path": "manifests/sophon/ecc6ae1e3714304ddbd9808ff17e8970.zst",
+      "sha256": "022126b8948de860e6cd148ddb7c7cca1ddda1dce68d00c6faafb8ff6bca9c6f",
+      "size": 11078
+    },
+    {
+      "path": "manifests/sophon/ed9bba74e11dda2190c268ccba14be1c.zst",
+      "sha256": "8853fa4fe260ad89ee1a0973c3bbc292e821cf108e4747ec0f2f3d1667153741",
+      "size": 4937469
+    },
+    {
+      "path": "manifests/sophon/ee05bc8d8e5ad94cb136cce4657f59ec.zst",
+      "sha256": "ba901e87aed4ac1dbf872b72f0608df413268c8647c19620781222418699e920",
+      "size": 23825
+    },
+    {
+      "path": "manifests/sophon/efd72f5918a7ff6322cfdcf54c29bb2e.zst",
+      "sha256": "ae3d930954cdc65394d66c78af3e935ac3f88dfbeb8f5804cf92586a7ee51135",
+      "size": 48701
+    },
+    {
+      "path": "manifests/sophon/f0ad6a57017a5523470a346a7226eb0a.zst",
+      "sha256": "9286069b23775d4e6dc083965b4f0b929b8abea6581f7a5130ec6bd8d48652a7",
+      "size": 10258
+    },
+    {
+      "path": "manifests/sophon/f160ad16a7b30581cb78b00a50cd4611.zst",
+      "sha256": "13d1b25783d658d3a4736cb491f7c3af0d775386f4dd11ea64df4904ec02d88c",
+      "size": 2396
+    },
+    {
+      "path": "manifests/sophon/f2086180a8a4cedcfd366ef3d587db04.zst",
+      "sha256": "fd91d1a49995cbc62e14df0ff50c29517dfa7c4664608d8d3ddfc2f571790ce3",
+      "size": 2902
+    },
+    {
+      "path": "manifests/sophon/f22bf3af4372b40232471fafce4beb77.zst",
+      "sha256": "be4e45b8624d28f355243179ae834d7a43a6b26ccaf95a13536d819d7ba2781a",
+      "size": 738
+    },
+    {
+      "path": "manifests/sophon/f42655ad4767d77864b731cf57d9b244.zst",
+      "sha256": "b41d45856dd3085fb3931cebc32f15fa61e45f3e2892cce32ffe1078862b194c",
+      "size": 2510
+    },
+    {
+      "path": "manifests/sophon/f742f046146daaed3067775719a8a01b.zst",
+      "sha256": "8ab2af9d42d0cf56aba725944f306fdad512bd7c4c37c22123e9170e797c11cc",
+      "size": 24387
+    },
+    {
+      "path": "manifests/sophon/f96e5612e80eb42e682f932ecc3f2cab.zst",
+      "sha256": "037c9af31f49a47f29332d639bf392ce6048342b926fb5b0ff3fff28155247b1",
+      "size": 746
+    },
+    {
+      "path": "manifests/sophon/fb249505a4f0b2105dac2dd5335dd6da.zst",
+      "sha256": "ea6f9ff6729f20332fe3ba705c7e964ac1e5210e023d638d2c75cf75d673a038",
+      "size": 578
+    },
+    {
+      "path": "manifests/sophon/ffd0cea462f861c54da7aa075e5e64c1.zst",
+      "sha256": "74c5817fb9d6da9321b4d973d72ac8304915bdcd8c3a5b8817db452b479fc9c5",
+      "size": 2568
     }
   ],
   "id": "zenless-zone-zero",
