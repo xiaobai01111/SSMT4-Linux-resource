@@ -1,0 +1,4565 @@
+{
+  "resource": [
+    {
+      "dest": "Client/Binaries/Win64/Client-Win64-Shipping.exe",
+      "md5": "19d5d54dd9309347a80db13e208b8f9c",
+      "size": 166260232,
+      "fromFolder": "launcher/game/G153/50004/3.8.0/e79ed48f23f548028517adf8749ba73d/zip/",
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "d0618d73fbe314f4173f06a86aa7fca8"
+        },
+        {
+          "start": 104857600,
+          "end": 166260231,
+          "md5": "c8b036b0d9e3f8086719d1e4a6db0a82"
+        }
+      ]
+    },
+    {
+      "dest": "Client/Content/Paks/pakchunk114-WindowsNoEditor.pak",
+      "md5": "f3057f61e74f01f87a2ca5f1bc965f7a",
+      "size": 159510248,
+      "fromFolder": "launcher/game/G153/50004/3.8.0/e79ed48f23f548028517adf8749ba73d/zip/",
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "42563a6271d6f7d1444464bff7013545"
+        },
+        {
+          "start": 104857600,
+          "end": 159510247,
+          "md5": "f03e1481c5063086ad3d8fb7a6f1ccc2"
+        }
+      ]
+    },
+    {
+      "dest": "Client/Content/Paks/pakchunk37-WindowsNoEditor.pak",
+      "md5": "b300a52780d8b095854a5dc163cd526d",
+      "size": 1503111455,
+      "fromFolder": "launcher/game/G153/50004/3.8.0/e79ed48f23f548028517adf8749ba73d/zip/",
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "2a7ccd04034958cf293dd0b77100515a"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "a5f40fa59f07738604f792e9daabdeff"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "42cdeac1fc0742811f9262f5ed743ddc"
+        },
+        {
+          "start": 314572800,
+          "end": 419430399,
+          "md5": "29384de45595d64b5aeaebf4b95ac842"
+        },
+        {
+          "start": 419430400,
+          "end": 524287999,
+          "md5": "5a89dca534621c34af747476c80b21c8"
+        },
+        {
+          "start": 524288000,
+          "end": 629145599,
+          "md5": "1b948f757b3bd0e527f2c775c05caf13"
+        },
+        {
+          "start": 629145600,
+          "end": 734003199,
+          "md5": "1b604dc7ed0bc6af2c42e30b3863b0b6"
+        },
+        {
+          "start": 734003200,
+          "end": 838860799,
+          "md5": "e07f7bd14e8cb7a32803276bd2a683ac"
+        },
+        {
+          "start": 838860800,
+          "end": 943718399,
+          "md5": "548030d7b2dd3f7f17298adfddf2bedc"
+        },
+        {
+          "start": 943718400,
+          "end": 1048575999,
+          "md5": "147995926e27fadc6944bfc5185f0984"
+        },
+        {
+          "start": 1048576000,
+          "end": 1153433599,
+          "md5": "68fde18a75de73eab136a16b12d7dba5"
+        },
+        {
+          "start": 1153433600,
+          "end": 1258291199,
+          "md5": "216a3e7aa9d456bdcd52d67855016778"
+        },
+        {
+          "start": 1258291200,
+          "end": 1363148799,
+          "md5": "4458fdd1624f2cf616d0f2cf70b52e28"
+        },
+        {
+          "start": 1363148800,
+          "end": 1468006399,
+          "md5": "5ee52bc51af0c34e1b30b1c41968f135"
+        },
+        {
+          "start": 1468006400,
+          "end": 1503111454,
+          "md5": "c917157f12ee440b8641d8a1d9b257e1"
+        }
+      ]
+    },
+    {
+      "dest": "Client/Content/Paks/pakchunk58-WindowsNoEditor.pak",
+      "md5": "82b30394b2b1a86f3a6412c60d750976",
+      "size": 120184303,
+      "fromFolder": "launcher/game/G153/50004/3.8.0/e79ed48f23f548028517adf8749ba73d/zip/",
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "1d1cc228ca52f4dc3133a2e7931ebfc5"
+        },
+        {
+          "start": 104857600,
+          "end": 120184302,
+          "md5": "58b9770b28f125243daa5cfe983287d9"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_0_1793351835858.krpdiff",
+      "md5": "bb0fb4a11b80e8ac0c87066c7710653d",
+      "size": 1280725268,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "0fb43f33b6658916de0a2e06f687e5f3"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "1caf93705440c316122373b7469093bf"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "61cd74fa410c2804acd65ed80f06db79"
+        },
+        {
+          "start": 314572800,
+          "end": 419430399,
+          "md5": "fb5b42827a91be29e9df367e19c7e621"
+        },
+        {
+          "start": 419430400,
+          "end": 524287999,
+          "md5": "086d009ee0dd666e4258ce991ea9c4b9"
+        },
+        {
+          "start": 524288000,
+          "end": 629145599,
+          "md5": "73774129ce83b864593689591684a549"
+        },
+        {
+          "start": 629145600,
+          "end": 734003199,
+          "md5": "e73d761aa81d4b6f251ce3f3071f359a"
+        },
+        {
+          "start": 734003200,
+          "end": 838860799,
+          "md5": "5f92a64fab51e9148edb72d7fbb5c860"
+        },
+        {
+          "start": 838860800,
+          "end": 943718399,
+          "md5": "2fd8df21fd902a1f11fe700ded182d28"
+        },
+        {
+          "start": 943718400,
+          "end": 1048575999,
+          "md5": "82e81be355dfe0ecc7839b21c2912cd7"
+        },
+        {
+          "start": 1048576000,
+          "end": 1153433599,
+          "md5": "5ddc698b6a0081fac04ca21a8b883737"
+        },
+        {
+          "start": 1153433600,
+          "end": 1258291199,
+          "md5": "7676c82e4083fd24ff9f2a901b78a2f0"
+        },
+        {
+          "start": 1258291200,
+          "end": 1280725267,
+          "md5": "af1f02da4a1fb72d6308eb8f0aeff208"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_1_1793352398995.krpdiff",
+      "md5": "29cd630ce5b06f395b659260cb4dafc5",
+      "size": 47475627
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_2_1793352414602.krpdiff",
+      "md5": "8c8b76c64c98c4814aab6beb83824ebc",
+      "size": 1689992
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_3_1793352414923.krpdiff",
+      "md5": "d10b3798a47d742c3f688ff82decc52d",
+      "size": 4031050
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_4_1793352415564.krpdiff",
+      "md5": "c93132e93ae74ad55b4ffb162e29c8b6",
+      "size": 17220480
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_5_1793352417066.krpdiff",
+      "md5": "055471c9e9ca251cfaccd4c1eb0cff5c",
+      "size": 23571905
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_6_1793352433324.krpdiff",
+      "md5": "5acf2b6ac64d1a466e2732c778fa5db0",
+      "size": 2903391
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_7_1793352437554.krpdiff",
+      "md5": "0db7ec3a4e4407f7dab33504ea12a13d",
+      "size": 39708257
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_8_1793352441801.krpdiff",
+      "md5": "b6d253c5b22b285ce1af0c94041c7fc0",
+      "size": 22501885
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_9_1793352444667.krpdiff",
+      "md5": "732b0dbd2ea2029c67b60f8ee7ea862f",
+      "size": 20605089
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_10_1793352447944.krpdiff",
+      "md5": "b3672484e82ef5486985e6f44ba5dce4",
+      "size": 121983521,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "f2b51531050b175b0c5baed1071a5e78"
+        },
+        {
+          "start": 104857600,
+          "end": 121983520,
+          "md5": "9c8571b58c62f9c6614ffc159a57fb30"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_11_1793352460987.krpdiff",
+      "md5": "894d769fe8109c9f0303f73b5b9e02ef",
+      "size": 63269942
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_12_1793352467223.krpdiff",
+      "md5": "177b60b3142f35c2a814be3b3b7a72d8",
+      "size": 6457164
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_13_1793352467893.krpdiff",
+      "md5": "c1fe695807e1eb82fc1d2656ec1bb093",
+      "size": 314011396,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "bddabf6fd66e1b9be139c6be9dd472fa"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "6b3e23234d121e5819688127d5ec78e2"
+        },
+        {
+          "start": 209715200,
+          "end": 314011395,
+          "md5": "36ea3ca4fea214480bdf54899ae84e2f"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_14_1793352495939.krpdiff",
+      "md5": "e273e2678eb0d9c560fc6c94efcae89b",
+      "size": 292193567,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "8a4c5f90c25a2a12d99632bead3e8930"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "b44e7a0757f0b6f01f11fa5b9c1b8d48"
+        },
+        {
+          "start": 209715200,
+          "end": 292193566,
+          "md5": "f9fab29c899a40892b71b23287491c97"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_15_1793352527369.krpdiff",
+      "md5": "745d0abce1dea299240d5ca68c6a08d8",
+      "size": 20455627
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_16_1793352529414.krpdiff",
+      "md5": "102b0a8c632e4e58fdac11b9c9e460bb",
+      "size": 40045869
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_17_1793352533010.krpdiff",
+      "md5": "8506397f05f67c16e7ce7cecb47c936f",
+      "size": 36517177
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_18_1793352587538.krpdiff",
+      "md5": "460c5db1716f5bb04132ec5a98ba9c2b",
+      "size": 118613782,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "b3e566aa54982511b0f26e87988fb1c9"
+        },
+        {
+          "start": 104857600,
+          "end": 118613781,
+          "md5": "069f9a12970896c7b99a3e95fb5f36c3"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_19_1793352712680.krpdiff",
+      "md5": "09a5474a602c0ce9ba4aeeb94bae5cd5",
+      "size": 78627751
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_20_1793352721638.krpdiff",
+      "md5": "099eb1786b901a489aaacef1dfbef06f",
+      "size": 181203653,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "5693b07daf573b8a96a6259f1900ba05"
+        },
+        {
+          "start": 104857600,
+          "end": 181203652,
+          "md5": "c2e5b3c2aec1b0bc4fef54457d66706f"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_21_1793352748933.krpdiff",
+      "md5": "d7efff7f5b51b0c2a206114a39a7eec1",
+      "size": 39321063
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_22_1793352753021.krpdiff",
+      "md5": "584dc0e30325f0bfed005f37d1c8bc31",
+      "size": 974018054,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "6092968ca80264ba65835c3fba3b6c54"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "f5f1b15e82c019d5ff95aaed548bcad3"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "3b58715d07923b47ed5107c34024cea3"
+        },
+        {
+          "start": 314572800,
+          "end": 419430399,
+          "md5": "ead93c44eb3f808fe38adfd8edce2495"
+        },
+        {
+          "start": 419430400,
+          "end": 524287999,
+          "md5": "798785ee899e204a411f8aac0fc28c82"
+        },
+        {
+          "start": 524288000,
+          "end": 629145599,
+          "md5": "e0fdee2718724faa7ad9994f08af69b0"
+        },
+        {
+          "start": 629145600,
+          "end": 734003199,
+          "md5": "8810d5ffcd876593db5d4cae93403830"
+        },
+        {
+          "start": 734003200,
+          "end": 838860799,
+          "md5": "f5924d5173aad802ea41bcf5896310a1"
+        },
+        {
+          "start": 838860800,
+          "end": 943718399,
+          "md5": "e730f9eb762115ff9906c7e42a1d5da7"
+        },
+        {
+          "start": 943718400,
+          "end": 974018053,
+          "md5": "26810d7f8852148bbe9bd45b30af451b"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_23_1793352867352.krpdiff",
+      "md5": "802b923dbab21dcfd3e630af17ce5bf7",
+      "size": 75463875
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_24_1793352874063.krpdiff",
+      "md5": "3904ea7c4648719dff229778b905a3ef",
+      "size": 90732464
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_25_1793352882100.krpdiff",
+      "md5": "a11028ccce95ed2f94c80bc9ca6b025b",
+      "size": 52200298
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_26_1793352889024.krpdiff",
+      "md5": "5fee82fe12c4dae0da54716037fc68cd",
+      "size": 30076572
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_27_1793352892283.krpdiff",
+      "md5": "99f153c1b2e6cc2ea678e5e1d9409bf1",
+      "size": 35249763
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_28_1793352895789.krpdiff",
+      "md5": "dec11d59b1c1348a52495825ec7a2372",
+      "size": 299685989,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "824899de8ab1a1110dbda4925820ca79"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "a509e9602237a1e28353c83efa0a102d"
+        },
+        {
+          "start": 209715200,
+          "end": 299685988,
+          "md5": "fe2075b37b4ab2ab5b50ba2a0353033b"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_29_1793352929187.krpdiff",
+      "md5": "f8a24535632d6a6583ee8f471a1d2e7e",
+      "size": 49314621
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_30_1793352934320.krpdiff",
+      "md5": "0394ce73d54b03080c649d6fc5662c9f",
+      "size": 16183916
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_31_1793352936201.krpdiff",
+      "md5": "75e79b799bbc6ea558dae59a6c8dbcf1",
+      "size": 246413312,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "efbe4be1805315c3e5c845e9271e2e3e"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "c4e2222e64fbe7008cffc9fa836f86e0"
+        },
+        {
+          "start": 209715200,
+          "end": 246413311,
+          "md5": "42918adb71e3693b6f72e27990303879"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_32_1793352965223.krpdiff",
+      "md5": "d15161bf652256d56eb238d48c9c788f",
+      "size": 461530470,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "9f70d4286617211a84f265fe14e35fb2"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "f3e535584a80670f200671a1c0dd585d"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "c60b2da40663bf72f4305f13531debde"
+        },
+        {
+          "start": 314572800,
+          "end": 419430399,
+          "md5": "888ea02ca9ea39512e5b34ca4da4be27"
+        },
+        {
+          "start": 419430400,
+          "end": 461530469,
+          "md5": "30f140762ef0b6033a994900e43439e6"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_33_1793353018194.krpdiff",
+      "md5": "1a0a8d4c6459c3f66b3f71e25bf507f5",
+      "size": 651355221,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "3a8eea894637f094b6badb0e20216bc3"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "d6fa47f2a034cfe6d74db2a838cf4320"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "bebf34589715ded57839d922c2ba1869"
+        },
+        {
+          "start": 314572800,
+          "end": 419430399,
+          "md5": "460d8a1fef0c2aae5a2012951d6a12e9"
+        },
+        {
+          "start": 419430400,
+          "end": 524287999,
+          "md5": "1dab085d67db66b96a37a7a066e1eb91"
+        },
+        {
+          "start": 524288000,
+          "end": 629145599,
+          "md5": "4de5b6eeeda52530f42695589cd18f49"
+        },
+        {
+          "start": 629145600,
+          "end": 651355220,
+          "md5": "18b73a5a2daf3ea98b50fd1c810ab2e6"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_34_1793353088407.krpdiff",
+      "md5": "011c6e300aa42ccf02c4ac67b5a6cccf",
+      "size": 297906846,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "a96e86d3bd38aa92c8f03768ad6db768"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "a4d00565e95ded749db12303a0341c22"
+        },
+        {
+          "start": 209715200,
+          "end": 297906845,
+          "md5": "ae20f4b8e1e538f8df39164582ff0b89"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_35_1793353128395.krpdiff",
+      "md5": "7adb4040cba957468c16a5fc0812d471",
+      "size": 66995699
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_36_1793353136503.krpdiff",
+      "md5": "8c95ebc948d77e627032b7b96d7928db",
+      "size": 55013925
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_37_1793353142990.krpdiff",
+      "md5": "d59e304e722fca77390096cbadbf37dd",
+      "size": 392036233,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "09ec8aa1f433925c669632c3df889b65"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "39b605748e1355277e94e49a0bca3ac6"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "d974f7c96903783ea13eda9fe15de1a0"
+        },
+        {
+          "start": 314572800,
+          "end": 392036232,
+          "md5": "4ea738fa55ff31142fd06df31733e251"
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_38_1793353183572.krpdiff",
+      "md5": "fc5d47f8d5623b15565f09b63993e002",
+      "size": 520235235,
+      "chunkInfos": [
+        {
+          "start": 0,
+          "end": 104857599,
+          "md5": "bcf303f799fa6e8d4f0acad0ee63d849"
+        },
+        {
+          "start": 104857600,
+          "end": 209715199,
+          "md5": "82abfaaa892ecfda36353f945d45d69c"
+        },
+        {
+          "start": 209715200,
+          "end": 314572799,
+          "md5": "8bde426a557c70fb098e4f0b19656fee"
+        },
+        {
+          "start": 314572800,
+          "end": 419430399,
+          "md5": "5fe574dc759ee2d862dfe55e85adcc46"
+        },
+        {
+          "start": 419430400,
+          "end": 520235234,
+          "md5": "48d3e404d14e669049ba726b9828b667"
+        }
+      ]
+    }
+  ],
+  "deleteFiles": [
+    "Client/Content/Paks/pakchunk48-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk48-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk53-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk54-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk53-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk54-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk57-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk50-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk50-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk57-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk0optional-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk46-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk56-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk46-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk0optional-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk56-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk51-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk55-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk52-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk51-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk52-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk55-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk47-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk47-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk49-WindowsNoEditor.pak",
+    "Client/Content/Paks/pakchunk49-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk45-WindowsNoEditor.sig",
+    "Client/Content/Paks/pakchunk45-WindowsNoEditor.pak"
+  ],
+  "groupInfos": [
+    {
+      "dest": "3.7.2_3.8.0_group_0_1793351835858.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "md5": "6f40622682fae6e82c3e67555bc93a63",
+          "size": 6962079985
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk0-WindowsNoEditor.pak",
+          "md5": "cbe333a8f5dc1a4eb35c1f040cba5a29",
+          "size": 7205368801,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "337dceea16b533bd1f38569f7d509ae2"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "bab98e96b5f184ddf402e5d66efb0fab"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "37f5a2dd656d1d1a93464af1c961a4d3"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "7b4c3bcce1535b46b0a87024aefc8afc"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "e34d5425407568638a0cac778146f08f"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "5f973bdfd805c8fb480bae44dc58f2eb"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "5d59f2ef6285b14ef98660892fcc7bdc"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "8b8752133d1613635d870d25d68ec985"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "1943a5c092b1c7b5081bfe55943f49ba"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "ad820fcbab572e04b62ba9f2ce75ab19"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "ee64d5cca6e8f2b8604df30b02902722"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "3a8b6084502a9d0d267c25e8ba548521"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "1fb716ae0a38ebc94f373991195882ac"
+            },
+            {
+              "start": 1363148800,
+              "end": 1468006399,
+              "md5": "f68455ad57f4ff6f8840cc831f609bcc"
+            },
+            {
+              "start": 1468006400,
+              "end": 1572863999,
+              "md5": "32c741f023814a19d7d6a570414c02ba"
+            },
+            {
+              "start": 1572864000,
+              "end": 1677721599,
+              "md5": "15b0335a890f0fc70f35c3b47cffeb28"
+            },
+            {
+              "start": 1677721600,
+              "end": 1782579199,
+              "md5": "342a0ea38c24ce20a7c7b35418af1a3f"
+            },
+            {
+              "start": 1782579200,
+              "end": 1887436799,
+              "md5": "0ab43a5ce04af01a0aac6bb7b87815de"
+            },
+            {
+              "start": 1887436800,
+              "end": 1992294399,
+              "md5": "156a741a4297c0871750dff4f1648cc2"
+            },
+            {
+              "start": 1992294400,
+              "end": 2097151999,
+              "md5": "49160ce4217da90be646f595d2832b11"
+            },
+            {
+              "start": 2097152000,
+              "end": 2202009599,
+              "md5": "9782a0ff00997c89b558c4c79825f097"
+            },
+            {
+              "start": 2202009600,
+              "end": 2306867199,
+              "md5": "ba2c753a783468caa62efd5d703092de"
+            },
+            {
+              "start": 2306867200,
+              "end": 2411724799,
+              "md5": "28fc879ae82587792d4ca3a10fc99d36"
+            },
+            {
+              "start": 2411724800,
+              "end": 2516582399,
+              "md5": "895f4a0192bf176b4c9bf3ac845e23ac"
+            },
+            {
+              "start": 2516582400,
+              "end": 2621439999,
+              "md5": "0114675329e8dd7ef977b87366cef7fd"
+            },
+            {
+              "start": 2621440000,
+              "end": 2726297599,
+              "md5": "d19bfdbd1cbda9c889b119078a815d8c"
+            },
+            {
+              "start": 2726297600,
+              "end": 2831155199,
+              "md5": "505e7a9409087f4dead9958adb69aa27"
+            },
+            {
+              "start": 2831155200,
+              "end": 2936012799,
+              "md5": "732fd78f974ce5531533021bff83bcce"
+            },
+            {
+              "start": 2936012800,
+              "end": 3040870399,
+              "md5": "3181b5a3923bc5e0d5db1bd469578299"
+            },
+            {
+              "start": 3040870400,
+              "end": 3145727999,
+              "md5": "1f7d147911341e56c241f2ec2bcae338"
+            },
+            {
+              "start": 3145728000,
+              "end": 3250585599,
+              "md5": "152ee95ea60b88c09bbb782585ef9578"
+            },
+            {
+              "start": 3250585600,
+              "end": 3355443199,
+              "md5": "cecf1ae4c1032b7e8be9a6a00f0a054b"
+            },
+            {
+              "start": 3355443200,
+              "end": 3460300799,
+              "md5": "f28192db8ee535f71818bf07ba2bf9e4"
+            },
+            {
+              "start": 3460300800,
+              "end": 3565158399,
+              "md5": "cc2e8d2f8de00946de39bc30d33fa09f"
+            },
+            {
+              "start": 3565158400,
+              "end": 3670015999,
+              "md5": "48b15820197fd9d4a41ca7f775521dde"
+            },
+            {
+              "start": 3670016000,
+              "end": 3774873599,
+              "md5": "49fb63c90fdd60266f2bfdc3509369dc"
+            },
+            {
+              "start": 3774873600,
+              "end": 3879731199,
+              "md5": "d56b755fb9e85ede29739dc7b7c7f96d"
+            },
+            {
+              "start": 3879731200,
+              "end": 3984588799,
+              "md5": "0ad29122527bb08a3d22400614890f28"
+            },
+            {
+              "start": 3984588800,
+              "end": 4089446399,
+              "md5": "9d0c30224f23f7b25572fb8cc9b1f501"
+            },
+            {
+              "start": 4089446400,
+              "end": 4194303999,
+              "md5": "2d44ce2d167e5601631f684f1da1b068"
+            },
+            {
+              "start": 4194304000,
+              "end": 4299161599,
+              "md5": "f765c3762ca8c60398d981bc7f7ed1e4"
+            },
+            {
+              "start": 4299161600,
+              "end": 4404019199,
+              "md5": "ee1615e744d7ecf505f1da62186cb4f1"
+            },
+            {
+              "start": 4404019200,
+              "end": 4508876799,
+              "md5": "05a22827a957148a7a79722a4ae95baa"
+            },
+            {
+              "start": 4508876800,
+              "end": 4613734399,
+              "md5": "51579298cbf68e813f1a9bb2a0c19c80"
+            },
+            {
+              "start": 4613734400,
+              "end": 4718591999,
+              "md5": "96ab64d6cae3dbe30422b29dcd6e38d1"
+            },
+            {
+              "start": 4718592000,
+              "end": 4823449599,
+              "md5": "253a41c441cc6cbb993bd04f2f8a4be4"
+            },
+            {
+              "start": 4823449600,
+              "end": 4928307199,
+              "md5": "8961221a859b58e1906ec66437c65736"
+            },
+            {
+              "start": 4928307200,
+              "end": 5033164799,
+              "md5": "5d79e75f883fcde507b523c1471dbce6"
+            },
+            {
+              "start": 5033164800,
+              "end": 5138022399,
+              "md5": "9a7b4431ad003af7e917a4fcf3459070"
+            },
+            {
+              "start": 5138022400,
+              "end": 5242879999,
+              "md5": "d7495c9796f84766f3167577ffe4eb5f"
+            },
+            {
+              "start": 5242880000,
+              "end": 5347737599,
+              "md5": "13c6c549791333593a16a7a7c292697c"
+            },
+            {
+              "start": 5347737600,
+              "end": 5452595199,
+              "md5": "27206df1ab380c5e53ce386a5045467e"
+            },
+            {
+              "start": 5452595200,
+              "end": 5557452799,
+              "md5": "aff7588be2d95f38568e6f54e4a31f4d"
+            },
+            {
+              "start": 5557452800,
+              "end": 5662310399,
+              "md5": "760a4febbfe65b2a550f880a7db49a73"
+            },
+            {
+              "start": 5662310400,
+              "end": 5767167999,
+              "md5": "7ffd92cd2847f6b3f0482bcaa582129b"
+            },
+            {
+              "start": 5767168000,
+              "end": 5872025599,
+              "md5": "f8282fa6e833ec301300ceeb3655e2a2"
+            },
+            {
+              "start": 5872025600,
+              "end": 5976883199,
+              "md5": "22a31c5a9d30fce644c9ee76a8115820"
+            },
+            {
+              "start": 5976883200,
+              "end": 6081740799,
+              "md5": "8c40a3d0e888e7eb33e43ba330dd33b4"
+            },
+            {
+              "start": 6081740800,
+              "end": 6186598399,
+              "md5": "4d4731d0d83807505ebb40b98536eed2"
+            },
+            {
+              "start": 6186598400,
+              "end": 6291455999,
+              "md5": "b2fbac88085a35c6895eda3c2b47317e"
+            },
+            {
+              "start": 6291456000,
+              "end": 6396313599,
+              "md5": "470fb04119664707596935845744505b"
+            },
+            {
+              "start": 6396313600,
+              "end": 6501171199,
+              "md5": "c667b4aeb7b94db818d751cad7942a18"
+            },
+            {
+              "start": 6501171200,
+              "end": 6606028799,
+              "md5": "ad918e2a9071f7430b7bb96bdd126c0e"
+            },
+            {
+              "start": 6606028800,
+              "end": 6710886399,
+              "md5": "ec94652ca4f7e91ee3a893a9c06a2525"
+            },
+            {
+              "start": 6710886400,
+              "end": 6815743999,
+              "md5": "2e9c9ddf99561761410b288ddce19a57"
+            },
+            {
+              "start": 6815744000,
+              "end": 6920601599,
+              "md5": "1cb1b5a90cab432a8ebf184f5dce289f"
+            },
+            {
+              "start": 6920601600,
+              "end": 7025459199,
+              "md5": "0213ca10b7f4abeaf8efeaf2faacd289"
+            },
+            {
+              "start": 7025459200,
+              "end": 7130316799,
+              "md5": "6cbebdf4a1c350851000f248d8758f90"
+            },
+            {
+              "start": 7130316800,
+              "end": 7205368800,
+              "md5": "2e1ad6892a8d9252dd16f738ce83adb4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_1_1793352398995.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk1-WindowsNoEditor.pak",
+          "md5": "9bfa1b37304b2decf68e8d0b30117f02",
+          "size": 604954747
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk1-WindowsNoEditor.pak",
+          "md5": "4cecd3bc7fd34f4d1fb20ba79fe0b958",
+          "size": 611553743,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "551e3ff0f086bdc8f2d0618214b6ae25"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "27dcc970daed9ec5d1288f3321908d95"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "1dd07f05a5fc3f1249a9be36c316c231"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "35dec37505573f59476e5934114825d2"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "67b7d0b1ae8c0724d0190ac7022e63a6"
+            },
+            {
+              "start": 524288000,
+              "end": 611553742,
+              "md5": "65718b5a538cc2115ea31d43de12561e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_2_1793352414602.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk101-WindowsNoEditor.pak",
+          "md5": "4b51ec9f349f5822df21110e3e6a0b2c",
+          "size": 107371487
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk101-WindowsNoEditor.pak",
+          "md5": "3a73cb090ec956caf3473cbc7d773e6a",
+          "size": 107258735,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "8343ab0c33c3c69c23065b3b3ab7d766"
+            },
+            {
+              "start": 104857600,
+              "end": 107258734,
+              "md5": "6a99381f0c083ba4d5678377b364d104"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_3_1793352414923.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk111-WindowsNoEditor.pak",
+          "md5": "01dc7c97fbce5cfa2560094132b9a2b3",
+          "size": 183115153
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk111-WindowsNoEditor.pak",
+          "md5": "60be72fba81667e953019128e1151385",
+          "size": 183720673,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "46b5118614a45e43d6a1e5c16ade51b8"
+            },
+            {
+              "start": 104857600,
+              "end": 183720672,
+              "md5": "2792000e069eee38f1ee2bf4d256e133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_4_1793352415564.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk113-WindowsNoEditor.pak",
+          "md5": "c191bf3b43d9b629af37fef0d4460362",
+          "size": 117657288
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk113-WindowsNoEditor.pak",
+          "md5": "55c1d53bc5310aa1e60fed82a6314f3e",
+          "size": 117166872,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "a4c1657fbc2f665a4bdd16935d863e21"
+            },
+            {
+              "start": 104857600,
+              "end": 117166871,
+              "md5": "e429a3c26105aa038bb017fdc293a022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_5_1793352417066.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk18-WindowsNoEditor.pak",
+          "md5": "461430806b0aec87b45b1dad2e96dcaf",
+          "size": 106178931
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk18-WindowsNoEditor.pak",
+          "md5": "978c509d6a8451753da0cb6f5f57c38b",
+          "size": 105427118,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "4911583fdc54cad1bb110c77f2ddde7e"
+            },
+            {
+              "start": 104857600,
+              "end": 105427117,
+              "md5": "4c02c0d477b886ba5ebce3f6a3c44edd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_6_1793352433324.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk2-WindowsNoEditor.pak",
+          "md5": "8b2fda0f8f606f11715c366521fcbb5c",
+          "size": 150356034
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk2-WindowsNoEditor.pak",
+          "md5": "ab04994af21a8ca55b8faf04f71f7a89",
+          "size": 159899090,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "1376f42b330ab6d24f31dc7b7ceb6597"
+            },
+            {
+              "start": 104857600,
+              "end": 159899089,
+              "md5": "e8e8cc8fdbf2d5ec6d34dd0b8fedf350"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_7_1793352437554.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk20-WindowsNoEditor.pak",
+          "md5": "1d5211a078443db0c83b62bd25c76aa6",
+          "size": 301752671
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk20-WindowsNoEditor.pak",
+          "md5": "7c662e099a39d3d002bc8c61e639c6a4",
+          "size": 311104079,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "bf313a24be0a8a9fa58d4b449ac1945f"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "8fe7d773b0e6162115719b1a8b056493"
+            },
+            {
+              "start": 209715200,
+              "end": 311104078,
+              "md5": "c9d127b7c2704cad1cb976f487726194"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_8_1793352441801.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk21-WindowsNoEditor.pak",
+          "md5": "6a3eaf148fffc245e7f1eb28b0145204",
+          "size": 456265327
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk21-WindowsNoEditor.pak",
+          "md5": "91b4cbf589c349084cc569cfe1e73719",
+          "size": 461448159,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "f09cc82c8bd47a15e76f615c759fcdcc"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "88dcf436874a7a72c38b5f7be8eafc3c"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "27f40c53f17755d4a7a0db73608c3a8a"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "20d15fda72cac3145759f4f4fa6f98a4"
+            },
+            {
+              "start": 419430400,
+              "end": 461448158,
+              "md5": "e11e77c70704be618be6aa08bf5f4065"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_9_1793352444667.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk22-WindowsNoEditor.pak",
+          "md5": "e0c405983fe1b3cc5dfd8b182fd87d69",
+          "size": 644048573
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk22-WindowsNoEditor.pak",
+          "md5": "32232e8875d82537fa192e37d7141761",
+          "size": 649876301,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "7e291b2c6996549100a32fc47557fdf4"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "20430088c9fe185d0854ac3dd44f26b9"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "ec470700d39638a8b49931ba63c1f921"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "3ec48c89bf7c86ec8d22caa2d5507146"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "b927f5c6e2257464907f6087ef156d25"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "ad2852940049e79e7fa636c24487a8f1"
+            },
+            {
+              "start": 629145600,
+              "end": 649876300,
+              "md5": "c1cac12ea43d24d61dd6e37cc215d524"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_10_1793352447944.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk23-WindowsNoEditor.pak",
+          "md5": "9dbe1f8ba3ad6b98bcdd69887cac94bc",
+          "size": 843094639
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk23-WindowsNoEditor.pak",
+          "md5": "999ec9a50c9c0e81f288012fc8edc0ab",
+          "size": 873099583,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "9a0b18b74799c76e2c5c73be014e8e21"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "8e8e90cf7a5d2fdcfaca61aba48b7b9b"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "506e7077687e3b15c66d907bbe649623"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "36d414ff93d741efd1f96b3d8afae30c"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "742bdd0eba53ebb563995e91fae4fd62"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "adc79e4bd3fe942d2ab62935153aa9cd"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "6095d65aa4cc0632cbfe0be7227cfa9b"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "3df974460204366d20d0c112f4d60ea3"
+            },
+            {
+              "start": 838860800,
+              "end": 873099582,
+              "md5": "b6d767316c856bec2de9fae564064a4d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_11_1793352460987.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk31-WindowsNoEditor.pak",
+          "md5": "1528502790aeb5a74d1386202b5bef4c",
+          "size": 323022127
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk31-WindowsNoEditor.pak",
+          "md5": "1beebc8d882123047354d4518f957f0c",
+          "size": 357676959,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "f63135d15df3313991c522ed50fc52cf"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "c7949b357bec6e39480701e91ecd1fa2"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "968c096fa2c35dfcfb188db8005731c5"
+            },
+            {
+              "start": 314572800,
+              "end": 357676958,
+              "md5": "1206f09e04f4ecc2eb3ebe8c10e0fcb1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_12_1793352467223.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk34-WindowsNoEditor.pak",
+          "md5": "bafae045511632d1a2f339d869a49923",
+          "size": 107699775
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk34-WindowsNoEditor.pak",
+          "md5": "0e1f4e1ba9637b38e1efe123289195e2",
+          "size": 107181606,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "131772adf34cabd99b4e303c65c3c552"
+            },
+            {
+              "start": 104857600,
+              "end": 107181605,
+              "md5": "1e3aebcf54a2ee5809922cbac52ad1ba"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_13_1793352467893.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk39-WindowsNoEditor.pak",
+          "md5": "8bf27b5316327beb8e7ee608d8f5bc10",
+          "size": 591653462
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk39-WindowsNoEditor.pak",
+          "md5": "2f503578a68052267e696ca295e0691d",
+          "size": 446967174,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "d653985a567919ea2e8a1f02d9477019"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "617515a81d9f381866413176981b1e07"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "035148361f2dab9c5ce89d9bc8ab83eb"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "6df5d7be96e22662ef906203a502a04d"
+            },
+            {
+              "start": 419430400,
+              "end": 446967173,
+              "md5": "58fb5760a559692692594a634902f641"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_14_1793352495939.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk4-WindowsNoEditor.pak",
+          "md5": "6d479127165c531e6cce10c67f9c3bae",
+          "size": 1003253199
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk4-WindowsNoEditor.pak",
+          "md5": "3369f1ff2fe217f2302d68270ee2ca32",
+          "size": 1015150015,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "7208d8b284c49c055ed733fde2c6b6be"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "d78e40a26765e0d6dc0b896275021683"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "d63ac9a9d3dd2f733337739bdb280145"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "491aed38652771c231332ef92d3e94d6"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "2989fa1350f1b51fb71d969eb92ec6b3"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "91e7ecfa34b9bf52af81a2ec63590a02"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "46045619cf36fa2d0d08269144afcf01"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "16f46c3b179ce5e920746ff4ac58cd69"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "9777fa4ffab037403f9e8df872529e06"
+            },
+            {
+              "start": 943718400,
+              "end": 1015150014,
+              "md5": "6ba6ee8cd240e377d41d6094f3344ed8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_15_1793352527369.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk40-WindowsNoEditor.pak",
+          "md5": "e1d9cf4cc70f3f5cbd497777f84eb583",
+          "size": 153522127
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk40-WindowsNoEditor.pak",
+          "md5": "18333eecb969dc00d85d7507b9bf8a5c",
+          "size": 151756639,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "7f4ace44dccb61248815559d183ca1dd"
+            },
+            {
+              "start": 104857600,
+              "end": 151756638,
+              "md5": "387b17574dde4c30d7d019bf95fa9fb5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_16_1793352529414.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk42-WindowsNoEditor.pak",
+          "md5": "ec6bd96d1daf61080a5641902e4ba405",
+          "size": 97716450
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk42-WindowsNoEditor.pak",
+          "md5": "ea6993ce557684044c9dec0c574c910c",
+          "size": 105844690,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "79bd8d009a56964fd500bd6851da8344"
+            },
+            {
+              "start": 104857600,
+              "end": 105844689,
+              "md5": "196e3b206a296f04564fa9951cc72bc8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_17_1793352533010.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk43-WindowsNoEditor.pak",
+          "md5": "718f8ab12d5f5715027ef5f2e36a4428",
+          "size": 672857591
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk43-WindowsNoEditor.pak",
+          "md5": "414abda62a13df4abfca4ca4f01d1782",
+          "size": 690064639,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "73df76e7cca7282eb315742d9ce415f3"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "348bcd45ae46c1fff87bd5d982630666"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "aeee0e397f46bc91295270a5347b2e5e"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "bff7df0edae8e9f2a3d65a6bb531bf10"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "3a76f8e01df7bf6910914d3df4685ed2"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "0d9fb6e873c6ecefba34aa39189d5a45"
+            },
+            {
+              "start": 629145600,
+              "end": 690064638,
+              "md5": "efde6f9fad0f0ae3a28ca98218a61b44"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_18_1793352587538.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk44-WindowsNoEditor.pak",
+          "md5": "91d2d01c715fd6317bd1f9916e7d1d25",
+          "size": 1024786930
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk44-WindowsNoEditor.pak",
+          "md5": "7243095965d04e3f22a3ce4a98a3b676",
+          "size": 1064063474,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "83fd90402af99dd0f622dbd26afc6450"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "cc865e88e17874d89ed1705823368a28"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "7531a211998d782a95bdc4a01430749b"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "24c3ba029ec0f745c4b088cee6e320cf"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "440913d0de9ffe48a7742125fa9a1264"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "2bfa3baaad37194e0e6be11ae79ff00a"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "02c31fa4b2e84341ceff3a87f553cebe"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "7ca87a6f1de404006be6f855ee86f9f3"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "9739c040bf88290a84894b90b559195a"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "e5ad7c9e1fb70553ccf3a0d5d53048fa"
+            },
+            {
+              "start": 1048576000,
+              "end": 1064063473,
+              "md5": "cdac68319c908c1c776641fad60240da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_19_1793352712680.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk5-WindowsNoEditor.pak",
+          "md5": "affa2c7c3104f93d14a220440ef2b901",
+          "size": 300840367
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk5-WindowsNoEditor.pak",
+          "md5": "4147b0b3462c8585ba4b9c999913f343",
+          "size": 315788015,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "9f7ff9c7729f072bc71a290cd8a961a7"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "f3d3ee53b1bc273b364b570fa1a66357"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "3d3f5d0b3beebb5650c0e2959c569515"
+            },
+            {
+              "start": 314572800,
+              "end": 315788014,
+              "md5": "128f2854dff3011ba562219afc8e9637"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_20_1793352721638.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk6-WindowsNoEditor.pak",
+          "md5": "e5daef49bab9230cf462560c504c725b",
+          "size": 4079104266
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk6-WindowsNoEditor.pak",
+          "md5": "2214ad444d95fb848aab2823340f43f4",
+          "size": 4241291338,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "dbdc4200f61612555fb718bc4125ddae"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "3a103867de7910097475384162c3d207"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "174876b6ea6228e2be7bfaebd806e0c9"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "9d342236a22616f705480b45be385668"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "8b09798f1ed81ad512a812e9b151a929"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "1cd0d771bc4e3964ee54bb612c2af28f"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "08cf330acc904813d8daccd4e90da9dd"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "695d2aaa7a6f4f6add85b2beadb42476"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "dad1c6ce314e7d6889965e289f6b2168"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "19505e299974ee80b89eb9be165dabc7"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "0d7033896b452581ca04e3c8a39e9464"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "9617c8c55600be3403d323b30e0888fc"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "22e26490fd9c9c0597b27773ca346acc"
+            },
+            {
+              "start": 1363148800,
+              "end": 1468006399,
+              "md5": "cff33797c79a1876b5bdc39dcf60d4c7"
+            },
+            {
+              "start": 1468006400,
+              "end": 1572863999,
+              "md5": "9c9ecd38373e694b2d9e984a29cab45f"
+            },
+            {
+              "start": 1572864000,
+              "end": 1677721599,
+              "md5": "3aa45668ba5513a076a8a186a816ca89"
+            },
+            {
+              "start": 1677721600,
+              "end": 1782579199,
+              "md5": "68ddb6e4d1c9bffd2d6664bc14ed597b"
+            },
+            {
+              "start": 1782579200,
+              "end": 1887436799,
+              "md5": "fdaed80ac0d92e4a7019a0549b429548"
+            },
+            {
+              "start": 1887436800,
+              "end": 1992294399,
+              "md5": "f1805add1ba830db66aa3c8475cc0a72"
+            },
+            {
+              "start": 1992294400,
+              "end": 2097151999,
+              "md5": "fa173550ea27affe6fd7a83cb7f1369a"
+            },
+            {
+              "start": 2097152000,
+              "end": 2202009599,
+              "md5": "1eb80406d02ef91e801ec5196ab08e08"
+            },
+            {
+              "start": 2202009600,
+              "end": 2306867199,
+              "md5": "c55982b1c9c3c2b1c9d5745acd68ea57"
+            },
+            {
+              "start": 2306867200,
+              "end": 2411724799,
+              "md5": "2ae79aa67e82d797be053c58eb0dd118"
+            },
+            {
+              "start": 2411724800,
+              "end": 2516582399,
+              "md5": "a8da5cd0ea46ca9b4377396ff9da2600"
+            },
+            {
+              "start": 2516582400,
+              "end": 2621439999,
+              "md5": "1a38d51e853e9307e905535a5b071605"
+            },
+            {
+              "start": 2621440000,
+              "end": 2726297599,
+              "md5": "d64473b0f1cb0f4d082a7bec841bff5a"
+            },
+            {
+              "start": 2726297600,
+              "end": 2831155199,
+              "md5": "530352da4e4a54186b6f572110f2509a"
+            },
+            {
+              "start": 2831155200,
+              "end": 2936012799,
+              "md5": "3e672c0bd352cbd4e042d8d82a3ecb6e"
+            },
+            {
+              "start": 2936012800,
+              "end": 3040870399,
+              "md5": "7ee19852f85e968f0caa65a459e2eeb5"
+            },
+            {
+              "start": 3040870400,
+              "end": 3145727999,
+              "md5": "0fa7404d63d34fee116f088a49a4c324"
+            },
+            {
+              "start": 3145728000,
+              "end": 3250585599,
+              "md5": "e1af45fb1f27eb3539d838ac3e81e9f9"
+            },
+            {
+              "start": 3250585600,
+              "end": 3355443199,
+              "md5": "49901c61a97e90ba497d8b5fe84695ba"
+            },
+            {
+              "start": 3355443200,
+              "end": 3460300799,
+              "md5": "775e2780d26c8a400ce10f5bdb8b15ca"
+            },
+            {
+              "start": 3460300800,
+              "end": 3565158399,
+              "md5": "7146d7e60275f4f70f222c79c8ad09ce"
+            },
+            {
+              "start": 3565158400,
+              "end": 3670015999,
+              "md5": "f2a93ae3c878f4cd42cbf8314341fbb8"
+            },
+            {
+              "start": 3670016000,
+              "end": 3774873599,
+              "md5": "a91972f6c2d0e2b471024c2d7418468b"
+            },
+            {
+              "start": 3774873600,
+              "end": 3879731199,
+              "md5": "5cb2c2d59df26b5cd039434b611e692c"
+            },
+            {
+              "start": 3879731200,
+              "end": 3984588799,
+              "md5": "c71de4656a19786b6cdb8400e0277082"
+            },
+            {
+              "start": 3984588800,
+              "end": 4089446399,
+              "md5": "ae476bbf58440df29c14f47bc4aceb24"
+            },
+            {
+              "start": 4089446400,
+              "end": 4194303999,
+              "md5": "d938d1d8433bd79309039416e735625c"
+            },
+            {
+              "start": 4194304000,
+              "end": 4241291337,
+              "md5": "c923784c30706c3e688c364306d78e3a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_21_1793352748933.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+          "md5": "a349a3b66fb2a318ad5138ed05366d0f",
+          "size": 148586527
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+          "md5": "c6c700e45c66c86382e5ed13d864ed4f",
+          "size": 163670031,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "300ef82f31e0d98ffaf28959a61a259a"
+            },
+            {
+              "start": 104857600,
+              "end": 163670030,
+              "md5": "506f7d1aa1d1b6a7a7789c0b22fc216c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_22_1793352753021.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk70-WindowsNoEditor.pak",
+          "md5": "33044264ec462ab65f8c7bc5ac99b9a7",
+          "size": 5485576699
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk70-WindowsNoEditor.pak",
+          "md5": "0cd0655f7aa722ae84607be4f2d7422e",
+          "size": 5906803467,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "59f998d5504508dfc2a0501c03460874"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "1e87fa8e8bd18b480bd06fef3dc07a77"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "ee566e772ab0dfff1aa5b64bd2bd198e"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "789055aef394e7dff008016602298281"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "e1991129e2eba2202dd9d10984ab2e21"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "42bbba749d89ad2d7f94995ec951f3df"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "d794243cafbb5494e8f90850bec458c5"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "fce4b779a1959237c75d9151fb574e6a"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "6b2ad6c58a6cc979313972804665155a"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "0496c565aec3d18b62eab5714bf598b4"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "bd69d56b80b61a0a8866c14b3433312e"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "2c37c55f00eac6004fbd6884b51a7482"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "ca8a0bd630ad8dc700a2887d4d880214"
+            },
+            {
+              "start": 1363148800,
+              "end": 1468006399,
+              "md5": "3617521ea6ddcff9f0099fc3280d03f3"
+            },
+            {
+              "start": 1468006400,
+              "end": 1572863999,
+              "md5": "ab60c5f376968aabaa2f18a1aebbe75b"
+            },
+            {
+              "start": 1572864000,
+              "end": 1677721599,
+              "md5": "d992d4d5b9c290069b278d0a6f1606f6"
+            },
+            {
+              "start": 1677721600,
+              "end": 1782579199,
+              "md5": "e7ae55cf432a123110fc6380a3654cba"
+            },
+            {
+              "start": 1782579200,
+              "end": 1887436799,
+              "md5": "215002a54a2c69dd0a6290a9f21e66c9"
+            },
+            {
+              "start": 1887436800,
+              "end": 1992294399,
+              "md5": "42b3962a85ade698ca9b365ca45b3c90"
+            },
+            {
+              "start": 1992294400,
+              "end": 2097151999,
+              "md5": "9f70b78e95451e891d6f9ee4f0690b37"
+            },
+            {
+              "start": 2097152000,
+              "end": 2202009599,
+              "md5": "200897621a34c604e4a12ed46fe4d933"
+            },
+            {
+              "start": 2202009600,
+              "end": 2306867199,
+              "md5": "f9704675dce6605520eee2cdd26872e7"
+            },
+            {
+              "start": 2306867200,
+              "end": 2411724799,
+              "md5": "227b1eab41e95ebff4bf2f2e95706c65"
+            },
+            {
+              "start": 2411724800,
+              "end": 2516582399,
+              "md5": "9959ae67176ec9eeab8abd9a00faa42b"
+            },
+            {
+              "start": 2516582400,
+              "end": 2621439999,
+              "md5": "856094ae52cfdf0fbd42915d747108fe"
+            },
+            {
+              "start": 2621440000,
+              "end": 2726297599,
+              "md5": "5769ef70679b719c66531765da41d487"
+            },
+            {
+              "start": 2726297600,
+              "end": 2831155199,
+              "md5": "bb546a99b82e5ececd0bc7fd791450e7"
+            },
+            {
+              "start": 2831155200,
+              "end": 2936012799,
+              "md5": "ca5c41ea7015a7122e82fa8a5cd399de"
+            },
+            {
+              "start": 2936012800,
+              "end": 3040870399,
+              "md5": "73fa188964e843c66e92d89f5b261911"
+            },
+            {
+              "start": 3040870400,
+              "end": 3145727999,
+              "md5": "2d570137c10e1a2c4f400d78353b221f"
+            },
+            {
+              "start": 3145728000,
+              "end": 3250585599,
+              "md5": "ee6c71067ba7944024ff5097ae6718f9"
+            },
+            {
+              "start": 3250585600,
+              "end": 3355443199,
+              "md5": "dc25b4ea9b59a6aaf7a481a0915c7925"
+            },
+            {
+              "start": 3355443200,
+              "end": 3460300799,
+              "md5": "51029c3a4fb292f2c50f1e5892790c7d"
+            },
+            {
+              "start": 3460300800,
+              "end": 3565158399,
+              "md5": "8001ee1022c5e130b23b56beb06b1d7c"
+            },
+            {
+              "start": 3565158400,
+              "end": 3670015999,
+              "md5": "cdd667b8139e1377e8ef62b5e24512bd"
+            },
+            {
+              "start": 3670016000,
+              "end": 3774873599,
+              "md5": "259344b5e92dfac5b241dd62c69645ea"
+            },
+            {
+              "start": 3774873600,
+              "end": 3879731199,
+              "md5": "eae9264f645df4d742d86b11dfb3a3ba"
+            },
+            {
+              "start": 3879731200,
+              "end": 3984588799,
+              "md5": "9448848ae77fe68dcc62a78ef4647ddf"
+            },
+            {
+              "start": 3984588800,
+              "end": 4089446399,
+              "md5": "db2e14c2d6e8d81332172c980a0cbe44"
+            },
+            {
+              "start": 4089446400,
+              "end": 4194303999,
+              "md5": "f86e3830187e94cd400e70e454253286"
+            },
+            {
+              "start": 4194304000,
+              "end": 4299161599,
+              "md5": "ea840b837587340f591d72aa0fc8c8fe"
+            },
+            {
+              "start": 4299161600,
+              "end": 4404019199,
+              "md5": "3093db6c5ded4009b0bacbba1c775baa"
+            },
+            {
+              "start": 4404019200,
+              "end": 4508876799,
+              "md5": "0c70741b12f6d3e7f5b2a9b7e469d2b3"
+            },
+            {
+              "start": 4508876800,
+              "end": 4613734399,
+              "md5": "6bf710828df14c52cc7cc9b8804c4485"
+            },
+            {
+              "start": 4613734400,
+              "end": 4718591999,
+              "md5": "991912b99ee99f8ad9b8be863c2223f9"
+            },
+            {
+              "start": 4718592000,
+              "end": 4823449599,
+              "md5": "e43134935a94b9e55373bd9eabe9c78d"
+            },
+            {
+              "start": 4823449600,
+              "end": 4928307199,
+              "md5": "1b81ea70afeaaf00efdfea5563e2e630"
+            },
+            {
+              "start": 4928307200,
+              "end": 5033164799,
+              "md5": "198f4a86172bd4f6fd12af8ab0e2c8dd"
+            },
+            {
+              "start": 5033164800,
+              "end": 5138022399,
+              "md5": "17826a4e2ab3f28216b4d1521a3412e6"
+            },
+            {
+              "start": 5138022400,
+              "end": 5242879999,
+              "md5": "75083890c3ba53c11d43229e57596bf3"
+            },
+            {
+              "start": 5242880000,
+              "end": 5347737599,
+              "md5": "b0da590ab9234f22e63c704b18b32706"
+            },
+            {
+              "start": 5347737600,
+              "end": 5452595199,
+              "md5": "88e2d6683ec9dc8fa57ecdff42cd1040"
+            },
+            {
+              "start": 5452595200,
+              "end": 5557452799,
+              "md5": "2373a4bd77e7053cd38a196d5a07a506"
+            },
+            {
+              "start": 5557452800,
+              "end": 5662310399,
+              "md5": "8d7c8396cbf57d3e714247157ecfd146"
+            },
+            {
+              "start": 5662310400,
+              "end": 5767167999,
+              "md5": "9404629235e9be117a2ad1938440c35c"
+            },
+            {
+              "start": 5767168000,
+              "end": 5872025599,
+              "md5": "f86d1a74f2413c3eb286743045c228c6"
+            },
+            {
+              "start": 5872025600,
+              "end": 5906803466,
+              "md5": "a1142daece7e4d0d1a39312b994e6d67"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_23_1793352867352.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk8-WindowsNoEditor.pak",
+          "md5": "2c90759c629c85fcfe980b3ad7a53a36",
+          "size": 230756726
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk8-WindowsNoEditor.pak",
+          "md5": "0a4de9bf03a1c5765a40ac87f8aa6dc2",
+          "size": 208352150,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "533d507c94ebaf64160f07e3fe8c4b77"
+            },
+            {
+              "start": 104857600,
+              "end": 208352149,
+              "md5": "ab307f0e6e47c7f6eb0bf37049737048"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_24_1793352874063.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk9-WindowsNoEditor.pak",
+          "md5": "b7cf8e0b626f0256474d631b13474063",
+          "size": 186769455
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk9-WindowsNoEditor.pak",
+          "md5": "1995982aaf17d233c69e862909793bad",
+          "size": 177441823,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "89ff6c9c324dc5e9eadcf77732b84572"
+            },
+            {
+              "start": 104857600,
+              "end": 177441822,
+              "md5": "ff2b2b4e2493b2019b9f3dce1682880f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_25_1793352882100.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "ClearThirdParty.exe",
+          "md5": "3654cc5cddce078cf1a1ea80124e2c6c",
+          "size": 220592
+        },
+        {
+          "dest": "Client/Binaries/Win64/AntiCheatExpert/ACE-Base.dat",
+          "md5": "8f155fda11246c1b4d525ea0540e2a40",
+          "size": 54276
+        },
+        {
+          "dest": "Client/Binaries/Win64/CrashSight64.dll",
+          "md5": "0f77dab866fbe51c4f7d472522201783",
+          "size": 5575088
+        },
+        {
+          "dest": "Client/Binaries/Win64/JoyShockLibrary.dll",
+          "md5": "ec44bf552b3b397c30727f5d211ce2ba",
+          "size": 224688
+        },
+        {
+          "dest": "Client/Binaries/Win64/Mono/System.Globalization.Native.dll",
+          "md5": "279ee2082a2d673f1cdb7317156c9465",
+          "size": 105392
+        },
+        {
+          "dest": "Client/Binaries/Win64/Mono/System.IO.Compression.Native.dll",
+          "md5": "ea4cc244f2824dd70ab19c003e6d7609",
+          "size": 936376
+        },
+        {
+          "dest": "Client/Binaries/Win64/PerfSight.dll",
+          "md5": "5e356951d986e816113406c7820cf931",
+          "size": 4828080
+        },
+        {
+          "dest": "Client/Binaries/Win64/ThirdParty/KrPcSdk_Global/KRSDKRes/KRSDK.bin",
+          "md5": "89b3d4ffd209add58ba9c9a5a25dfb80",
+          "size": 1444
+        },
+        {
+          "dest": "Client/Binaries/Win64/cgsdk-loader.dll",
+          "md5": "2d92c49c3cb3eef6ed4ce18f8d450dc0",
+          "size": 92088
+        },
+        {
+          "dest": "Client/Binaries/Win64/cgsdk.dll",
+          "md5": "b979b7e479dd30bf488e9f22a678b8f9",
+          "size": 790968
+        },
+        {
+          "dest": "Client/Binaries/Win64/coreclr.dll",
+          "md5": "50300861bbbc1204b45d1adcf2ab7384",
+          "size": 4993464
+        },
+        {
+          "dest": "Client/Binaries/Win64/libScePad.dll",
+          "md5": "6187669c3b818133cc13810bd2c84b18",
+          "size": 236984
+        },
+        {
+          "dest": "Client/Binaries/Win64/libcryptoMD.dll",
+          "md5": "a135894eac66cf6766914627013db1e7",
+          "size": 2428344
+        },
+        {
+          "dest": "Client/Binaries/Win64/libprotobuf.dll",
+          "md5": "55326f0699ee8c6546e7ad20e49bcd89",
+          "size": 2317744
+        },
+        {
+          "dest": "Client/Binaries/Win64/libsslMD.dll",
+          "md5": "5e5b29b2f988531a027df3c3935db98a",
+          "size": 516024
+        },
+        {
+          "dest": "Client/Binaries/Win64/turbojpeg.dll",
+          "md5": "929bebf82707ff43aa02cfebae17c24a",
+          "size": 746928
+        },
+        {
+          "dest": "Client/Content/Aki/Cursor/CursorData",
+          "md5": "92fa6f08d0ee1ca69f39ef440fb9b202",
+          "size": 16
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk0-WindowsNoEditor.sig",
+          "md5": "4cc2bb7aa0c6eb1a5be4526b149b897e",
+          "size": 425460
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk0optional-WindowsNoEditor.pak",
+          "md5": "815b27bee7ea54b6f9fae1ca964dd84c",
+          "size": 723254
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk0optional-WindowsNoEditor.sig",
+          "md5": "dd47ab022b113b0b8a628f9c8fb67d96",
+          "size": 576
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk1-WindowsNoEditor.sig",
+          "md5": "0ccf5b0e725a1f1ad2b970574d7981e9",
+          "size": 37452
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk101-WindowsNoEditor.sig",
+          "md5": "68056ffd698ab967c71155275ce92fa4",
+          "size": 7084
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk102-WindowsNoEditor.pak",
+          "md5": "f6775e2d8d020e8c7183d787021b2198",
+          "size": 19359686
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk102-WindowsNoEditor.sig",
+          "md5": "5ae9661dd23c03fedd792f3460e3ede4",
+          "size": 1712
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk103-WindowsNoEditor.pak",
+          "md5": "71fec0c9f6b9b7513c835a3abab5f491",
+          "size": 96689099
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk103-WindowsNoEditor.sig",
+          "md5": "18a08c59e89185db649fb87cd5ba906f",
+          "size": 6432
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk104-WindowsNoEditor.pak",
+          "md5": "5e51c095cb51fef5898ece2edced895e",
+          "size": 3482842
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk104-WindowsNoEditor.sig",
+          "md5": "397427e86c00c2c62a8b32ce0b841c28",
+          "size": 744
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk105-WindowsNoEditor.pak",
+          "md5": "cef536ce27e544ebb8155731218a835e",
+          "size": 94654002
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk105-WindowsNoEditor.sig",
+          "md5": "f4ecb6e0f612f4f069288276246566f2",
+          "size": 6308
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk106-WindowsNoEditor.pak",
+          "md5": "1ad9050cebd56c1270f289dd6a0a25c7",
+          "size": 6147016
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk106-WindowsNoEditor.sig",
+          "md5": "9ccc328e311ac988e495735615e58ee5",
+          "size": 904
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk107-WindowsNoEditor.pak",
+          "md5": "884b56a8c4cfac81204adaf500f5b30b",
+          "size": 46750473
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk107-WindowsNoEditor.sig",
+          "md5": "02fd25b11d6fa29cf1decee8597cce9d",
+          "size": 3384
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk108-WindowsNoEditor.pak",
+          "md5": "6cf1a609d20a619a63e325997809a91d",
+          "size": 13668388
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk108-WindowsNoEditor.sig",
+          "md5": "fa5d0cd105ec0a6b87f69d51338b71e7",
+          "size": 1364
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk109-WindowsNoEditor.pak",
+          "md5": "b38e42fb7b2ea5edb650c5d1df5db0a4",
+          "size": 41076036
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk109-WindowsNoEditor.sig",
+          "md5": "4e6ee352702dc07a4c4779d774df2b3e",
+          "size": 3036
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk110-WindowsNoEditor.pak",
+          "md5": "bae77568e824bf2311f25eeffe7595a0",
+          "size": 5320326
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk110-WindowsNoEditor.sig",
+          "md5": "e226e8f90b0cbcc45e252c0c18c180c5",
+          "size": 856
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk111-WindowsNoEditor.sig",
+          "md5": "ab66971b4d3efc2ab2ec6c4d4eb3fa08",
+          "size": 11708
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk112-WindowsNoEditor.pak",
+          "md5": "a0c975f41eee3080fb976b1121e05b31",
+          "size": 46214224
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk112-WindowsNoEditor.sig",
+          "md5": "40ac9db63736d9d8c18b9b32dc368c7a",
+          "size": 3352
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk113-WindowsNoEditor.sig",
+          "md5": "64c856e691ca2afc58cb10fd26f5a655",
+          "size": 7712
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk18-WindowsNoEditor.sig",
+          "md5": "311a9032203e351126c86e39f63ec913",
+          "size": 7012
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk2-WindowsNoEditor.sig",
+          "md5": "89e3fc0ea7dea6f9fb80afe151b0e128",
+          "size": 9708
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk20-WindowsNoEditor.sig",
+          "md5": "fe605ff14e79c7744dfd4aa8dca71ba3",
+          "size": 18948
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk21-WindowsNoEditor.sig",
+          "md5": "017b17d61bfccdedb7fd64e52fb6099b",
+          "size": 28380
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk22-WindowsNoEditor.sig",
+          "md5": "3610587a17f70052752d8a9af9a58a6c",
+          "size": 39840
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk23-WindowsNoEditor.sig",
+          "md5": "f0a84e7d3dff8a4ba30c590fec0e7ea5",
+          "size": 51988
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk3-WindowsNoEditor.pak",
+          "md5": "01a494eaf8028d0f8e4bd020a6f61729",
+          "size": 30064751
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk3-WindowsNoEditor.sig",
+          "md5": "77eef4efaaaa3d6d95309fe4abc60558",
+          "size": 2364
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk31-WindowsNoEditor.sig",
+          "md5": "35ce5bdb9bfd3e55f4dcf27b0f960ca8",
+          "size": 20244
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk32-WindowsNoEditor.pak",
+          "md5": "5afc09adda94bc8317406659a282ae3a",
+          "size": 13771401
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk32-WindowsNoEditor.sig",
+          "md5": "88e176e905d4cae5176e6c4d82d2acdc",
+          "size": 1372
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk33-WindowsNoEditor.pak",
+          "md5": "a2c8f038a9ddf780bb213015624e0355",
+          "size": 12693519
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk33-WindowsNoEditor.sig",
+          "md5": "18fc5b2bb565c92989f54a966087cafa",
+          "size": 1304
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk34-WindowsNoEditor.sig",
+          "md5": "27a557dbd7ebc34f1e45984a5c1a03ab",
+          "size": 7104
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk35-WindowsNoEditor.pak",
+          "md5": "8368e2e48c9095cd91d7350bf2b48721",
+          "size": 27072150
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk35-WindowsNoEditor.sig",
+          "md5": "19d57a50f91392a8374ea6938f5a639e",
+          "size": 2184
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk36-WindowsNoEditor.pak",
+          "md5": "dcd8cab80e6b49f5a8d0855e9e65e833",
+          "size": 15590655
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk36-WindowsNoEditor.sig",
+          "md5": "cb28b06dd0798cbe72506f4b7bf5fcef",
+          "size": 1480
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk39-WindowsNoEditor.sig",
+          "md5": "45f2a33820622cf45e2746a008c04396",
+          "size": 36640
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk4-WindowsNoEditor.sig",
+          "md5": "68cab1b6aa4faadc950e46d7ae365f71",
+          "size": 61764
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk40-WindowsNoEditor.sig",
+          "md5": "00c064848068ce9a672bac621f6cc99b",
+          "size": 9900
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk41-WindowsNoEditor.pak",
+          "md5": "35e193c5ac2ccbb0f25f8945e2c09f94",
+          "size": 80724790
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk41-WindowsNoEditor.sig",
+          "md5": "5931af46e2d50c7726f686ac1ee26a94",
+          "size": 5456
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk42-WindowsNoEditor.sig",
+          "md5": "fdb614ff0fd067c8cf0cc15138c176cb",
+          "size": 6496
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk43-WindowsNoEditor.sig",
+          "md5": "94a035c0633621a6ef918acfaa39d585",
+          "size": 41596
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk44-WindowsNoEditor.sig",
+          "md5": "25f1ef437f9551b10965cce022a22560",
+          "size": 63080
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk5-WindowsNoEditor.sig",
+          "md5": "1114a09dd0076bf665502ab3d85b3f1d",
+          "size": 18892
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk6-WindowsNoEditor.sig",
+          "md5": "a9469362f08700dc3fb292161dcd0941",
+          "size": 249500
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk7-WindowsNoEditor.sig",
+          "md5": "b7e5523bda55466584ddec2cb89ee016",
+          "size": 9600
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk70-WindowsNoEditor.sig",
+          "md5": "007e9cd273da011bf749bfe7324be0cf",
+          "size": 335344
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk8-WindowsNoEditor.sig",
+          "md5": "e1fa3766b4d14530c583bd4b955a7d30",
+          "size": 14616
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk9-WindowsNoEditor.sig",
+          "md5": "1db766b42fc13ba47c6309686d04ad59",
+          "size": 11928
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avcodec-58.dll",
+          "md5": "45e9e94d893e9a775c35bb69ff9e26f5",
+          "size": 18509744
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avdevice-58.dll",
+          "md5": "45cee2bcb17357635bad1bcd02519f77",
+          "size": 168888
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avfilter-7.dll",
+          "md5": "6e4e5328bbce735286874ce088d04af9",
+          "size": 4324784
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avformat-58.dll",
+          "md5": "409418e01f1a09c380bcb84cc615f10f",
+          "size": 3002808
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avutil-56.dll",
+          "md5": "8446fc47bb701c36f917f7a21c829a8d",
+          "size": 651696
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/postproc-55.dll",
+          "md5": "caf6219275cf1144fbd163c722454c33",
+          "size": 160176
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/swresample-3.dll",
+          "md5": "53a502ea11843e035fc219e0593a9173",
+          "size": 174512
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/swscale-5.dll",
+          "md5": "7b7d6aa7d39b17bc1b8fb2268bbb6e29",
+          "size": 1749936
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/zlib1.dll",
+          "md5": "975ca8151eaf452540316c1c9405ec22",
+          "size": 149400
+        },
+        {
+          "dest": "Client/Plugins/Kuro/VolcanoMsgChannel/Source/MsgChannSDK/bin/x64/PcMsgChan.dll",
+          "md5": "e990fb20bbdae8d328a3c7526b5db3e2",
+          "size": 465840
+        },
+        {
+          "dest": "Client/Plugins/Kuro/WeLingPipeSDK/ThirdParty/Win64/libs/NamedPipeClient.dll",
+          "md5": "733ab6d8eb3dcfc85f2a727ac6385d19",
+          "size": 1235376
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/HLMediaLibrary/Windows/Release/x64/HLMediaLibrary.dll",
+          "md5": "d511ae1b9f626ce9e9738fed1e052316",
+          "size": 149432
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "md5": "07df195b27ac0335124e7b8c38414988",
+          "size": 70064
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+          "md5": "5baae7dc9e368328b7fc86ff884d89f3",
+          "size": 1239480
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+          "md5": "35d1cf80becba286a2df1c2b27bb7308",
+          "size": 2030512
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+          "md5": "70e6d5ef78d20d3e7137ad7a274c0ffe",
+          "size": 3350456
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+          "md5": "9a817b9b0508f03344c4ccab39f776b2",
+          "size": 1064880
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+          "md5": "97b0aac018c0ca5e06245e91dfb74c14",
+          "size": 286648
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+          "md5": "e0901bab41099ba8e1b8c76b7a788fe4",
+          "size": 1619896
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+          "md5": "dd8779dd4c29bea8c538c41d5bf1bb8a",
+          "size": 265656
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+          "md5": "2b7f2a84e6cd15f733150f3e6ca1090e",
+          "size": 2127288
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+          "md5": "e3afe2169e1bf2fa6400a73c349c226d",
+          "size": 75704
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+          "md5": "8bc7a2c53884cbb99aa446e11bcd6b72",
+          "size": 209848
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "md5": "e551911b52f27d8c02abb8ad7a3c4938",
+          "size": 1735088
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "md5": "ae55aab77a0b9ced2aafd787b39f1ce3",
+          "size": 58808
+        },
+        {
+          "dest": "Engine/Plugins/Compositing/OpenCVLensDistortion/Binaries/ThirdParty/Win64/opencv_world331.dll",
+          "md5": "77c88fa4fb512fedc50419be659c630f",
+          "size": 18490296
+        },
+        {
+          "dest": "Wuthering Waves.exe",
+          "md5": "ebe8a75bc9167f86ec6c8aaac53e8b19",
+          "size": 483768
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "ClearThirdParty.exe",
+          "md5": "a0ad08df853dd1d9db582734581c4647",
+          "size": 223160
+        },
+        {
+          "dest": "Client/Binaries/Win64/AntiCheatExpert/ACE-Base.dat",
+          "md5": "3639c8d21f56f239b6a7762aa95dfb4b",
+          "size": 54228
+        },
+        {
+          "dest": "Client/Binaries/Win64/CrashSight64.dll",
+          "md5": "6995459318a12f1d336eded3c79619ff",
+          "size": 5575088
+        },
+        {
+          "dest": "Client/Binaries/Win64/JoyShockLibrary.dll",
+          "md5": "0de9885d24d2b591ebbdca1e44bb08e6",
+          "size": 224696
+        },
+        {
+          "dest": "Client/Binaries/Win64/Mono/System.Globalization.Native.dll",
+          "md5": "41c77ad51fe5f869bc4412647f43431e",
+          "size": 105392
+        },
+        {
+          "dest": "Client/Binaries/Win64/Mono/System.IO.Compression.Native.dll",
+          "md5": "b957242b290251d533c4ac3e2c2237eb",
+          "size": 936376
+        },
+        {
+          "dest": "Client/Binaries/Win64/PerfSight.dll",
+          "md5": "b3e92f358e33b4dd7b271474e0f41350",
+          "size": 4828080
+        },
+        {
+          "dest": "Client/Binaries/Win64/ThirdParty/KrPcSdk_Global/KRSDKRes/KRSDK.bin",
+          "md5": "566d79d5d4fb836099a3b279f1043774",
+          "size": 1303
+        },
+        {
+          "dest": "Client/Binaries/Win64/cgsdk-loader.dll",
+          "md5": "139ab87039a27b4b2fd2dccc543e190d",
+          "size": 92088
+        },
+        {
+          "dest": "Client/Binaries/Win64/cgsdk.dll",
+          "md5": "efe7d9d42b1b3532e57e20bb54999ed0",
+          "size": 790960
+        },
+        {
+          "dest": "Client/Binaries/Win64/coreclr.dll",
+          "md5": "69c079792a4b07472161ae54400196e7",
+          "size": 4994480
+        },
+        {
+          "dest": "Client/Binaries/Win64/libScePad.dll",
+          "md5": "4081c6cc4ba9b0f5e04fb5b91f94a803",
+          "size": 236976
+        },
+        {
+          "dest": "Client/Binaries/Win64/libcryptoMD.dll",
+          "md5": "bb1c5294c6abb663fb69287c281fedb6",
+          "size": 2428336
+        },
+        {
+          "dest": "Client/Binaries/Win64/libprotobuf.dll",
+          "md5": "68c3b88ab06e26db5b4d566c7c587f4f",
+          "size": 2317752
+        },
+        {
+          "dest": "Client/Binaries/Win64/libsslMD.dll",
+          "md5": "7cc2e1af1e4496004b681fd2d3f694be",
+          "size": 516016
+        },
+        {
+          "dest": "Client/Binaries/Win64/turbojpeg.dll",
+          "md5": "04ad5ad64cefbc68745a333019b4ffd5",
+          "size": 746928
+        },
+        {
+          "dest": "Client/Content/Aki/Cursor/CursorData",
+          "md5": "afd3e40eb9395b5a8b80dcc094c2635c",
+          "size": 16
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk0-WindowsNoEditor.sig",
+          "md5": "b2d483537a73c68445b36e908ffc8cd1",
+          "size": 440312
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk1-WindowsNoEditor.sig",
+          "md5": "1ef36010c4bec95f1b0c5e1b1edbe20f",
+          "size": 37856
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk101-WindowsNoEditor.sig",
+          "md5": "58315d0f716e51bd0bfce153be8d29d1",
+          "size": 7076
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk102-WindowsNoEditor.pak",
+          "md5": "62231332f05fa720c047b9eb0c6182b6",
+          "size": 19333030
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk102-WindowsNoEditor.sig",
+          "md5": "312ba5998039eaa73c0e6b1761ae4f4d",
+          "size": 1708
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk103-WindowsNoEditor.pak",
+          "md5": "33f4528a7d187ab15811a21cefc0c341",
+          "size": 96658363
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk103-WindowsNoEditor.sig",
+          "md5": "f4361fb96100c31ec12575a3bf51abbc",
+          "size": 6428
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk104-WindowsNoEditor.pak",
+          "md5": "64ea891695e257ae8e67d0c97c7a03cb",
+          "size": 3474650
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk104-WindowsNoEditor.sig",
+          "md5": "a604b44dea530000f96cb7b19c351dd0",
+          "size": 744
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk105-WindowsNoEditor.pak",
+          "md5": "fa8de7606397ac964f7c3a1f3f163323",
+          "size": 94649890
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk105-WindowsNoEditor.sig",
+          "md5": "4d52b4eb9c3dd7046d96ff6cbf1b4fa7",
+          "size": 6308
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk106-WindowsNoEditor.pak",
+          "md5": "bca22531a62047cabe9f016fe8f64c6a",
+          "size": 6147016
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk106-WindowsNoEditor.sig",
+          "md5": "d1bd4fa43101963a5cf81e45232bc99a",
+          "size": 904
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk107-WindowsNoEditor.pak",
+          "md5": "26faf1d34f6274e0a491959b3e972d4d",
+          "size": 46729977
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk107-WindowsNoEditor.sig",
+          "md5": "f4be9c8c1b7e176ee65f9becab67c722",
+          "size": 3384
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk108-WindowsNoEditor.pak",
+          "md5": "2251b885690a40721d8f416a8d798e7e",
+          "size": 13668388
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk108-WindowsNoEditor.sig",
+          "md5": "d36fb3c8c823f5119e9069a9e3e56314",
+          "size": 1364
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk109-WindowsNoEditor.pak",
+          "md5": "7c884a29f495524fe7d63930e08dc27a",
+          "size": 41076036
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk109-WindowsNoEditor.sig",
+          "md5": "854fd771a305f0423d7132a522b6260a",
+          "size": 3036
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk110-WindowsNoEditor.pak",
+          "md5": "114f190ac72872445ac5d055a7ae69f2",
+          "size": 5277286
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk110-WindowsNoEditor.sig",
+          "md5": "3d5b4f27803a9b07759af5435c6f60b6",
+          "size": 852
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk111-WindowsNoEditor.sig",
+          "md5": "635d19366d15714aac87cdb476a4cf1b",
+          "size": 11744
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk112-WindowsNoEditor.pak",
+          "md5": "4a2063f66418f91a653dae267019d0f8",
+          "size": 46214224
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk112-WindowsNoEditor.sig",
+          "md5": "2b484470d6814fe950e0a031277515fb",
+          "size": 3352
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk113-WindowsNoEditor.sig",
+          "md5": "74a5d6013720dca348b2c7e99b805237",
+          "size": 7680
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk114-WindowsNoEditor.sig",
+          "md5": "509e26229241b0cc1e102566f73f05de",
+          "size": 10264
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk18-WindowsNoEditor.sig",
+          "md5": "e6abc75b62b559c60badd912deee873e",
+          "size": 6964
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk2-WindowsNoEditor.sig",
+          "md5": "33efdf4a0643e44db9bd06378d54eee1",
+          "size": 10288
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk20-WindowsNoEditor.sig",
+          "md5": "056045a4af27dc5582fe07863a5e6fb9",
+          "size": 19520
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk21-WindowsNoEditor.sig",
+          "md5": "6955c7d1121e9fe24c117946bd7f3437",
+          "size": 28696
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk22-WindowsNoEditor.sig",
+          "md5": "abe77bd19e93f5a9fb6a66df57f290f3",
+          "size": 40196
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk23-WindowsNoEditor.sig",
+          "md5": "54867c1730875988601ad8201d96667c",
+          "size": 53820
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk3-WindowsNoEditor.pak",
+          "md5": "c6a045c8aa4b8dd1bd1122730a9dd1dc",
+          "size": 30552623
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk3-WindowsNoEditor.sig",
+          "md5": "20de7e374931d30915415e89190dfaba",
+          "size": 2396
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk31-WindowsNoEditor.sig",
+          "md5": "efe14120338e615e174e5824f9770800",
+          "size": 22360
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk32-WindowsNoEditor.pak",
+          "md5": "aae920fcd8a5a3fbe9b8ec29abf53105",
+          "size": 25222169
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk32-WindowsNoEditor.sig",
+          "md5": "abc92c4381e9254536966b8e9e409bdd",
+          "size": 2068
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk33-WindowsNoEditor.pak",
+          "md5": "e9982e1ed6d906bfe98ff1d38a49b2d9",
+          "size": 13749423
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk33-WindowsNoEditor.sig",
+          "md5": "7e700182c4e4637011f7200ceb18d79e",
+          "size": 1368
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk34-WindowsNoEditor.sig",
+          "md5": "c8e319cefb975b24d28ac84e8051710b",
+          "size": 7072
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk35-WindowsNoEditor.pak",
+          "md5": "4052c48b8744707b60466f03cb8e8336",
+          "size": 27010262
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk35-WindowsNoEditor.sig",
+          "md5": "1f8b06bc0454bb135c89623fdf218765",
+          "size": 2180
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk36-WindowsNoEditor.pak",
+          "md5": "b175aa7385fc18a2aae9f1c9b95bd622",
+          "size": 15107471
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk36-WindowsNoEditor.sig",
+          "md5": "7373c3949c59c8d0f9b4455b0c32b462",
+          "size": 1452
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk37-WindowsNoEditor.sig",
+          "md5": "8cbf07ebc9a2e479c588cf0075a8847e",
+          "size": 92272
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk39-WindowsNoEditor.sig",
+          "md5": "2fe760768e9931e7d895c83033292c09",
+          "size": 27812
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk4-WindowsNoEditor.sig",
+          "md5": "9a1eea0cd53b53470337c5f5bc9adf07",
+          "size": 62488
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk40-WindowsNoEditor.sig",
+          "md5": "b7b0675f35c0f9992b6ac7071735b70a",
+          "size": 9792
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk41-WindowsNoEditor.pak",
+          "md5": "eee52eb0aeb9ebf7f5630c150ca81b06",
+          "size": 84827094
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk41-WindowsNoEditor.sig",
+          "md5": "3af6994cc5ded6a1e6ad798d59d3ce15",
+          "size": 5708
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk42-WindowsNoEditor.sig",
+          "md5": "a7fa1c1c31cea69d727c68353e7a7057",
+          "size": 6992
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk43-WindowsNoEditor.sig",
+          "md5": "50c7ba8770d24401a741dc0e8cc1d762",
+          "size": 42648
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk44-WindowsNoEditor.sig",
+          "md5": "e745bfe2f29538defe68cd17ad4215ef",
+          "size": 65476
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk5-WindowsNoEditor.sig",
+          "md5": "e8db6799222aa6f8cda598b66f41d35a",
+          "size": 19804
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk58-WindowsNoEditor.sig",
+          "md5": "6f2809b17f3334388a4b5b8a34393fcd",
+          "size": 7864
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk6-WindowsNoEditor.sig",
+          "md5": "342e41da3fa4dbbc41566649b7294a52",
+          "size": 259396
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk7-WindowsNoEditor.sig",
+          "md5": "a725128dc1aa2e7cc1bcdb948b696727",
+          "size": 10520
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk70-WindowsNoEditor.sig",
+          "md5": "ed15c507e11df9fbc38580fa692a5424",
+          "size": 361052
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk8-WindowsNoEditor.sig",
+          "md5": "f8c5a1dff315bd24dbab1a6d0ac0923a",
+          "size": 13248
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk9-WindowsNoEditor.sig",
+          "md5": "5fb21adc4bd33f1208288b3e4ebbc6ba",
+          "size": 11360
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avcodec-58.dll",
+          "md5": "77d22c022fa44013cd56f24bc6a02fd3",
+          "size": 18509752
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avdevice-58.dll",
+          "md5": "c470aa32c3aec2af87b56952b7e80e3a",
+          "size": 168880
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avfilter-7.dll",
+          "md5": "e6939456c9f2a7533c3dbf9900ae882b",
+          "size": 4324792
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avformat-58.dll",
+          "md5": "b5393441381f94c5127d0bb415c43279",
+          "size": 3002800
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/avutil-56.dll",
+          "md5": "47c2d4909ad0f3375bba2f67d0e54dfc",
+          "size": 651696
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/postproc-55.dll",
+          "md5": "dcf48a6732fa160262ce547532f57f88",
+          "size": 160176
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/swresample-3.dll",
+          "md5": "1ca245a9c25c4ec99e021a50b9091dec",
+          "size": 174512
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/swscale-5.dll",
+          "md5": "7add87aa9cedbeb744348502334c5e32",
+          "size": 1749944
+        },
+        {
+          "dest": "Client/Plugins/FFMPEGMedia/ThirdParty/ffmpeg/bin/vs/x64/zlib1.dll",
+          "md5": "7990dcb8b87fa823cebc02e9d5c34859",
+          "size": 149400
+        },
+        {
+          "dest": "Client/Plugins/Kuro/VolcanoMsgChannel/Source/MsgChannSDK/bin/x64/PcMsgChan.dll",
+          "md5": "9906febb720fa1e69f482b10ef689f87",
+          "size": 465848
+        },
+        {
+          "dest": "Client/Plugins/Kuro/WeLingPipeSDK/ThirdParty/Win64/libs/NamedPipeClient.dll",
+          "md5": "78a54fb9261888ae66ec1403c55fbb5b",
+          "size": 1235384
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/HLMediaLibrary/Windows/Release/x64/HLMediaLibrary.dll",
+          "md5": "91628c3cb69c26c77f0ab779bd58486c",
+          "size": 149432
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+          "md5": "6770bbd413117697bfc499d9024db06e",
+          "size": 70072
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+          "md5": "4b24e053f3b04682b2f807f2f33dceb7",
+          "size": 1239472
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+          "md5": "8338f16c3f27f23631961410081b8513",
+          "size": 2030520
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+          "md5": "3b3b748c5b9d857dc59a66a4d315cd57",
+          "size": 3350448
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+          "md5": "2008df2850a36c246ec58afc7e248849",
+          "size": 1064880
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+          "md5": "d937934954a6e31a6aa3aea7fec2ad2d",
+          "size": 286648
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+          "md5": "ae58a0f9751f41744825bb14334ba195",
+          "size": 1619896
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+          "md5": "318b93d88a4adc3999e8fef9974f43f3",
+          "size": 265648
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+          "md5": "681c947e85b2513d246dd1c33b3a9879",
+          "size": 2127288
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+          "md5": "4475cfc941acb418503be3340bf45732",
+          "size": 75704
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+          "md5": "34e9c81cf2e18be70bb6eb56c089af1a",
+          "size": 209848
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+          "md5": "ae7909c58ce82ebf459c7531e121d95a",
+          "size": 1735096
+        },
+        {
+          "dest": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+          "md5": "a9711fe4b3f1f2d52fa3aac86fda0889",
+          "size": 58800
+        },
+        {
+          "dest": "Engine/Plugins/Compositing/OpenCVLensDistortion/Binaries/ThirdParty/Win64/opencv_world331.dll",
+          "md5": "6d318a20b9658c5ebc5714f72afb4a98",
+          "size": 18490296
+        },
+        {
+          "dest": "Wuthering Waves.exe",
+          "md5": "1262b1e86900ad148ebb1e9d2009bb0f",
+          "size": 486832
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_26_1793352889024.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk50-WindowsNoEditor.pak",
+          "md5": "99dedb35189bfb0b4c698643768e66f7",
+          "size": 230501519
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk50-WindowsNoEditor.sig",
+          "md5": "18c3f54ae86bb21b1bb0d2fd049e52ad",
+          "size": 14600
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_DianDaoTa/Base/pakchunk50-WindowsNoEditor.pak",
+          "md5": "9b32b30a48a0408efe8279ce2c39c0eb",
+          "size": 229786207,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "7ec7aaf9161b6bb534f40042ee00d95d"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "0ccb723ee5cc91a80d1acbc1fef8ac4c"
+            },
+            {
+              "start": 209715200,
+              "end": 229786206,
+              "md5": "f8b9b3ef13f93f39beb00ad5124d1988"
+            }
+          ]
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_DianDaoTa/Base/pakchunk50-WindowsNoEditor.sig",
+          "md5": "3a3a8764c0ef58e1226e5b0002f8d6ef",
+          "size": 14556
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_27_1793352892283.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk45-WindowsNoEditor.pak",
+          "md5": "54e1aa5cebe48ea30dc4e3a3fb57eea7",
+          "size": 197757375
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk45-WindowsNoEditor.sig",
+          "md5": "e1e87b387173c0fd54eecce922bfc1c2",
+          "size": 12600
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_HHA_Underground/Base/pakchunk45-WindowsNoEditor.pak",
+          "md5": "b4446e21624a3738c06d8f838252f80d",
+          "size": 196195071,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "91ced4e3d9ea3cc58d64afda35582df3"
+            },
+            {
+              "start": 104857600,
+              "end": 196195070,
+              "md5": "aa355f69269a3e6147f84e59cbfe739c"
+            }
+          ]
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_HHA_Underground/Base/pakchunk45-WindowsNoEditor.sig",
+          "md5": "bf625df7a8a355a8965dc0f33eb1310f",
+          "size": 12504
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_28_1793352895789.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk47-WindowsNoEditor.sig",
+          "md5": "e304d9f9e6285c718a3fcf420c7339a8",
+          "size": 96304
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk47-WindowsNoEditor.pak",
+          "md5": "e372cdccb8205e46dd31a8c49cbe18c7",
+          "size": 1569148381
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_HL/Base/pakchunk47-WindowsNoEditor.sig",
+          "md5": "d32e4ed772810023c01845fd8b98c389",
+          "size": 84680
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_HL/Base/pakchunk47-WindowsNoEditor.pak",
+          "md5": "37bf26ba2dfd83f94dfaefa6fa21efb1",
+          "size": 1378701597,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "db1163a418ecb4619cd68283b07f2d42"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "c1b3c6f780d25f49ca6e37bd1f0cbada"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "31397a87fadd1182161f7b2f77c690eb"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "89aa5c3e7149f8ce2cf1f07de974f080"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "9144de9ba282c11839dcb53647d1590f"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "4b359b2befee5838c7483d230f9d6a2f"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "332f71eb674a714dea6c5f584faa17b3"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "31f86b0a614e78c23d54b70cad5aee3c"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "b47e4b2f910c519e4dd8aca0e64c791c"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "8618ea0e3ae5da8e5987da936b311c76"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "54f8ce129b7c008ddd3eb720e7811599"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "c2c352bf4e5cb8c637db97552e58442b"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "ee46a342dd1372b74ba6c40fce4759db"
+            },
+            {
+              "start": 1363148800,
+              "end": 1378701596,
+              "md5": "08c4be1fcc63d60f64357a0b67631900"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_29_1793352929187.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk51-WindowsNoEditor.sig",
+          "md5": "c7ae51c45a69897dc63ee5d9975ae9d9",
+          "size": 14464
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk51-WindowsNoEditor.pak",
+          "md5": "b85ddea7714e378abb444415b637c02d",
+          "size": 228268399
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_HaiDiShiYanChang/Base/pakchunk51-WindowsNoEditor.sig",
+          "md5": "ac3f74a9a7e377a3f52b093ecd7a6576",
+          "size": 14332
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_HaiDiShiYanChang/Base/pakchunk51-WindowsNoEditor.pak",
+          "md5": "c4cfaf74b41b87d2a4caacc9edc0da6d",
+          "size": 226158959,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "d22bab12fd098e2ee15cd793a3eb921e"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "ffe74e13789cacb52a7cea4005d42179"
+            },
+            {
+              "start": 209715200,
+              "end": 226158958,
+              "md5": "61895f36f718c02a967798e0153167a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_30_1793352934320.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk46-WindowsNoEditor.sig",
+          "md5": "bfad4e2d2f792eeea3e1152898b725bf",
+          "size": 15796
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk46-WindowsNoEditor.pak",
+          "md5": "c5ae6a424fea47e0d34773b8ce7d94f8",
+          "size": 250138751
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_JK_Underground/Base/pakchunk46-WindowsNoEditor.sig",
+          "md5": "5df94274ac04024d982842720b069404",
+          "size": 15732
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_JK_Underground/Base/pakchunk46-WindowsNoEditor.pak",
+          "md5": "69bf038ff027083a303a2cefbe308fb3",
+          "size": 249050895,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "f9e31c7709f2fba8c519320f60a0b79e"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "4031a1b0c5b24a6a169030fdb94350c2"
+            },
+            {
+              "start": 209715200,
+              "end": 249050894,
+              "md5": "b286167595788cbfa7473c46119df2c0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_31_1793352936201.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk48-WindowsNoEditor.sig",
+          "md5": "f67265d5f90625c3e93c405cd5fe16ff",
+          "size": 72696
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk48-WindowsNoEditor.pak",
+          "md5": "d9a3fdf7eadbb82ff6cea8aa6ecad52d",
+          "size": 1182337615
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_LGN/Base/pakchunk48-WindowsNoEditor.sig",
+          "md5": "0fb6a3402301732e09ec40c0bcffd5ec",
+          "size": 55872
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_LGN/Base/pakchunk48-WindowsNoEditor.pak",
+          "md5": "bcab521e6a56349cc161039caf2439c6",
+          "size": 906740863,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "6d547c13b005b4ec492a8c5bf3a86274"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "c9f725d6f1d0e0214886eaa3ca170d9a"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "4b2d309d9169499402dfbadef50f4311"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "b476fa857b349af5d46e021e8168b3b4"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "469fd4a3a4c9da56c1f550250f7b0903"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "288d99578ef62705dc5ecbfef5d83d90"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "0cf0d9f9990a8b69a3e0d6fa181314ad"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "2fd09668a0c852f63b4014cbd534faf9"
+            },
+            {
+              "start": 838860800,
+              "end": 906740862,
+              "md5": "54a72b08842c3eb746488af5e491d848"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_32_1793352965223.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk54-WindowsNoEditor.sig",
+          "md5": "1363c5bd01b869f288b8343e317df21e",
+          "size": 144256
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk54-WindowsNoEditor.pak",
+          "md5": "4dd3686f9e923f8d7f7d517aec291cc5",
+          "size": 2354824287
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_LY/Base/pakchunk54-WindowsNoEditor.sig",
+          "md5": "26c7cc67cd236edfe7e8451fec443f90",
+          "size": 142236
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_LY/Base/pakchunk54-WindowsNoEditor.pak",
+          "md5": "1ba242d8aeb8d774ad9aa0eda49f8cf0",
+          "size": 2321705423,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "71d0a22657c58f31d23a158f2c646d49"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "259033a0dafb887f87ce248b26711d61"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "4b56ec1e80b0c9699c6e914e3da6b3b9"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "9550615728c9f79de5042b4e1172d71b"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "16e3566668c161783989ab211234199f"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "ceed1cb53c403cb15a1989c576ef020e"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "77ae0bca760edce1e782dd526403ecf3"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "d4430088365220f02211992420b12226"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "f89bb3101b1fdb4967a16d871105062f"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "af4e60e276018034959edf329148342d"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "74bb168104c321a81b53fe99133098d3"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "0b4859b9dced1d140b859cb4ddcca166"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "e0ce61da3dd61bc8af3b8b8564a1bf3d"
+            },
+            {
+              "start": 1363148800,
+              "end": 1468006399,
+              "md5": "1039bfafe375a428fa7100d30c0db982"
+            },
+            {
+              "start": 1468006400,
+              "end": 1572863999,
+              "md5": "bce2d73acb6cc8d6c501a487113447af"
+            },
+            {
+              "start": 1572864000,
+              "end": 1677721599,
+              "md5": "54d00859b94a8179276ebbcac24482b9"
+            },
+            {
+              "start": 1677721600,
+              "end": 1782579199,
+              "md5": "d9bf114938d6fd95997de624076c3b46"
+            },
+            {
+              "start": 1782579200,
+              "end": 1887436799,
+              "md5": "8381293b3c0318fe1a5131515db6a6c4"
+            },
+            {
+              "start": 1887436800,
+              "end": 1992294399,
+              "md5": "c773bf0d05adcc3f62faac12fb4e2177"
+            },
+            {
+              "start": 1992294400,
+              "end": 2097151999,
+              "md5": "cac8946d2a5c4a81f873f20e4e2e143a"
+            },
+            {
+              "start": 2097152000,
+              "end": 2202009599,
+              "md5": "865d4740c80a90da9ffcab17bfb477ad"
+            },
+            {
+              "start": 2202009600,
+              "end": 2306867199,
+              "md5": "6af45d733aadbdb409bd5cd948484374"
+            },
+            {
+              "start": 2306867200,
+              "end": 2321705422,
+              "md5": "6e4d26099b1f06e6b6644e944f455ab6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_33_1793353018194.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk56-WindowsNoEditor.sig",
+          "md5": "6ad5a2c405af656bb963e0d1fa9d7dd9",
+          "size": 91240
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk56-WindowsNoEditor.pak",
+          "md5": "ba21c1c7676746a44daed60c7492aa2c",
+          "size": 1486177311
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_MZ/Base/pakchunk56-WindowsNoEditor.sig",
+          "md5": "28ead9483d9951abfed9d153b44c890e",
+          "size": 114532
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_MZ/Base/pakchunk56-WindowsNoEditor.pak",
+          "md5": "932c7715e06bca5c9db414e78c01a9cb",
+          "size": 1867827295,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "a4af816f24cdf8b8613406945dc82542"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "c7ed0e059bf9c6eefd83d87506c70943"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "1be3b488e30baaa7e7a058aa6b602800"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "2346322cb7741832de7bf56fabb7114a"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "70d0a5c93520b9e2a41a904de328bb5c"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "f7a0c13aeaa1ebf8b2c037ded38ccdb4"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "1821897a4e4661a6eb45cf51efad36f1"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "d21e59824a0bb1c24335093e2fd38b86"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "df7dca4720832dd3f7e586f47851144a"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "71d52e93fc1671fc45f2e304c1ccb198"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "5ba21f13e1de35816cb1cd36a896219c"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "f836b3a876714596c32810606e873eca"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "d66b12d6b019bfd0f4f5d163bdb1ee64"
+            },
+            {
+              "start": 1363148800,
+              "end": 1468006399,
+              "md5": "5eb4954439a2f2c9c5cf769c2102c08c"
+            },
+            {
+              "start": 1468006400,
+              "end": 1572863999,
+              "md5": "230c9c2373f73cd8d319992025baf1de"
+            },
+            {
+              "start": 1572864000,
+              "end": 1677721599,
+              "md5": "22b43ade1fc84804ef19fb8263c33ae7"
+            },
+            {
+              "start": 1677721600,
+              "end": 1782579199,
+              "md5": "4f3549001d42c68d3bdee98854cbcd0b"
+            },
+            {
+              "start": 1782579200,
+              "end": 1867827294,
+              "md5": "5308577cf6b6b47a1159533005f4f06d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_34_1793353088407.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk49-WindowsNoEditor.sig",
+          "md5": "8684ff17681cdee7cfdd98640b3e56f3",
+          "size": 138056
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk49-WindowsNoEditor.pak",
+          "md5": "65903434b50e820bb648aa944d857692",
+          "size": 2253248239
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_QQ/Base/pakchunk49-WindowsNoEditor.sig",
+          "md5": "2a4ab3d9c958b0d13d68db534e2cc281",
+          "size": 78948
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_QQ/Base/pakchunk49-WindowsNoEditor.pak",
+          "md5": "ce2722100ec9d8c48ba4dbe793a17a3e",
+          "size": 1284802431,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "3a6827247c4a0770f427bc0c70aaf617"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "717478a836bc937f9df0c4eb44e5db47"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "83418ef79a917bd2afd3dc4022fa45d4"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "f888c96afaf9e5bedf5313f0ac5c4a58"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "9a6ba9675a1eb510639599de25cd6d4a"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "2767941404e31c80b814d83fb4e8e081"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "81b86cb3ebd1a7a504bf2fa7eb2d232c"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "23897295f4c1191a80c336932abe5672"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "baf221f54eed6cb54848c88d7dfeb992"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "293172c0fb7c0cd5f86e5c8227a5b1ad"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "85358c0db8271c146001cdc84ed031aa"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "65d4a901de4a9624d031fa61cf2fc24f"
+            },
+            {
+              "start": 1258291200,
+              "end": 1284802430,
+              "md5": "a349ec54b5c1e8fd6adabf7fae227175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_35_1793353128395.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk55-WindowsNoEditor.sig",
+          "md5": "33618a6a44fee8da9542938a0b97d139",
+          "size": 32396
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk55-WindowsNoEditor.pak",
+          "md5": "6ad975f2f645bd5b466084cd6088153f",
+          "size": 522110975
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_RLG/Base/pakchunk55-WindowsNoEditor.sig",
+          "md5": "763c317ebfbafad7e920179ae2225292",
+          "size": 32276
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_RLG/Base/pakchunk55-WindowsNoEditor.pak",
+          "md5": "07d880260d95b50e675a3c6895829b41",
+          "size": 520136639,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "b4c533f73d7323635efa1125f2bb1529"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "45b076085d141bb94d54c220672963da"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "9d83b7f9369b882a0e3123e20651dcf6"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "a6aaf08e780a20b6bba056c8b71371bd"
+            },
+            {
+              "start": 419430400,
+              "end": 520136638,
+              "md5": "6bec035cc8ed3e2c5f7d8373b64df1aa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_36_1793353136503.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk52-WindowsNoEditor.pak",
+          "md5": "bc3c7468c0a9c26c10cc399b33559344",
+          "size": 256532607
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk52-WindowsNoEditor.sig",
+          "md5": "956d3f1b455fae9c39a34ec4f07aa165",
+          "size": 16188
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_SuiBo/Base/pakchunk52-WindowsNoEditor.pak",
+          "md5": "c575ad48e6656090f8f004b9cd1abdf8",
+          "size": 254449727,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "4381067eabbe3560a51ef7a7edabd659"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "ae0387d6a02f89cfc9bf328b16efa474"
+            },
+            {
+              "start": 209715200,
+              "end": 254449726,
+              "md5": "0118bce1d0add45f4574e7d5ec812ea2"
+            }
+          ]
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_SuiBo/Base/pakchunk52-WindowsNoEditor.sig",
+          "md5": "2cf8fba1a71a8653773a882780373a14",
+          "size": 16060
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_37_1793353142990.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk57-WindowsNoEditor.pak",
+          "md5": "0b87b1515bb2476ab06d8e294fd05e42",
+          "size": 701369887
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk57-WindowsNoEditor.sig",
+          "md5": "03c016c0bb34709fd6cbdbb26452a65b",
+          "size": 43340
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_WXSG/Base/pakchunk57-WindowsNoEditor.pak",
+          "md5": "0cadd9b8f583be32750ab57be131a2e7",
+          "size": 825641343,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "e7836819b607af1d2ae2c2ffed73e446"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "c3469fd9b745e7fe75ee644291fd5c75"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "acd378c6db940e388beca873cce1d904"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "34d6bdf526697719ca64c3391f788138"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "151074ba45d8bdacd87a9c269b19a76a"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "30bc4b1affa4783c6aea0ab0f344faac"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "2751f4a166ccd681993cbe76e16ec4c0"
+            },
+            {
+              "start": 734003200,
+              "end": 825641342,
+              "md5": "7121d6fac51be507e5f1cf4617827bc1"
+            }
+          ]
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_WXSG/Base/pakchunk57-WindowsNoEditor.sig",
+          "md5": "6a2a17311f93ab7af607cd5b959e432b",
+          "size": 50924
+        }
+      ]
+    },
+    {
+      "dest": "3.7.2_3.8.0_group_38_1793353183572.krpdiff",
+      "srcFiles": [
+        {
+          "dest": "Client/Content/Paks/pakchunk53-WindowsNoEditor.sig",
+          "md5": "9dae45242133f67f7f30e718f2c7ee63",
+          "size": 144036
+        },
+        {
+          "dest": "Client/Content/Paks/pakchunk53-WindowsNoEditor.pak",
+          "md5": "95c5676d340ec72b3ccd3b02b88f72ab",
+          "size": 2351195631
+        }
+      ],
+      "dstFiles": [
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_Xueyuan/Base/pakchunk53-WindowsNoEditor.sig",
+          "md5": "3747037f6ed29ca136320deaa117ef95",
+          "size": 153920
+        },
+        {
+          "dest": "Client/Saved/Resources/3.8.0/Option_Pack_Xueyuan/Base/pakchunk53-WindowsNoEditor.pak",
+          "md5": "6e91dc9e473d6176e39c619339b2d865",
+          "size": 2513149583,
+          "chunkInfos": [
+            {
+              "start": 0,
+              "end": 104857599,
+              "md5": "d07ce5c6c4f324b8377cd5844b481318"
+            },
+            {
+              "start": 104857600,
+              "end": 209715199,
+              "md5": "0aac3a2771ec626b044abd684600e89c"
+            },
+            {
+              "start": 209715200,
+              "end": 314572799,
+              "md5": "244dbe05ff2665ffd1408ad81802c729"
+            },
+            {
+              "start": 314572800,
+              "end": 419430399,
+              "md5": "ef961e627c50d6733723815f763e9ecf"
+            },
+            {
+              "start": 419430400,
+              "end": 524287999,
+              "md5": "05e9e06944a9766dd928dbe23434c0e2"
+            },
+            {
+              "start": 524288000,
+              "end": 629145599,
+              "md5": "83e77238b97a27b97456792c97194514"
+            },
+            {
+              "start": 629145600,
+              "end": 734003199,
+              "md5": "27275f871857e1c079da2e233a6e0618"
+            },
+            {
+              "start": 734003200,
+              "end": 838860799,
+              "md5": "b9a1df6be4fdbcc19f2f1f6dadf265b0"
+            },
+            {
+              "start": 838860800,
+              "end": 943718399,
+              "md5": "50715ebec9f9b5c114cb83d4587493a8"
+            },
+            {
+              "start": 943718400,
+              "end": 1048575999,
+              "md5": "87988f09a7e45e8c3d73421482258ac0"
+            },
+            {
+              "start": 1048576000,
+              "end": 1153433599,
+              "md5": "36471eae4ed4c1274511436b75884967"
+            },
+            {
+              "start": 1153433600,
+              "end": 1258291199,
+              "md5": "a514447b2a6372e1023cfcffe9b0dc58"
+            },
+            {
+              "start": 1258291200,
+              "end": 1363148799,
+              "md5": "83a60f7165193925a4edebb4bdaae757"
+            },
+            {
+              "start": 1363148800,
+              "end": 1468006399,
+              "md5": "5b30ec5e10504e4e4760d68637a92b3a"
+            },
+            {
+              "start": 1468006400,
+              "end": 1572863999,
+              "md5": "53ec9f1af6103f2ac693bc7119d3ec6d"
+            },
+            {
+              "start": 1572864000,
+              "end": 1677721599,
+              "md5": "096b098b6fbb0661b79372b0a5e2ca18"
+            },
+            {
+              "start": 1677721600,
+              "end": 1782579199,
+              "md5": "57773bfb50b192e651961f9434364f83"
+            },
+            {
+              "start": 1782579200,
+              "end": 1887436799,
+              "md5": "5a5920bb5c449d484e46dd6b53ee813c"
+            },
+            {
+              "start": 1887436800,
+              "end": 1992294399,
+              "md5": "aaf2855d39fb4008bcdcd438bbd35a7a"
+            },
+            {
+              "start": 1992294400,
+              "end": 2097151999,
+              "md5": "430030138d7b2519e356def90e4b06e9"
+            },
+            {
+              "start": 2097152000,
+              "end": 2202009599,
+              "md5": "4fd80ee506d7d42476ce78cefb083c5b"
+            },
+            {
+              "start": 2202009600,
+              "end": 2306867199,
+              "md5": "58ea04e2bdd3146894bae70e08e94f39"
+            },
+            {
+              "start": 2306867200,
+              "end": 2411724799,
+              "md5": "2485bb27ddad8136d7e0af5c532007b2"
+            },
+            {
+              "start": 2411724800,
+              "end": 2513149582,
+              "md5": "b94898ae6bb5928aec5d87ddc242ec78"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "applyTypes": [
+    "group"
+  ],
+  "tagGroups": {
+    "min": {
+      "exclude_prefixes": [
+        "Client/Saved/Resources/"
+      ]
+    }
+  }
+}

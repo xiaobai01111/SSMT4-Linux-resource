@@ -1,0 +1,64 @@
+# 来源清单的发布版本。每个来源使用稳定的 id 标识已安装的版本。
+version = 1
+
+[[sources]]
+id = "ge-proton"
+name = "GE-Proton"
+provider = "github_releases"
+repo = "GloriousEggroll/proton-ge-custom"
+
+# 按顺序匹配发布附件的文件名，{tag} 取自上游此次发布的标签。
+[sources.assets]
+x86_64 = ["{tag}-x86_64.tar.gz", "{tag}.tar.gz"]
+aarch64 = ["{tag}-aarch64.tar.gz"]
+
+[[sources]]
+id = "cachyos"
+name = "Proton-CachyOS"
+provider = "github_releases"
+repo = "CachyOS/proton-cachyos"
+[sources.assets]
+x86_64 = ["proton-{tag}-x86_64.tar.xz", "proton-{tag}.tar.xz"]
+aarch64 = ["proton-{tag}-arm64.tar.xz"]
+
+[[sources]]
+id = "umu"
+name = "UMU-Proton"
+provider = "github_releases"
+repo = "Open-Wine-Components/umu-proton"
+[sources.assets]
+x86_64 = ["{tag}-x86_64.tar.gz", "{tag}.tar.gz"]
+aarch64 = ["{tag}-aarch64.tar.gz"]
+
+[[sources]]
+id = "em"
+name = "Proton-EM"
+provider = "github_releases"
+repo = "Etaash-mathamsetty/Proton"
+[sources.assets]
+x86_64 = ["proton-{tag}.tar.xz"]
+
+[[sources]]
+id = "sarek"
+name = "Proton-Sarek"
+provider = "github_releases"
+repo = "pythonlover02/Proton-Sarek"
+[sources.assets]
+x86_64 = ["{tag}.tar.gz"]
+
+[[sources]]
+id = "sarek-async"
+name = "Proton-Sarek Async"
+provider = "github_releases"
+repo = "pythonlover02/Proton-Sarek"
+[sources.assets]
+x86_64 = ["{tag}-async.tar.gz"]
+
+[[sources]]
+id = "dw"
+name = "DW-Proton"
+provider = "forgejo_releases"
+host = "dawn.wine"
+repo = "dawn-winery/dwproton"
+[sources.assets]
+x86_64 = ["{tag}-x86_64.tar.xz", "{tag}.tar.xz"]

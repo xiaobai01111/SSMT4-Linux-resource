@@ -1,0 +1,50 @@
+# 本文件的版本用于资源维护；游戏版本每次从对应渠道的正式发布索引读取。
+version = 1
+
+type = "game"
+id = "wuthering-waves"
+game = "Wuthering Waves"
+default_channel = "cn"
+default_quality = "HD"
+
+[entrypoints]
+catalog = "manifests/index.json"
+icon = "icon.webp"
+background = "background.webp"
+
+# 下载列表用渠道的 name 和这里的画质名称展示；可用组合及版本由正式索引决定。
+[quality_names]
+SD = "标准画质"
+HD = "高清画质"
+UHD = "超高清画质"
+
+# 仅在核实真实游戏文件及期望值后登记。示例和回归用例不能成为生产规则。
+[risk_control]
+rules = []
+
+# 同一列表只包含同渠道的官方索引镜像。文件 CDN、分包和清单摘要由索引发布。
+[channels.cn]
+name = "国服官服"
+app_id = "10003"
+cache_group = "mainland"
+index_urls = [
+  "https://prod-cn-alicdn-gamestarter.kurogame.com/launcher/game/10003_oLNgHF1CESo51DGHN2odtp40e3oI1HfZ/G152/official/index.json",
+  "https://prod-volcdn-gamestarter.kurogame.xyz/launcher/game/10003_oLNgHF1CESo51DGHN2odtp40e3oI1HfZ/G152/official/index.json",
+]
+
+[channels.bilibili]
+name = "B服"
+app_id = "10004"
+cache_group = "mainland"
+index_urls = [
+  "https://prod-cn-alicdn-gamestarter.kurogame.com/launcher/game/10004_IY6xmlAusbImBjWrpPj1OwNuirXEO44x/G152/bilibili/index.json",
+  "https://prod-volcdn-gamestarter.kurogame.xyz/launcher/game/10004_IY6xmlAusbImBjWrpPj1OwNuirXEO44x/G152/bilibili/index.json",
+]
+
+[channels.global]
+name = "国际服"
+app_id = "50004"
+index_urls = [
+  "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/50004_P7xcUZnEr1AXIGON25E6KjpOgTlVrg6e/G153/official/index.json",
+  "https://prod-volcdn-gamestarter.kurogame.net/launcher/game/50004_P7xcUZnEr1AXIGON25E6KjpOgTlVrg6e/G153/official/index.json",
+]

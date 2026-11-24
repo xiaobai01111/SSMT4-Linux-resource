@@ -1,0 +1,77 @@
+name: 更新游戏资源清单
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    paths:
+      - 'Game/*/sources.toml'
+      - 'Game/*/*.png'
+      - 'Game/*/*.jpg'
+      - 'Game/*/*.jpeg'
+      - 'Game/*/*.webp'
+      - 'Github/**'
+      - '.github/workflows/game-resources.yml'
+  pull_request:
+    paths:
+      - 'Game/**'
+      - 'Github/**'
+      - '.github/workflows/game-resources.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.11'
+      - run: python -B -m unittest discover -s Github -t . -v
+
+  publish:
+    needs: check
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-game-resources
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.11'
+      - name: 同步已登记游戏的清单
+        id: sync
+        continue-on-error: true
+        run: python -B -m Github update
+      - run: python -B -m unittest discover -s Github -t . -v
+      # 同步失败的游戏保留上一份快照；只提交成功生成且内容发生变化的清单。
+      - name: 提交有变化的游戏清单
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          manifests=':(glob)Game/*/manifests/**'
+          if [[ -z "$(git status --porcelain -- "$manifests")" ]]; then
+            echo '所有游戏清单与现有提交一致。'
+            exit 0
+          fi
+          git add -A -- "$manifests"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m '更新游戏资源清单快照'
+          git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
+          git rev-parse HEAD >> "$GITHUB_STEP_SUMMARY"
+      - name: 报告未能同步的游戏
+        if: ${{ !cancelled() && steps.sync.outcome == 'failure' }}
+        run: exit 1

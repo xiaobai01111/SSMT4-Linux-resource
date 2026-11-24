@@ -1,0 +1,401 @@
+{
+  "components": [
+    {
+      "categoryId": "10054",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/chunks/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC"
+      },
+      "manifest": {
+        "compressedBytes": 7842325,
+        "compression": "zstd",
+        "unpackedBytes": 15295671,
+        "unpackedMd5": "6110fa9c21b26d52920107fb5e71d9d2",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC/manifest_0e4269e70b1ad07e_6110fa9c21b26d52920107fb5e71d9d2"
+      },
+      "matchingField": "game",
+      "name": "正式环境-游戏包体",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 96071,
+        "compressedBytes": 103377164480,
+        "fileCount": 11580,
+        "unpackedBytes": 105915142069
+      }
+    },
+    {
+      "categoryId": "10055",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/chunks/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC"
+      },
+      "manifest": {
+        "compressedBytes": 857061,
+        "compression": "zstd",
+        "unpackedBytes": 1640633,
+        "unpackedMd5": "538657f961efa5766813f93b24963fb4",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC/manifest_d661cb6b87d9177d_538657f961efa5766813f93b24963fb4"
+      },
+      "matchingField": "zh-cn",
+      "name": "正式环境-中文语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 10951,
+        "compressedBytes": 12614513978,
+        "fileCount": 350,
+        "unpackedBytes": 12633174396
+      }
+    },
+    {
+      "categoryId": "10056",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/chunks/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC"
+      },
+      "manifest": {
+        "compressedBytes": 1042647,
+        "compression": "zstd",
+        "unpackedBytes": 1982948,
+        "unpackedMd5": "17e27e86e8c125fe5fdf0654cfe9d913",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC/manifest_4ea0efd4ec903433_17e27e86e8c125fe5fdf0654cfe9d913"
+      },
+      "matchingField": "en-us",
+      "name": "正式环境-英语语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 13314,
+        "compressedBytes": 15322525874,
+        "fileCount": 350,
+        "unpackedBytes": 15413893040
+      }
+    },
+    {
+      "categoryId": "10057",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/chunks/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC"
+      },
+      "manifest": {
+        "compressedBytes": 1071450,
+        "compression": "zstd",
+        "unpackedBytes": 2037541,
+        "unpackedMd5": "f3a0dd773aaa81884162e43914802abb",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC/manifest_5dcf20a8b89c6d06_f3a0dd773aaa81884162e43914802abb"
+      },
+      "matchingField": "ja-jp",
+      "name": "正式环境-日语语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 13688,
+        "compressedBytes": 15632523451,
+        "fileCount": 350,
+        "unpackedBytes": 15832656038
+      }
+    },
+    {
+      "categoryId": "10058",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/chunks/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC"
+      },
+      "manifest": {
+        "compressedBytes": 869489,
+        "compression": "zstd",
+        "unpackedBytes": 1662850,
+        "unpackedMd5": "841f5ca2186abebbcf3bd8854a9af42b",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/jtxaUnbtOZLC/manifest_c0431fe18031980c_841f5ca2186abebbcf3bd8854a9af42b"
+      },
+      "matchingField": "ko-kr",
+      "name": "正式环境-韩语语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 11119,
+        "compressedBytes": 12563438186,
+        "fileCount": 350,
+        "unpackedBytes": 12798556374
+      }
+    }
+  ],
+  "legacyArchives": {
+    "audio": [
+      {
+        "language": "en-us",
+        "md5": "5b376824fa32125fb387e20a42bc8f16",
+        "path": "English.7z",
+        "reportedUnpackedBytes": 27894883884,
+        "size": 13942199062,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/English.7z"
+      },
+      {
+        "language": "ja-jp",
+        "md5": "75004975d902def7aab2e40f4c9cfe9c",
+        "path": "Japanese.7z",
+        "reportedUnpackedBytes": 28358060472,
+        "size": 14173787356,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/Japanese.7z"
+      },
+      {
+        "language": "ko-kr",
+        "md5": "266ce15f02a01eed5aeb2c06ea1c97d6",
+        "path": "Korean.7z",
+        "reportedUnpackedBytes": 22777120604,
+        "size": 11383317422,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/Korean.7z"
+      },
+      {
+        "language": "zh-cn",
+        "md5": "32b0f0003dc54c37ce36be354fc1013a",
+        "path": "Chinese.7z",
+        "reportedUnpackedBytes": 23010078228,
+        "size": 11499796234,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/Chinese.7z"
+      }
+    ],
+    "parts": [
+      {
+        "md5": "56e36212f4544767d96297033dfbddee",
+        "path": "StarRail_4.4.0.7z.001",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.001"
+      },
+      {
+        "md5": "0480f3ec19585d724deb8b751945a993",
+        "path": "StarRail_4.4.0.7z.002",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.002"
+      },
+      {
+        "md5": "4fe94693362752fe70adb00792c3b93f",
+        "path": "StarRail_4.4.0.7z.003",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.003"
+      },
+      {
+        "md5": "6e0b974518409a8b7703f855307d5f90",
+        "path": "StarRail_4.4.0.7z.004",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.004"
+      },
+      {
+        "md5": "6e47e5fc7010a64ebd6ab3263a7f4e8d",
+        "path": "StarRail_4.4.0.7z.005",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.005"
+      },
+      {
+        "md5": "5a3492a7e88a71c98ca2cbaf0e8d10ac",
+        "path": "StarRail_4.4.0.7z.006",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.006"
+      },
+      {
+        "md5": "8f00096acce87d020c62d6cac5ec2232",
+        "path": "StarRail_4.4.0.7z.007",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.007"
+      },
+      {
+        "md5": "b80f4ebfe433cb608fb9624b10ed8bc1",
+        "path": "StarRail_4.4.0.7z.008",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.008"
+      },
+      {
+        "md5": "1ae6b87577006ba5bce1fc40ecdf4507",
+        "path": "StarRail_4.4.0.7z.009",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.009"
+      },
+      {
+        "md5": "7d7e7da16fb1bce3684fe4ea970aeb65",
+        "path": "StarRail_4.4.0.7z.010",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.010"
+      },
+      {
+        "md5": "264377c71ece298d3a9afcea04327252",
+        "path": "StarRail_4.4.0.7z.011",
+        "reportedUnpackedBytes": 15042871296,
+        "size": 7516192768,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.011"
+      },
+      {
+        "md5": "2e6642c0131b7b7d718eca33123a585b",
+        "path": "StarRail_4.4.0.7z.012",
+        "reportedUnpackedBytes": 13338555802,
+        "size": 6664035021,
+        "url": "https://autopatchcn.bhsr.com/client/cn/20260703112555_FMCGg2vPuwTaJGyg/PC/download/StarRail_4.4.0.7z.012"
+      }
+    ],
+    "version": "4.4.0"
+  },
+  "patches": [
+    {
+      "categoryId": "10054",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/diffs/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/10054"
+      },
+      "fromVersions": {
+        "4.6.0": {
+          "chunkCount": 91,
+          "compressedBytes": 5823936268,
+          "fileCount": 11580,
+          "unpackedBytes": 5823936268
+        }
+      },
+      "manifest": {
+        "compressedBytes": 437126,
+        "compression": "zstd",
+        "unpackedBytes": 1892937,
+        "unpackedMd5": "1495f7743cbd6512f9aa96c11601539f",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/manifest_b662972e2f1c8c78_1495f7743cbd6512f9aa96c11601539f"
+      },
+      "matchingField": "game",
+      "name": "正式环境-游戏包体",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10055",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/diffs/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/10055"
+      },
+      "fromVersions": {
+        "4.6.0": {
+          "chunkCount": 3,
+          "compressedBytes": 219180076,
+          "fileCount": 350,
+          "unpackedBytes": 219180076
+        }
+      },
+      "manifest": {
+        "compressedBytes": 11650,
+        "compression": "zstd",
+        "unpackedBytes": 88079,
+        "unpackedMd5": "89e9431085ad31106a78fdb03f2f3820",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/manifest_fe10a9cba362ff40_89e9431085ad31106a78fdb03f2f3820"
+      },
+      "matchingField": "zh-cn",
+      "name": "正式环境-中文语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10056",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/diffs/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/10056"
+      },
+      "fromVersions": {
+        "4.6.0": {
+          "chunkCount": 4,
+          "compressedBytes": 301332976,
+          "fileCount": 350,
+          "unpackedBytes": 301332976
+        }
+      },
+      "manifest": {
+        "compressedBytes": 11558,
+        "compression": "zstd",
+        "unpackedBytes": 85008,
+        "unpackedMd5": "ecc8c348b1ec80a34478887a200a6be8",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/manifest_94aaee532ec422a7_ecc8c348b1ec80a34478887a200a6be8"
+      },
+      "matchingField": "en-us",
+      "name": "正式环境-英语语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10057",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/diffs/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/10057"
+      },
+      "fromVersions": {
+        "4.6.0": {
+          "chunkCount": 3,
+          "compressedBytes": 274228889,
+          "fileCount": 350,
+          "unpackedBytes": 274228889
+        }
+      },
+      "manifest": {
+        "compressedBytes": 11592,
+        "compression": "zstd",
+        "unpackedBytes": 85495,
+        "unpackedMd5": "91695149efd09e3460b5612df3019a18",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/manifest_6266d539baa9ada2_91695149efd09e3460b5612df3019a18"
+      },
+      "matchingField": "ja-jp",
+      "name": "正式环境-日语语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10058",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bhsr.com/client/sophon/diffs/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/10058"
+      },
+      "fromVersions": {
+        "4.6.0": {
+          "chunkCount": 3,
+          "compressedBytes": 232178858,
+          "fileCount": 350,
+          "unpackedBytes": 232178858
+        }
+      },
+      "manifest": {
+        "compressedBytes": 12179,
+        "compression": "zstd",
+        "unpackedBytes": 89529,
+        "unpackedMd5": "5102942a51466c4e6efba976df86907a",
+        "url": "https://autopatchcn.bhsr.com/client/sophon/manifests/cxi9zq9xwjk0/20261030/4.7.0/a5DGInxRg4Xo/manifest_d2e61402a94c5852_5102942a51466c4e6efba976df86907a"
+      },
+      "matchingField": "ko-kr",
+      "name": "正式环境-韩语语音包",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    }
+  ],
+  "protocol": "sophon",
+  "version": "4.7.0"
+}

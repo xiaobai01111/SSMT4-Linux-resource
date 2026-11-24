@@ -1,0 +1,12 @@
+# Resource 清单的发布版本。各子清单在自己的文件头声明版本。
+version = 1
+
+[[sources]]
+id = "github"
+name = "xiaobai01111/SSMT4-Linux-resource"
+commit_url = "https://api.github.com/repos/xiaobai01111/SSMT4-Linux-resource/commits?per_page=1"
+commit_pointer = "/0/sha"
+# 检测与更新都读取已固定的提交，path 是总索引或其登记的子清单。
+file_url = "https://raw.githubusercontent.com/xiaobai01111/SSMT4-Linux-resource/{commit}/{path}"
+# 省略 files 时，在固定提交的树中发现一级目录下的 sources.toml。
+tree_url = "https://api.github.com/repos/xiaobai01111/SSMT4-Linux-resource/git/trees/{commit}?recursive=1"

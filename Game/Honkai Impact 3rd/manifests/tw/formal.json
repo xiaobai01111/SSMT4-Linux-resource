@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "categoryId": "10173",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20261014/9.1.0/c1m55Dbp3dCu"
+      },
+      "manifest": {
+        "compressedBytes": 104554,
+        "compression": "zstd",
+        "unpackedBytes": 207992,
+        "unpackedMd5": "ad1e5601d72b35cc9762fe4dfa5078a7",
+        "url": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20261014/9.1.0/c1m55Dbp3dCu/manifest_dcadbbb2998c39af_ad1e5601d72b35cc9762fe4dfa5078a7"
+      },
+      "matchingField": "game",
+      "name": "【新】【TW】游戏资源-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 1290,
+        "compressedBytes": 879326178,
+        "fileCount": 270,
+        "unpackedBytes": 1402151864
+      }
+    },
+    {
+      "categoryId": "10178",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20261014/9.1.0/c1m55Dbp3dCu"
+      },
+      "manifest": {
+        "compressedBytes": 2329750,
+        "compression": "zstd",
+        "unpackedBytes": 4338903,
+        "unpackedMd5": "ee9d634d2263bb88f8774a968e8e92f0",
+        "url": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20261014/9.1.0/c1m55Dbp3dCu/manifest_934c17497e116be7_ee9d634d2263bb88f8774a968e8e92f0"
+      },
+      "matchingField": "asb",
+      "name": "【TW】ASB-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 29330,
+        "compressedBytes": 31349241263,
+        "fileCount": 811,
+        "unpackedBytes": 34391652098
+      }
+    }
+  ],
+  "legacyArchives": {
+    "audio": [],
+    "parts": [
+      {
+        "md5": "72de42c52a6f61c4ab289cc0565ae2ed",
+        "path": "BH3_v9.1.0_af4349d71387.7z",
+        "reportedUnpackedBytes": 54204973248,
+        "size": 27097243744,
+        "url": "https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20261013103157_T5JkoY2jU1pbzxBT/BH3_v9.1.0_af4349d71387.7z"
+      }
+    ],
+    "version": "9.1.0"
+  },
+  "protocol": "sophon",
+  "version": "9.1.0"
+}

@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "categoryId": "10017",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO"
+      },
+      "manifest": {
+        "compressedBytes": 9270626,
+        "compression": "zstd",
+        "unpackedBytes": 17305013,
+        "unpackedMd5": "06e75961ce537e3ffb0c1118f8a22325",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/asDgc67wRUeO/manifest_1422e4eb158006cf_06e75961ce537e3ffb0c1118f8a22325"
+      },
+      "matchingField": "game",
+      "name": "游戏资源-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 116948,
+        "compressedBytes": 131897609120,
+        "fileCount": 2795,
+        "unpackedBytes": 135833870380
+      }
+    },
+    {
+      "categoryId": "10018",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO"
+      },
+      "manifest": {
+        "compressedBytes": 984786,
+        "compression": "zstd",
+        "unpackedBytes": 1827048,
+        "unpackedMd5": "84f2b057bd198543eef85d7d5b45d4a3",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/asDgc67wRUeO/manifest_05af0e50e492c199_84f2b057bd198543eef85d7d5b45d4a3"
+      },
+      "matchingField": "zh-cn",
+      "name": "语音包-中文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 12439,
+        "compressedBytes": 14533703257,
+        "fileCount": 179,
+        "unpackedBytes": 14535287384
+      }
+    },
+    {
+      "categoryId": "10019",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO"
+      },
+      "manifest": {
+        "compressedBytes": 1267578,
+        "compression": "zstd",
+        "unpackedBytes": 2350226,
+        "unpackedMd5": "4157e92b8b93c4c5050f33431c57ff23",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/asDgc67wRUeO/manifest_d66b14c673f98065_4157e92b8b93c4c5050f33431c57ff23"
+      },
+      "matchingField": "en-us",
+      "name": "语音包-英文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 16028,
+        "compressedBytes": 18839248133,
+        "fileCount": 179,
+        "unpackedBytes": 18841158601
+      }
+    },
+    {
+      "categoryId": "10020",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO"
+      },
+      "manifest": {
+        "compressedBytes": 1031622,
+        "compression": "zstd",
+        "unpackedBytes": 1913482,
+        "unpackedMd5": "183b75baf53ecc7d4cebdcaf23bdeb8c",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/asDgc67wRUeO/manifest_f72e370c56a2381b_183b75baf53ecc7d4cebdcaf23bdeb8c"
+      },
+      "matchingField": "ko-kr",
+      "name": "语音包-韩文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 13033,
+        "compressedBytes": 15298439404,
+        "fileCount": 179,
+        "unpackedBytes": 15301271880
+      }
+    },
+    {
+      "categoryId": "10021",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/chunks/cxgf44wie1a8/asDgc67wRUeO"
+      },
+      "manifest": {
+        "compressedBytes": 1159887,
+        "compression": "zstd",
+        "unpackedBytes": 2151147,
+        "unpackedMd5": "559d2af38b1e9588bac1f359946d9463",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/asDgc67wRUeO/manifest_11dfcd2964fba6aa_559d2af38b1e9588bac1f359946d9463"
+      },
+      "matchingField": "ja-jp",
+      "name": "语音包-日文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 14664,
+        "compressedBytes": 17236299796,
+        "fileCount": 179,
+        "unpackedBytes": 17238541781
+      }
+    }
+  ],
+  "legacyArchives": {
+    "audio": [
+      {
+        "language": "en-us",
+        "md5": "c10b1d5605e3577f5a2dae3913225add",
+        "path": "Audio_English(US)_5.5.0.zip",
+        "reportedUnpackedBytes": 36835642622,
+        "size": 18412578431,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/Audio_English(US)_5.5.0.zip"
+      },
+      {
+        "language": "ja-jp",
+        "md5": "e10645a426e9789b3f05356466810cfc",
+        "path": "Audio_Japanese_5.5.0.zip",
+        "reportedUnpackedBytes": 41878511730,
+        "size": 20934012985,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/Audio_Japanese_5.5.0.zip"
+      },
+      {
+        "language": "ko-kr",
+        "md5": "5ed97af22ebf5a211c3622cd76b2825a",
+        "path": "Audio_Korean_5.5.0.zip",
+        "reportedUnpackedBytes": 31782776928,
+        "size": 15886145584,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/Audio_Korean_5.5.0.zip"
+      },
+      {
+        "language": "zh-cn",
+        "md5": "8d67138e8eb32313480dc4546fb54c19",
+        "path": "Audio_Chinese_5.5.0.zip",
+        "reportedUnpackedBytes": 32268538954,
+        "size": 16129026597,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/Audio_Chinese_5.5.0.zip"
+      }
+    ],
+    "parts": [
+      {
+        "md5": "0c0994a7d0ebaf5609d86d5853c8e89e",
+        "path": "YuanShen_5.5.0.zip.001",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.001"
+      },
+      {
+        "md5": "af2c99cc83eb4817c2877924bc77ae5e",
+        "path": "YuanShen_5.5.0.zip.002",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.002"
+      },
+      {
+        "md5": "5b97ce7d8a999dcd4651edf0b3a0a742",
+        "path": "YuanShen_5.5.0.zip.003",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.003"
+      },
+      {
+        "md5": "05c88e7874218ed4648bb23c0c33f6aa",
+        "path": "YuanShen_5.5.0.zip.004",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.004"
+      },
+      {
+        "md5": "e3eff5ea2c18168023352271bc691d8e",
+        "path": "YuanShen_5.5.0.zip.005",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.005"
+      },
+      {
+        "md5": "b8328e44e58a34359956fedf453f1510",
+        "path": "YuanShen_5.5.0.zip.006",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.006"
+      },
+      {
+        "md5": "37ed68192b20538c29acba3484fc2feb",
+        "path": "YuanShen_5.5.0.zip.007",
+        "reportedUnpackedBytes": 21485322240,
+        "size": 10737418240,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.007"
+      },
+      {
+        "md5": "a3ff86628514f4addafbd92d6bbd4a52",
+        "path": "YuanShen_5.5.0.zip.008",
+        "reportedUnpackedBytes": 9919796702,
+        "size": 4954655471,
+        "url": "https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250314105313_OcRjEyGXX8Txtqm4/YuanShen_5.5.0.zip.008"
+      }
+    ],
+    "version": "5.5.0"
+  },
+  "patches": [
+    {
+      "categoryId": "10017",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "none",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/diffs/cxgf44wie1a8/meL6zdfp3oJS/10017"
+      },
+      "fromVersions": {
+        "7.0.0": {
+          "chunkCount": 140,
+          "compressedBytes": 14077241059,
+          "fileCount": 2795,
+          "unpackedBytes": 14077241059
+        },
+        "7.1.0": {
+          "chunkCount": 95,
+          "compressedBytes": 7896674928,
+          "fileCount": 2795,
+          "unpackedBytes": 7896674928
+        }
+      },
+      "manifest": {
+        "compressedBytes": 199573,
+        "compression": "zstd",
+        "unpackedBytes": 875281,
+        "unpackedMd5": "ab3b0aa890ee764aa13207343c7b154e",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/meL6zdfp3oJS/manifest_fed255d379960c90_ab3b0aa890ee764aa13207343c7b154e"
+      },
+      "matchingField": "game",
+      "name": "游戏资源-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10018",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "none",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/diffs/cxgf44wie1a8/meL6zdfp3oJS/10018"
+      },
+      "fromVersions": {
+        "7.0.0": {
+          "chunkCount": 14,
+          "compressedBytes": 948214530,
+          "fileCount": 179,
+          "unpackedBytes": 948214530
+        },
+        "7.1.0": {
+          "chunkCount": 6,
+          "compressedBytes": 440898004,
+          "fileCount": 179,
+          "unpackedBytes": 440898004
+        }
+      },
+      "manifest": {
+        "compressedBytes": 9179,
+        "compression": "zstd",
+        "unpackedBytes": 35089,
+        "unpackedMd5": "802e8aa24e4335c9f7e88a018345593d",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/meL6zdfp3oJS/manifest_9b157b38baa3cd9c_802e8aa24e4335c9f7e88a018345593d"
+      },
+      "matchingField": "zh-cn",
+      "name": "语音包-中文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10019",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "none",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/diffs/cxgf44wie1a8/meL6zdfp3oJS/10019"
+      },
+      "fromVersions": {
+        "7.0.0": {
+          "chunkCount": 15,
+          "compressedBytes": 1164314860,
+          "fileCount": 179,
+          "unpackedBytes": 1164314860
+        },
+        "7.1.0": {
+          "chunkCount": 8,
+          "compressedBytes": 536833099,
+          "fileCount": 179,
+          "unpackedBytes": 536833099
+        }
+      },
+      "manifest": {
+        "compressedBytes": 9299,
+        "compression": "zstd",
+        "unpackedBytes": 36297,
+        "unpackedMd5": "005145f849a6e4d5d4ef4a264eead5a2",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/meL6zdfp3oJS/manifest_162d6a5cfb71a843_005145f849a6e4d5d4ef4a264eead5a2"
+      },
+      "matchingField": "en-us",
+      "name": "语音包-英文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10020",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "none",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/diffs/cxgf44wie1a8/meL6zdfp3oJS/10020"
+      },
+      "fromVersions": {
+        "7.0.0": {
+          "chunkCount": 14,
+          "compressedBytes": 1035723054,
+          "fileCount": 179,
+          "unpackedBytes": 1035723054
+        },
+        "7.1.0": {
+          "chunkCount": 7,
+          "compressedBytes": 498589108,
+          "fileCount": 179,
+          "unpackedBytes": 498589108
+        }
+      },
+      "manifest": {
+        "compressedBytes": 9301,
+        "compression": "zstd",
+        "unpackedBytes": 35067,
+        "unpackedMd5": "d91db3e327080214d094bd88573ce0c0",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/meL6zdfp3oJS/manifest_81b462ca2ae3647e_d91db3e327080214d094bd88573ce0c0"
+      },
+      "matchingField": "ko-kr",
+      "name": "语音包-韩文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    },
+    {
+      "categoryId": "10021",
+      "categoryType": "CATEGORY_TYPE_AUDIO",
+      "chunks": {
+        "compression": "none",
+        "urlPrefix": "https://autopatchcn.yuanshen.com/client_app/sophon/diffs/cxgf44wie1a8/meL6zdfp3oJS/10021"
+      },
+      "fromVersions": {
+        "7.0.0": {
+          "chunkCount": 16,
+          "compressedBytes": 1204847372,
+          "fileCount": 179,
+          "unpackedBytes": 1204847372
+        },
+        "7.1.0": {
+          "chunkCount": 9,
+          "compressedBytes": 626297656,
+          "fileCount": 179,
+          "unpackedBytes": 626297656
+        }
+      },
+      "manifest": {
+        "compressedBytes": 9978,
+        "compression": "zstd",
+        "unpackedBytes": 39964,
+        "unpackedMd5": "d8a4ca6bbee3873e97634849fa3fc77c",
+        "url": "https://autopatchcn.yuanshen.com/client_app/sophon/manifests/cxgf44wie1a8/meL6zdfp3oJS/manifest_899ad23f608a788c_d8a4ca6bbee3873e97634849fa3fc77c"
+      },
+      "matchingField": "ja-jp",
+      "name": "语音包-日文-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ]
+    }
+  ],
+  "protocol": "sophon",
+  "version": "7.2.0"
+}

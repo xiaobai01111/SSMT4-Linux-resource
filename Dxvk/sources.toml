@@ -1,0 +1,53 @@
+# 默认来源使用上游发布的二进制包。匹配规则按顺序尝试。
+version = 1
+
+[[sources]]
+id = "dxvk-gplasync"
+name = "DXVK-GPLAsync"
+provider = "gitlab_releases"
+repo = "Ph42oN/dxvk-gplasync"
+[sources.assets]
+x86_64 = ["dxvk-gplasync-{tag}.tar.gz"]
+
+[[sources]]
+id = "dxvk-sarek"
+name = "DXVK-Sarek"
+provider = "github_releases"
+repo = "pythonlover02/dxvk-sarek"
+[sources.assets]
+x86_64 = ["dxvk-sarek-{version}.tar.gz", "dxvk-sarek-{tag}.tar.gz", "dxvk-sarek-dyasync-{tag}.tar.gz", "dxvk-sarek-async-{tag}.tar.gz"]
+
+[[sources]]
+id = "dxvk-remix"
+name = "DXVK-Remix"
+provider = "github_releases"
+repo = "NVIDIAGameWorks/rtx-remix"
+# NVIDIA 将 DXVK-Remix 与桥接组件一同分发，使用面向 32 位游戏的正式包。
+[sources.assets]
+x86_64 = ["rtx-remix-for-x86-games-release-{tag}.zip", "{tag}-release.zip"]
+aarch64 = ["rtx-remix-for-arm64-games-release-{tag}.zip"]
+
+[[sources]]
+id = "d7vk"
+name = "D7VK"
+provider = "github_releases"
+repo = "WinterSnowfall/d7vk"
+[sources.assets]
+x86_64 = ["d7vk-{tag}.zip", "d7vk-{version}.zip"]
+
+[[sources]]
+id = "dxvk"
+name = "DXVK"
+provider = "github_releases"
+repo = "doitsujin/dxvk"
+[sources.assets]
+x86_64 = ["dxvk-{version}.tar.gz"]
+
+[[sources]]
+id = "dxvk-low-latency"
+tag_prefix = "low-latency-framepacing-"
+name = "dxvk-low-latency"
+provider = "github_releases"
+repo = "netborg-afps/dxvk-low-latency"
+[sources.assets]
+x86_64 = ["dxvk-{version}-2-low-latency.tar.gz", "dxvk-{version}-low-latency.tar.gz"]

@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "categoryId": "10161",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm"
+      },
+      "manifest": {
+        "compressedBytes": 125202,
+        "compression": "zstd",
+        "unpackedBytes": 252105,
+        "unpackedMd5": "dee7a377dec0f0c8257bf72518ee3530",
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm/manifest_0bfe7362e4240e55_dee7a377dec0f0c8257bf72518ee3530"
+      },
+      "matchingField": "game",
+      "name": "游戏资源-外网（新）",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 1597,
+        "compressedBytes": 878652466,
+        "fileCount": 266,
+        "unpackedBytes": 1539440709
+      }
+    },
+    {
+      "categoryId": "10156",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm"
+      },
+      "manifest": {
+        "compressedBytes": 2347544,
+        "compression": "zstd",
+        "unpackedBytes": 4374200,
+        "unpackedMd5": "088e8629b4b8bc21d5a201a628f75545",
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm/manifest_3bd170bd71459d08_088e8629b4b8bc21d5a201a628f75545"
+      },
+      "matchingField": "asb",
+      "name": "asb-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 29559,
+        "compressedBytes": 31553208152,
+        "fileCount": 834,
+        "unpackedBytes": 34622342371
+      }
+    }
+  ],
+  "protocol": "sophon",
+  "version": "9.2.0"
+}

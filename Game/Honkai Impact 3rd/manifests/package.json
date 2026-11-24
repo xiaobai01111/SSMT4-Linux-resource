@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "path": "sources.toml",
+      "sha256": "8d698a0713ad9b3d0367bf692923e4e41305da822991c73f0fd74b5b0fc6b255",
+      "size": 2020
+    },
+    {
+      "path": "background.webp",
+      "sha256": "5fddd618e84cc32c48e267e8f635c01a87a2b113a25e229008fa09aca595ccfa",
+      "size": 269984
+    },
+    {
+      "path": "icon.webp",
+      "sha256": "c9096a3c9e7e042b283c3309b9fc8f09e29313cd0788734b21f8ab1e55ed407c",
+      "size": 537338
+    },
+    {
+      "path": "manifests/cn/formal.json",
+      "sha256": "a17f662dddd7cfd4ad594bf70e9584d6ebe3218acdc9a876682050caed49cf51",
+      "size": 2295
+    },
+    {
+      "path": "manifests/cn/predownload.json",
+      "sha256": "bedc6efc69f73f24feb3cfdef11cde6da3526254d6874e99c4eb3676b40eecab",
+      "size": 1898
+    },
+    {
+      "path": "manifests/global/formal.json",
+      "sha256": "52d9f3789958d7ea5476127e94f39296b0406abcedd1a81b32403ba2484f6262",
+      "size": 2369
+    },
+    {
+      "path": "manifests/index.json",
+      "sha256": "4d5f5c4ac2f8f049e2241a4710984f1b48bc6546e2e70760d6d22cd8f63f61d8",
+      "size": 2500
+    },
+    {
+      "path": "manifests/jp/formal.json",
+      "sha256": "e995357d0dccbe03121e0497374e881cec39f8902b78a3d0e30c661fad53d912",
+      "size": 2361
+    },
+    {
+      "path": "manifests/kr/formal.json",
+      "sha256": "4637df4616529623cca48a7d83ebbf5cda4982fe7915c169a286730e35a5be22",
+      "size": 2361
+    },
+    {
+      "path": "manifests/sea/formal.json",
+      "sha256": "6e3c09d0f0c6fafe778d7c6daa5ec6fdc173abea1ec2615416d4357b8c531ca5",
+      "size": 2369
+    },
+    {
+      "path": "manifests/tw/formal.json",
+      "sha256": "f3aa6232c1fcc5066ab8529713281c5b0eca70e4f61b18312b317ee9c42b2d20",
+      "size": 2371
+    }
+  ],
+  "id": "honkai-impact-3rd",
+  "schema": 1,
+  "type": "game"
+}

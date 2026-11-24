@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "path": "sources.toml",
+      "sha256": "67c386d97429dc3b064ec612cae460501ffc25f7d90707f390a3f83e69cb7527",
+      "size": 959
+    },
+    {
+      "path": "background.webp",
+      "sha256": "1208634254466fd9e423bdffd3f24d41d5315aca4cd88280e21d92bbe911cf17",
+      "size": 1945364
+    },
+    {
+      "path": "icon.webp",
+      "sha256": "0283629d32f40176df61f794f7444f1b287d278378580d9240dd318b181840af",
+      "size": 130234
+    },
+    {
+      "path": "manifests/bilibili/formal.json",
+      "sha256": "d7cb6be9f0d5cefbc91c73e32bb596748d4e9810644af98b711f034f2b75da68",
+      "size": 22715
+    },
+    {
+      "path": "manifests/bilibili/predownload.json",
+      "sha256": "389c44a40fd83f9c17c8d7d1f1d272d5c5f6b80747671e0acd88fbfbb7e274c2",
+      "size": 2598
+    },
+    {
+      "path": "manifests/cn/formal.json",
+      "sha256": "024bf75ade2457ed4b0dc44dd2150f589ff5df1caf0af8ab37f69ad8af304303",
+      "size": 22714
+    },
+    {
+      "path": "manifests/cn/predownload.json",
+      "sha256": "ebb90b0fbfb52682febfc1f2ab95e1c7858fc1924d0eb104bb63baddec8aa0b9",
+      "size": 2598
+    },
+    {
+      "path": "manifests/global/formal.json",
+      "sha256": "c184b798b1b2957b996a5ff7b0bae7d6e8bfdc45eaf0528a71f93aadc1c09e48",
+      "size": 20593
+    },
+    {
+      "path": "manifests/global/predownload.json",
+      "sha256": "9a3ccf25c0a3793d32cb90602764a4eb481d1c7fa759c690187893b60494e4c5",
+      "size": 2346
+    },
+    {
+      "path": "manifests/index.json",
+      "sha256": "cbb036945a2ee025afc3b3c8c900e1ce29a63ff3b25f9f505676567dc6d3064e",
+      "size": 1628
+    }
+  ],
+  "id": "arknights-endfield",
+  "schema": 1,
+  "type": "game"
+}

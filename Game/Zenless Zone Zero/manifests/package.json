@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "sources.toml",
+      "sha256": "e3c6ff7cd9f68c4210b4ed503ce95e31253643091903669ecd78995ffb7d84ef",
+      "size": 859
+    },
+    {
+      "path": "background.webp",
+      "sha256": "db07e43e00cd390fa2e48da70070d68ca0628d06bca0622dcdfe4449451521b9",
+      "size": 285688
+    },
+    {
+      "path": "icon.webp",
+      "sha256": "03a3cdad4efd56c3db1bd8bfa733ae51bccca9e63d730b03cb88f5d9c3a1fe8d",
+      "size": 481332
+    },
+    {
+      "path": "manifests/cn/formal.json",
+      "sha256": "99c2ae93488d436f9b790e3fc8d31d2ab29624a4a3ffac0e779811966132a16c",
+      "size": 159749
+    },
+    {
+      "path": "manifests/global/formal.json",
+      "sha256": "26fb4c36c25745eaf2337f7a4de9b73944fd860cb67d0d5f893b7da534277e3a",
+      "size": 161786
+    },
+    {
+      "path": "manifests/index.json",
+      "sha256": "c0051938c0425b6db2b1c45ece53aa9b348433f011029a59869ddd213bb1695f",
+      "size": 862
+    }
+  ],
+  "id": "zenless-zone-zero",
+  "schema": 1,
+  "type": "game"
+}

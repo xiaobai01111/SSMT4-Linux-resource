@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "categoryId": "10161",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X"
+      },
+      "manifest": {
+        "compressedBytes": 133314,
+        "compression": "zstd",
+        "unpackedBytes": 266969,
+        "unpackedMd5": "ca147c6baf702d2db95eac8c6158123b",
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X/manifest_62b6d203ba028e06_ca147c6baf702d2db95eac8c6158123b"
+      },
+      "matchingField": "game",
+      "name": "游戏资源-外网（新）",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 1698,
+        "compressedBytes": 961810830,
+        "fileCount": 267,
+        "unpackedBytes": 1646633046
+      }
+    },
+    {
+      "categoryId": "10156",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X"
+      },
+      "manifest": {
+        "compressedBytes": 2311845,
+        "compression": "zstd",
+        "unpackedBytes": 4305230,
+        "unpackedMd5": "84c18a31b9b3fe01615e3e41eaacf11e",
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X/manifest_0200028e306fd1a7_84c18a31b9b3fe01615e3e41eaacf11e"
+      },
+      "matchingField": "asb",
+      "name": "asb-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 29101,
+        "compressedBytes": 31113423236,
+        "fileCount": 807,
+        "unpackedBytes": 34132855537
+      }
+    }
+  ],
+  "legacyArchives": {
+    "audio": [],
+    "parts": [
+      {
+        "md5": "e7aece7f28a667bba9ea0769c30fd16d",
+        "path": "BH3_v8.4.0_589030804b01.7z",
+        "reportedUnpackedBytes": 46017810030,
+        "size": 23003662135,
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/20250717152657_HmMWzKltujR0bm3L/PC/BH3_v8.4.0_589030804b01.7z"
+      }
+    ],
+    "version": "8.4.0"
+  },
+  "protocol": "sophon",
+  "version": "9.1.0"
+}

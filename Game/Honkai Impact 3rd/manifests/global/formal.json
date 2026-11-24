@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "categoryId": "10177",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20261014/9.1.0/36GsmHuQtol7"
+      },
+      "manifest": {
+        "compressedBytes": 106294,
+        "compression": "zstd",
+        "unpackedBytes": 210579,
+        "unpackedMd5": "114412bee1711a32bc75f04713ec44ce",
+        "url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20261014/9.1.0/36GsmHuQtol7/manifest_20fef3acd5354202_114412bee1711a32bc75f04713ec44ce"
+      },
+      "matchingField": "game",
+      "name": "【新】【GLB】游戏资源-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 1307,
+        "compressedBytes": 892038467,
+        "fileCount": 272,
+        "unpackedBytes": 1418132810
+      }
+    },
+    {
+      "categoryId": "10182",
+      "categoryType": "CATEGORY_TYPE_RESOURCE",
+      "chunks": {
+        "compression": "zstd",
+        "urlPrefix": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20261014/9.1.0/36GsmHuQtol7"
+      },
+      "manifest": {
+        "compressedBytes": 2385982,
+        "compression": "zstd",
+        "unpackedBytes": 4449204,
+        "unpackedMd5": "022a404a92ff01c74feb0c35921c6e04",
+        "url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20261014/9.1.0/36GsmHuQtol7/manifest_53d59f9388f85196_022a404a92ff01c74feb0c35921c6e04"
+      },
+      "matchingField": "asb",
+      "name": "【GLB】ASB-外网",
+      "scenarios": [
+        "CATEGORY_SCENARIO_FULL"
+      ],
+      "stats": {
+        "chunkCount": 30076,
+        "compressedBytes": 32163996267,
+        "fileCount": 831,
+        "unpackedBytes": 35273635810
+      }
+    }
+  ],
+  "legacyArchives": {
+    "audio": [],
+    "parts": [
+      {
+        "md5": "abab464af4dd4df09274e1392c31b3ea",
+        "path": "BH3_v9.1.0_af4349d71387.7z",
+        "reportedUnpackedBytes": 55556031900,
+        "size": 27772773070,
+        "url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20261013103030_ahd54S6IqfJvm6Mq/BH3_v9.1.0_af4349d71387.7z"
+      }
+    ],
+    "version": "9.1.0"
+  },
+  "protocol": "sophon",
+  "version": "9.1.0"
+}

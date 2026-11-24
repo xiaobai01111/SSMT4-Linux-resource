@@ -1,0 +1,35 @@
+version = 1
+
+[[sources]]
+id = "vkd3d"
+name = "VKD3D（源码）"
+provider = "forgejo_releases"
+host = "codeberg.org"
+repo = "vkd3d/vkd3d"
+# WineHQ 的官方镜像将归档与 sha512sums 一同发布，源码不绑定目标架构。
+require_checksum = true
+[sources.assets]
+x86_64 = ["{tag}.tar.xz"]
+aarch64 = ["{tag}.tar.xz"]
+
+[[sources]]
+id = "vkd3d-proton"
+name = "VKD3D-Proton"
+provider = "github_releases"
+repo = "HansKristian-Work/vkd3d-proton"
+# 已发布的标准包内含 x86 和 x64 DLL，旧版缺少摘要时不列为可安装。
+require_checksum = true
+[sources.assets]
+x86_64 = ["vkd3d-proton-{version}.tar.zst"]
+
+[[sources]]
+id = "vkd3d-low-latency"
+name = "VKD3D-Low-Latency"
+provider = "github_releases"
+repo = "netborg-afps/vkd3d-low-latency"
+tag_prefix = "low-latency-"
+require_checksum = true
+[sources.assets]
+# 上游将 x86/x64 合在 x86 包中，ARM64EC 使用单独的 arm64x 包。
+x86_64 = ["vkd3d-low-latency-{version}-x86.tar.zst", "vkd3d-low-latency-{version}.tar.zst", "vkd3d-low-latency-3.0.1-1.tar.zst"]
+aarch64 = ["vkd3d-low-latency-{version}-arm64x.tar.zst"]

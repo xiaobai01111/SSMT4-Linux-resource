@@ -1,0 +1,8 @@
+# 程序发布源独立于资源总索引。每个来源按照自己的发布响应提取版本。
+version = 1
+
+[[sources]]
+name = "SSMT4-Linux"
+release_url = "https://api.github.com/repos/xiaobai01111/SSMT4-Linux/releases/latest"
+tag_pointer = "/tag_name"
+page_url = "https://github.com/xiaobai01111/SSMT4-Linux/releases"

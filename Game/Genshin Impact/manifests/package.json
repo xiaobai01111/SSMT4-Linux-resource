@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "sources.toml",
+      "sha256": "716d8598b360e89845e2fc4348fdaf3a3b70567fe75d376ad9ee47261dd892a6",
+      "size": 843
+    },
+    {
+      "path": "background.webp",
+      "sha256": "9af7108f355a2e7091a429d837192e4c99781c9accc5afdb8d2b4d836e949f07",
+      "size": 238070
+    },
+    {
+      "path": "icon.webp",
+      "sha256": "3bcd4e19fc93f975e16794f392897f976c3a40dba7ba12ac9ab1a8efd40659ee",
+      "size": 103650
+    },
+    {
+      "path": "manifests/cn/formal.json",
+      "sha256": "ab65058434ba49e53db6aa3fc6b0c45bc281fdc8fa744f1c449e2fdf797099a6",
+      "size": 14100
+    },
+    {
+      "path": "manifests/global/formal.json",
+      "sha256": "9a550b486cc291f196a8f0f887cb4d2475c2517a7af0da1e892f4765243c8f5f",
+      "size": 14180
+    },
+    {
+      "path": "manifests/index.json",
+      "sha256": "f1c307d7b1318448bd83c472b2556345707b8670e63c2414a5e2764842841341",
+      "size": 848
+    }
+  ],
+  "id": "genshin-impact",
+  "schema": 1,
+  "type": "game"
+}

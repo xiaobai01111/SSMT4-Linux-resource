@@ -1,0 +1,38 @@
+# 渠道参数属于 PC 正式服。预下载按各渠道当前正式版另行查询。
+version = 1
+type = "game"
+id = "arknights-endfield"
+game = "明日方舟：终末地"
+default_channel = "cn"
+
+[entrypoints]
+catalog = "manifests/index.json"
+icon = "icon.webp"
+background = "background.webp"
+
+[channels.cn]
+name = "国服官服"
+latest_url = "https://launcher.hypergryph.com/api/game/get_latest"
+appcode = "6LL0KJuqHBVz33WK"
+launcher_appcode = "abYeZZ16BPluCFyT"
+channel = 1
+sub_channel = 1
+entry = "Endfield.exe"
+
+[channels.bilibili]
+name = "B服"
+latest_url = "https://launcher.hypergryph.com/api/game/get_latest"
+appcode = "6LL0KJuqHBVz33WK"
+launcher_appcode = "abYeZZ16BPluCFyT"
+channel = 2
+sub_channel = 2
+entry = "Endfield.exe"
+
+[channels.global]
+name = "国际服"
+latest_url = "https://launcher.gryphline.com/api/game/get_latest"
+appcode = "YDUTE5gscDZ229CW"
+launcher_appcode = "TiaytKBUIEdoEwRT"
+channel = 6
+sub_channel = 6
+entry = "Endfield.exe"

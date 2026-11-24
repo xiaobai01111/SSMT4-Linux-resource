@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "sources.toml",
+      "sha256": "da2ccaf05566d0e75b06cd78eb0a7f149e886f9991c00f67c55a0b4320a2a1c9",
+      "size": 862
+    },
+    {
+      "path": "background.webp",
+      "sha256": "461c5cd79fefbb2c261d69ded43b10c4d7ec1132b7114e55fd374539d53e002d",
+      "size": 204078
+    },
+    {
+      "path": "icon.webp",
+      "sha256": "0a813d27632c1e939b8cf106e8f94cfdf90691fd83464b9aae368eab782df4e3",
+      "size": 134762
+    },
+    {
+      "path": "manifests/cn/formal.json",
+      "sha256": "356dae90f37748631ff264c91b2c049f88ca7a62cb5dcd78173410306f1b7dde",
+      "size": 14412
+    },
+    {
+      "path": "manifests/global/formal.json",
+      "sha256": "6a093782dd65d2a4f16932cc311e477378b49887466f940eef4369c0bf6ccc5a",
+      "size": 14688
+    },
+    {
+      "path": "manifests/index.json",
+      "sha256": "4f6b1b6f476cd6a7aa53fbab090345db5c17463e6dd355efa4a00cdd39fdc31a",
+      "size": 838
+    }
+  ],
+  "id": "honkai-star-rail",
+  "schema": 1,
+  "type": "game"
+}
