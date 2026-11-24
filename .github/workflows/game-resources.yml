@@ -3,7 +3,7 @@ name: 更新游戏资源清单
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 0 * * *'
   push:
     paths:
       - 'Game/*/sources.toml'
