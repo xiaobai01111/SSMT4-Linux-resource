@@ -7,6 +7,9 @@ import tomllib
 from pathlib import Path
 
 
+CATALOG = "manifests/index.json"
+
+
 def json_bytes(value):
     # 固定编码和字段顺序，让内容相同的重新生成保留同一个 Git 版本。
     return (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()
@@ -23,7 +26,6 @@ def entry(file, name):
 
 
 IMAGE_TYPES = {".png", ".jpg", ".jpeg", ".webp"}
-DESCRIPTORS = {"package.json", "package.pending.json"}
 
 
 def picture(root, name):
@@ -33,33 +35,28 @@ def picture(root, name):
 
 
 def validate_config(config):
-    if config["type"] != "game" or not re.fullmatch(r"[a-z0-9][a-z0-9_-]*", config["id"]):
+    if config["type"] != "game" or not re.fullmatch(r"[a-z0-9][a-z0-9_-]{0,95}", config["id"]):
         raise ValueError("游戏数据包需要 type=game 和稳定的 id")
-    if config["entrypoints"]["catalog"] != "manifests/index.json":
+    # 布尔值在 Python 是整数的子类，但不能用作 TOML 版号。
+    version = config["version"]
+    if type(version) is not int or not 0 <= version < 2**63 or not config["game"].strip():
+        raise ValueError("游戏配置需要非负 version 和非空显示名")
+    if config["entrypoints"]["catalog"] != CATALOG:
         raise ValueError("发行配置中的 catalog 须指向已生成的总索引")
 
 
-def artwork(root, entries, allow_draft):
-    names = {entries["icon"], entries["background"]}
-    # 新目录可预留素材，鸣潮的旧资源约定仍要求两项图片齐全。
-    if allow_draft:
-        names.discard("")
+def artwork(root, entries):
+    # 背景可缺省；未登记图标的包永远只写待发布描述符。
+    names = {entries["icon"], entries.get("background", "")} - {""}
     return [picture(root, name) for name in sorted(names)]
 
 
-def manifest_entries(stage):
-    # 不把待交付描述符收进同一包，否则更新图标会产生新的自引用。
-    paths = sorted(stage.rglob("*.json"))
-    return [entry(file, "manifests/" + file.relative_to(stage).as_posix())
-            for file in paths if file.name not in DESCRIPTORS]
-
-
-def write_descriptor(config_path, stage, allow_draft=False):
+def write_descriptor(config_path, stage, manifests):
     config = tomllib.loads(config_path.read_text(encoding="utf-8"))
     validate_config(config)
     entries = config["entrypoints"]
-    media = artwork(config_path.parent, entries, allow_draft)
-    files = [entry(config_path, "sources.toml"), *media, *manifest_entries(stage)]
+    media = artwork(config_path.parent, entries)
+    files = [entry(config_path, "sources.toml"), *media, *manifests]
     descriptor = {"schema": 1, "type": "game", "id": config["id"], "files": files}
     # 现有客户端要求图标。留空的包仍可生成摘要，但使用非发现名称。
     name = "package.json" if entries["icon"] else "package.pending.json"

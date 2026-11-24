@@ -7,7 +7,7 @@
 
 ## 游戏清单更新
 
-`Game/<游戏目录>/` 只存客户端资源：`sources.toml`、图片和 `manifests/`。`Github/` 集中存放维护脚本，`Github/__main__.py` 是统一入口；各游戏的上游适配器和测试放在直属目录，如 `Github/wuthering_waves/`。客户端以固定 Git 提交和 `manifests/package.json` 验证数据，不运行维护代码。
+`Game/<游戏目录>/` 使用统一的 [目录、字段和安装清单协议](docs/game-resource-packs.md)。客户端按固定 Git 提交和 `manifests/package.json` 校验数据，只解析规范安装清单；`Github/` 中的发布工具负责转换各发行商的原始数据，不在客户端执行。
 
 游戏图标和背景分别使用 `icon.webp`、`background.webp`，保留原始尺寸，图标无损编码，背景有损压缩。替换素材时在 `sources.toml` 的 `entrypoints` 登记路径，并更新 `manifests/package.json` 中配置和图片的大小与 SHA-256。
 
@@ -24,6 +24,6 @@ python3 -B -m unittest discover -s Github -t . -v
 
 统一的 [GitHub Actions 工作流](.github/workflows/game-resources.yml) 每天 00:17 UTC（北京时间 08:17）定时运行一次，也可手动触发。仅默认分支可发布，有清单变化才提交；拉取请求只运行离线测试。
 
-接入新游戏时，在 `Game/` 添加资源目录，在 `Github/` 新建该游戏的直属目录，并在 [UPDATERS](Github/sync.py) 中登记稳定 ID、资源目录名和生成函数。生成函数接收来源配置、新快照目录和旧清单缓存，验证完整快照并生成 `package.json` 后交付。静态游戏包不用登记更新器，也不需要新增脚本入口或工作流。
+接入新游戏时先按协议发布数据；静态包无需修改客户端，也无须登记更新器。若要自动同步上游，在 `Github/` 加入发布端生成器，并在 [UPDATERS](Github/sync.py) 登记稳定 ID、资源目录名和生成函数。生成函数读取来源配置及旧清单缓存，先生成完整候选，再写交付单。
 
 [鸣潮资源说明](docs/wuthering-waves/README.md)

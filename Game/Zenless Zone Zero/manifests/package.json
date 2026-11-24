@@ -16,19 +16,9 @@
       "size": 481332
     },
     {
-      "path": "manifests/cn/formal.json",
-      "sha256": "99c2ae93488d436f9b790e3fc8d31d2ab29624a4a3ffac0e779811966132a16c",
-      "size": 159749
-    },
-    {
-      "path": "manifests/global/formal.json",
-      "sha256": "26fb4c36c25745eaf2337f7a4de9b73944fd860cb67d0d5f893b7da534277e3a",
-      "size": 161786
-    },
-    {
       "path": "manifests/index.json",
-      "sha256": "c0051938c0425b6db2b1c45ece53aa9b348433f011029a59869ddd213bb1695f",
-      "size": 862
+      "sha256": "80f64b75771d343fc99336b61fb0e2d33fa4cd09f92454c246ee1ab734cd3d22",
+      "size": 95
     }
   ],
   "id": "zenless-zone-zero",

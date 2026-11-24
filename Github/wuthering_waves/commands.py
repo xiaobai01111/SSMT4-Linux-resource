@@ -26,7 +26,7 @@ def plan_command(args, config):
 def plan_arguments(commands):
     parser = commands.add_parser("plan", help="从已提交的清单和本机状态计算执行计划")
     parser.add_argument("operation", choices=("install", "update", "switch", "uninstall"))
-    parser.add_argument("--catalog", type=Path, help="固定提交中的 manifests/index.json")
+    parser.add_argument("--catalog", type=Path, help="固定提交中的 manifests/publisher.json")
     parser.add_argument("--state", type=Path, help="本机文件、缓存与安装回执 JSON")
     parser.add_argument("--channel", help="目标渠道，转服时必须指定")
     parser.add_argument("--quality", type=str.upper)

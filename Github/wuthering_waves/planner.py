@@ -4,6 +4,8 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from ..catalog import PUBLISHER_INDEX
+from ..client_data import CATALOG
 from .records import relative_path
 from .inventory import blob_key, channel_cache, fingerprint, matches, retired_files, uninstall_plan
 from .rules import risk_actions
@@ -38,7 +40,7 @@ def target_options(args, config, local):
 
 def select_target(args, config, local):
     channel, quality = target_options(args, config, local)
-    default_path = relative_path(config["entrypoints"]["catalog"])
+    default_path = Path(CATALOG).with_name(PUBLISHER_INDEX)
     path = args.catalog or args.config.parent / default_path
     index = json.loads(path.read_bytes())
     if index["schema"] != 1 or index["game"] != local.game:

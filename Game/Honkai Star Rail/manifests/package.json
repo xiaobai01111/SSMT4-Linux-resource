@@ -16,19 +16,9 @@
       "size": 134762
     },
     {
-      "path": "manifests/cn/formal.json",
-      "sha256": "356dae90f37748631ff264c91b2c049f88ca7a62cb5dcd78173410306f1b7dde",
-      "size": 14412
-    },
-    {
-      "path": "manifests/global/formal.json",
-      "sha256": "6a093782dd65d2a4f16932cc311e477378b49887466f940eef4369c0bf6ccc5a",
-      "size": 14688
-    },
-    {
       "path": "manifests/index.json",
-      "sha256": "4f6b1b6f476cd6a7aa53fbab090345db5c17463e6dd355efa4a00cdd39fdc31a",
-      "size": 838
+      "sha256": "ab86e3bb24180738e42bfc3fdfc9ca644442769f5a5c7c356726f56a17ab86fe",
+      "size": 94
     }
   ],
   "id": "honkai-star-rail",

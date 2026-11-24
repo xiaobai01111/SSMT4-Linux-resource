@@ -27,7 +27,7 @@ NEW = official("client.pak", "2", 120)
 DIRECT = {**official("info.txt", "3", 12), "fromFolder": "special/"}
 TRANSPORT = official("delta.krpdiff", "4", 7)
 CONFIG = {"game": "Test", "default_channel": "bilibili", "default_quality": "HD",
-          "entrypoints": {"catalog": "index.json"}, "channels": {"bilibili": {"app_id": "10004"}}}
+          "channels": {"bilibili": {"app_id": "10004"}}}
 
 
 def example_index():
@@ -69,8 +69,8 @@ class UpdateFixture:
         if stage == "predownload":
             releases[stage] = self.release(stage, "2.0")
         index = {"schema": 1, "game": "Test", "channels": {"bilibili": releases}}
-        (self.root / "index.json").write_bytes(json_bytes(index))
-        args = argparse.Namespace(config=self.root / "sources.toml", channel=None, quality=None,
+        (self.root / "publisher.json").write_bytes(json_bytes(index))
+        args = argparse.Namespace(config=self.root.parent / "sources.toml", channel=None, quality=None,
                                   operation="update", catalog=None, stage=stage, full_files=False)
         return build_plan(args, CONFIG, load_inventory(state, "Test"))
 
@@ -78,7 +78,9 @@ class UpdateFixture:
 class UpdateTests(unittest.TestCase):
     def fixture(self):
         # 测试只在临时资源仓库生成索引，不写入已提交的官方样本。
-        return UpdateFixture(Path(self.enterContext(tempfile.TemporaryDirectory())))
+        root = Path(self.enterContext(tempfile.TemporaryDirectory()), "manifests")
+        root.mkdir(mode=0o700)
+        return UpdateFixture(root)
 
     def test_patch_and_complete_urls(self):
         case = self.fixture()
@@ -107,13 +109,11 @@ class UpdateTests(unittest.TestCase):
     def test_invalid_patch_rejected(self):
         case = self.fixture()
         case.index["deleteFiles"] = [DIRECT["dest"]]
-        with self.assertRaisesRegex(ValueError, "删除"):
-            case.plan(case.state())
+        self.assertRaisesRegex(ValueError, "删除", case.plan, case.state())
         # 全量目标的一项摘要不同，即使下载索引来自正确渠道也要拒绝。
         case.index["deleteFiles"].clear()
         case.index["groupInfos"][0]["dstFiles"] = [{**NEW, "md5": "8" * 32}]
-        with self.assertRaisesRegex(ValueError, "目标清单"):
-            case.plan(case.state())
+        self.assertRaisesRegex(ValueError, "目标清单", case.plan, case.state())
 
     def test_predownload_only_stages_payload(self):
         case = self.fixture()

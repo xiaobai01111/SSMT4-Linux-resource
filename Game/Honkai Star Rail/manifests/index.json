@@ -1,31 +1,6 @@
 {
-  "channels": {
-    "cn": {
-      "entry": "StarRail.exe",
-      "formal": {
-        "path": "cn/formal.json",
-        "sha256": "356dae90f37748631ff264c91b2c049f88ca7a62cb5dcd78173410306f1b7dde",
-        "size": 14412,
-        "version": "4.7.0"
-      },
-      "installFolder": "Star Rail Game",
-      "publisherBiz": "hkrpg_cn",
-      "publisherGameId": "64kMb5iAWu"
-    },
-    "global": {
-      "entry": "StarRail.exe",
-      "formal": {
-        "path": "global/formal.json",
-        "sha256": "6a093782dd65d2a4f16932cc311e477378b49887466f940eef4369c0bf6ccc5a",
-        "size": 14688,
-        "version": "4.7.0"
-      },
-      "installFolder": "Star Rail Games",
-      "publisherBiz": "hkrpg_global",
-      "publisherGameId": "4ziysqXOQ8"
-    }
-  },
   "gameId": "honkai-star-rail",
-  "schema": 1,
-  "type": "game-resource-catalog"
+  "releases": [],
+  "schema": 2,
+  "type": "game-install"
 }

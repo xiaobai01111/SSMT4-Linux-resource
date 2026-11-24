@@ -26,7 +26,7 @@ def target_path(target):
 
 
 def read_target(root, reference):
-    # 启动器整份检出固定提交后，仍可在交给核心前发现本地文件损坏。
+    # 发布与维护计划均从同一快照读取，并核对该快照引用的原始目标字节。
     path = Path(relative_path(reference["path"]))
     data = (root / path).read_bytes()
     if hashlib.sha256(data).hexdigest() != reference["sha256"]:

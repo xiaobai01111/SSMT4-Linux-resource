@@ -26,6 +26,7 @@ UPDATERS = {
 SYNC_ERRORS = (OSError, ValueError, KeyError, TypeError)
 
 
+# 目录命名与安装游戏 ID 分离，标签变更不会自动搬迁资源包。
 def config_path(game, root=GAME_ROOT):
     folder, _ = UPDATERS[game]
     return root / folder / "sources.toml"

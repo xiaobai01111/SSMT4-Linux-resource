@@ -45,6 +45,7 @@ def check_volumes(volumes):
 
 def ordered_parts(rows):
     parts = list(map(member, rows))
+    # 官方完整 ZIP 不是缺少第二卷；分卷格式则必须从首卷按序验证。
     if len(parts) == 1 and parts[0]["path"].lower().endswith(".zip"):
         return parts
     # 保留原始卷名作为下载及复验的成员标识，只用数字卷号决定写入顺序。

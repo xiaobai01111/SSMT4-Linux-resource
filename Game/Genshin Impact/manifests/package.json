@@ -16,19 +16,9 @@
       "size": 103650
     },
     {
-      "path": "manifests/cn/formal.json",
-      "sha256": "ab65058434ba49e53db6aa3fc6b0c45bc281fdc8fa744f1c449e2fdf797099a6",
-      "size": 14100
-    },
-    {
-      "path": "manifests/global/formal.json",
-      "sha256": "9a550b486cc291f196a8f0f887cb4d2475c2517a7af0da1e892f4765243c8f5f",
-      "size": 14180
-    },
-    {
       "path": "manifests/index.json",
-      "sha256": "f1c307d7b1318448bd83c472b2556345707b8670e63c2414a5e2764842841341",
-      "size": 848
+      "sha256": "ba0f225def0efbb03a9768b8b5afbf3aaa744a2c0852c7119b7b06a70acd2431",
+      "size": 92
     }
   ],
   "id": "genshin-impact",

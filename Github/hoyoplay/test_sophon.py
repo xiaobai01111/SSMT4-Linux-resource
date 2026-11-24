@@ -17,6 +17,7 @@ class SophonTests(unittest.TestCase):
     def test_component_missing_from_scenario_list_is_preserved(self):
         result = component(build_component(), {})
         self.assertEqual(result["matchingField"], "mini-zh-cn")
+        # 场景缺失不能导致组件丢失，也不能补写并未发布的类别。
         self.assertEqual(result["scenarios"], [])
         self.assertIsNone(result["categoryType"])
         self.assertEqual(result["manifest"]["url"], "https://publisher.example/component/manifest_id")

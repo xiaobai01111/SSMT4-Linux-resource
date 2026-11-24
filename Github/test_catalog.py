@@ -9,9 +9,12 @@ from pathlib import Path
 from Github import catalog
 
 
+# 待发布与已发布共用同一个规范的配置，仅图标状态不同。
 CONFIG = '''
 type = "game"
 id = "fixture"
+version = 1
+game = "测试游戏"
 default_channel = "cn"
 [entrypoints]
 catalog = "manifests/index.json"
@@ -36,10 +39,17 @@ class CatalogTests(unittest.TestCase):
         self.assertFalse((draft / "package.json").exists())
         package = json.loads((draft / "package.pending.json").read_bytes())
         by_path = {row["path"]: row for row in package["files"]}
-        self.assertEqual(set(by_path), {"sources.toml", "manifests/index.json", "manifests/cn/formal.json"})
-        # 子索引和交付描述符必须用同一个文件的实际字节。
+        # 正式发布前也只收录客户端文件，发行商原始索引单独保留。
+        self.assertEqual(set(by_path), {"sources.toml", "manifests/index.json"})
+        content = (draft / "index.json").read_bytes()
+        self.assertEqual(by_path["manifests/index.json"]["sha256"], hashlib.sha256(content).hexdigest())
+        self.assertEqual(json.loads(content), {"schema": 2, "type": "game-install", "gameId": "fixture", "releases": []})
+        # 元数据不足时索引为空，不伪造无法验证的安装目标。
+        publisher = json.loads((draft / "publisher.json").read_bytes())
+        self.assertEqual(publisher["channels"]["cn"]["entry"], "Game.exe")
+        self.assertEqual(publisher["channels"]["cn"]["formal"]["path"], "cn/formal.json")
         content = (draft / "cn/formal.json").read_bytes()
-        self.assertEqual(by_path["manifests/cn/formal.json"]["sha256"], hashlib.sha256(content).hexdigest())
+        self.assertEqual(publisher["channels"]["cn"]["formal"]["sha256"], hashlib.sha256(content).hexdigest())
 
     def test_icon_can_be_supplied_without_background(self):
         root = Path(self.enterContext(tempfile.TemporaryDirectory()))
@@ -54,3 +64,23 @@ class CatalogTests(unittest.TestCase):
         self.assertFalse((ready / "package.pending.json").exists())
         package = json.loads((ready / "package.json").read_bytes())
         self.assertIn(image.name, {row["path"] for row in package["files"]})
+
+    def test_default_release_selection_is_explicit_and_unique(self):
+        stage = Path(self.enterContext(tempfile.TemporaryDirectory()))
+        # 空渠道和空画质是合法默认键，但仍须占用唯一的发布路径。
+        assets = [{"path": "Install.exe", "urls": ["https://cdn.example/Install.exe"], "size": 1,
+                   "hash": {"sha256": "a" * 64}}]
+        release = catalog.InstallRelease("", "", "1.0", "Install.exe", assets, {"kind": "files"})
+        catalog.write_install_catalog(stage, "other-game", [release])
+        index = json.loads((stage / "index.json").read_bytes())
+        [ref] = index["releases"]
+        selection = {"channel": "", "quality": "", "version": "1.0"}
+        self.assertEqual(ref["selection"], selection)
+        # 交付的是目标原始字节，重排 JSON 也必须更新摘要。
+        target = (stage / ref["path"].removeprefix("manifests/")).read_bytes()
+        self.assertEqual(ref["sha256"], hashlib.sha256(target).hexdigest())
+        self.assertEqual(json.loads(target), {"schema": 1, "type": "game-install-target", "gameId": "other-game",
+                                             "selection": selection, "entry": "Install.exe", "assets": assets,
+                                             "install": {"kind": "files"}})
+        with self.assertRaisesRegex(ValueError, "重复"):
+            catalog.write_install_catalog(stage, "other-game", [release, release])

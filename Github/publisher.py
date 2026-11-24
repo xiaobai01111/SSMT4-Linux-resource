@@ -10,6 +10,7 @@ from urllib.parse import unquote, urlsplit
 from urllib.request import Request, urlopen
 
 
+# 只把公开网络地址留在规范化快照，实际请求凭据由上游采集器持有。
 def https(url):
     # 统一检查组装前的源地址与实际响应地址，避免保存带登录信息的 CDN 来源。
     parsed = urlsplit(url)
@@ -74,18 +75,24 @@ def transient(error):
     return True
 
 
+def read_snapshot(request):
+    try:
+        return read_response(request)
+    except (OSError, HTTPException) as error:
+        # 构建与差分查询均只读，暂态失败有一次重试机会。
+        if not transient(error):
+            raise
+    return read_response(request)
+
+
 def request_bytes(request):
     endpoint = https(request.full_url)
-    # 构建和差分查询均只读。短暂连接故障重试一次，权限错误直接保留旧快照。
-    for _ in range(2):
-        try:
-            return read_response(request)
-        except (OSError, HTTPException) as error:
-            failure = type(error).__name__
-            if not transient(error):
-                break
-    # 故障日志只标识接口，不回显随请求发送的构建参数。
-    raise OSError(f"{endpoint.hostname}{endpoint.path} 请求失败（{failure}）") from None
+    try:
+        return read_snapshot(request)
+    except (OSError, HTTPException) as error:
+        # 诊断只含主机、路径与错误类别，不回显接口查询凭据。
+        category = type(error).__name__
+        raise OSError(f"{endpoint.hostname}{endpoint.path} 请求失败（{category}）") from None
 
 
 def document(url, *, method="GET"):

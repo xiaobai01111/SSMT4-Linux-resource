@@ -1,31 +1,6 @@
 {
-  "channels": {
-    "cn": {
-      "entry": "YuanShen.exe",
-      "formal": {
-        "path": "cn/formal.json",
-        "sha256": "ab65058434ba49e53db6aa3fc6b0c45bc281fdc8fa744f1c449e2fdf797099a6",
-        "size": 14100,
-        "version": "7.2.0"
-      },
-      "installFolder": "Genshin Impact Game",
-      "publisherBiz": "hk4e_cn",
-      "publisherGameId": "1Z8W5NHUQb"
-    },
-    "global": {
-      "entry": "GenshinImpact.exe",
-      "formal": {
-        "path": "global/formal.json",
-        "sha256": "9a550b486cc291f196a8f0f887cb4d2475c2517a7af0da1e892f4765243c8f5f",
-        "size": 14180,
-        "version": "7.2.0"
-      },
-      "installFolder": "Genshin Impact game",
-      "publisherBiz": "hk4e_global",
-      "publisherGameId": "gopR6Cufr3"
-    }
-  },
   "gameId": "genshin-impact",
-  "schema": 1,
-  "type": "game-resource-catalog"
+  "releases": [],
+  "schema": 2,
+  "type": "game-install"
 }

@@ -1,31 +1,6 @@
 {
-  "channels": {
-    "cn": {
-      "entry": "ZenlessZoneZero.exe",
-      "formal": {
-        "path": "cn/formal.json",
-        "sha256": "99c2ae93488d436f9b790e3fc8d31d2ab29624a4a3ffac0e779811966132a16c",
-        "size": 159749,
-        "version": "3.3.0"
-      },
-      "installFolder": "ZenlessZoneZero Game",
-      "publisherBiz": "nap_cn",
-      "publisherGameId": "x6znKlJ0xK"
-    },
-    "global": {
-      "entry": "ZenlessZoneZero.exe",
-      "formal": {
-        "path": "global/formal.json",
-        "sha256": "26fb4c36c25745eaf2337f7a4de9b73944fd860cb67d0d5f893b7da534277e3a",
-        "size": 161786,
-        "version": "3.3.0"
-      },
-      "installFolder": "ZenlessZoneZero Game",
-      "publisherBiz": "nap_global",
-      "publisherGameId": "U5hbdsT9W7"
-    }
-  },
   "gameId": "zenless-zone-zero",
-  "schema": 1,
-  "type": "game-resource-catalog"
+  "releases": [],
+  "schema": 2,
+  "type": "game-install"
 }
