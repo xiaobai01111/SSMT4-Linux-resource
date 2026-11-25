@@ -6,27 +6,27 @@
       "selection": {
         "channel": "bilibili",
         "quality": "",
-        "version": "1.6.4"
+        "version": "1.7.2"
       },
-      "sha256": "1bf57454c40876765ce9a21c14c3128c6354cbbce678a811154bca952ccc5700"
+      "sha256": "bcb8620c00095b2d6ea473b30a2002225510a27160fa8230b5ab7c1d608a4328"
     },
     {
       "path": "manifests/releases/cn/default.quality.json",
       "selection": {
         "channel": "cn",
         "quality": "",
-        "version": "1.6.4"
+        "version": "1.7.2"
       },
-      "sha256": "1f68873c6f3ab724f656033354f5d571fa0686d2d9e6e11454c63404da02ca84"
+      "sha256": "ee7383045fb1e1a2a89461dcf80f1d697c152f4d8c6dbfffe3bad78620f4ffee"
     },
     {
       "path": "manifests/releases/global/default.quality.json",
       "selection": {
         "channel": "global",
         "quality": "",
-        "version": "1.6.4"
+        "version": "1.7.2"
       },
-      "sha256": "f423d8726d9dea8c33df0fce1ee78356687230e4538a0c60112c8018ab4d3507"
+      "sha256": "a6c33eca1c68b9525b7d1212f76b4d5644be423a568f49cb83f1996f9f356332"
     }
   ],
   "schema": 2,

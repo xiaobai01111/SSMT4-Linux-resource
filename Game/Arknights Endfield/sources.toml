@@ -1,5 +1,5 @@
 # 渠道参数属于 PC 正式服。预下载按各渠道当前正式版另行查询。
-version = 1
+version = "1.0.1"
 type = "game"
 id = "arknights-endfield"
 game = "明日方舟：终末地"

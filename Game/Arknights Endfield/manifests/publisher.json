@@ -4,14 +4,8 @@
       "entry": "Endfield.exe",
       "formal": {
         "path": "bilibili/formal.json",
-        "sha256": "d7cb6be9f0d5cefbc91c73e32bb596748d4e9810644af98b711f034f2b75da68",
-        "size": 22715,
-        "version": "1.6.4"
-      },
-      "predownload": {
-        "path": "bilibili/predownload.json",
-        "sha256": "389c44a40fd83f9c17c8d7d1f1d272d5c5f6b80747671e0acd88fbfbb7e274c2",
-        "size": 2598,
+        "sha256": "547212c1dc180251de8bbc4cbc11ceae4bd05a9c0b2ce3eccf4ebbb17135aa98",
+        "size": 24231,
         "version": "1.7.2"
       },
       "publisherGameId": "6LL0KJuqHBVz33WK"
@@ -20,14 +14,8 @@
       "entry": "Endfield.exe",
       "formal": {
         "path": "cn/formal.json",
-        "sha256": "024bf75ade2457ed4b0dc44dd2150f589ff5df1caf0af8ab37f69ad8af304303",
-        "size": 22714,
-        "version": "1.6.4"
-      },
-      "predownload": {
-        "path": "cn/predownload.json",
-        "sha256": "ebb90b0fbfb52682febfc1f2ab95e1c7858fc1924d0eb104bb63baddec8aa0b9",
-        "size": 2598,
+        "sha256": "9ec4388b1709cad972c224203bdf35082d09ae767157b55cb37f09f98699b028",
+        "size": 24231,
         "version": "1.7.2"
       },
       "publisherGameId": "6LL0KJuqHBVz33WK"
@@ -36,14 +24,8 @@
       "entry": "Endfield.exe",
       "formal": {
         "path": "global/formal.json",
-        "sha256": "c184b798b1b2957b996a5ff7b0bae7d6e8bfdc45eaf0528a71f93aadc1c09e48",
-        "size": 20593,
-        "version": "1.6.4"
-      },
-      "predownload": {
-        "path": "global/predownload.json",
-        "sha256": "9a3ccf25c0a3793d32cb90602764a4eb481d1c7fa759c690187893b60494e4c5",
-        "size": 2346,
+        "sha256": "dc95d9410ab0120a6e6932f596632214e23c5347d1824525011455ec9f9fbd94",
+        "size": 21965,
         "version": "1.7.2"
       },
       "publisherGameId": "YDUTE5gscDZ229CW"
