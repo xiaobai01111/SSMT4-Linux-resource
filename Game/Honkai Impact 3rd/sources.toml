@@ -1,5 +1,5 @@
 # 海外各区使用同一启动器，不同 game_id 对应各自的安装资源。
-version = 1
+version = "1.0.1"
 type = "game"
 id = "honkai-impact-3rd"
 game = "崩坏3"

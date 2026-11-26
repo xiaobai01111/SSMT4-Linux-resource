@@ -6,9 +6,9 @@
       "selection": {
         "channel": "cn",
         "quality": "",
-        "version": "9.1.0"
+        "version": "9.2.0"
       },
-      "sha256": "73f0bc5de667cc5c536500c2b0603545c7fade363b163eed2b720d10d99a9c93"
+      "sha256": "9ff2b3bdbd27dcd8dfbe5b581769474a1a583c06a5ae53a2ae8b0e2b1692ef21"
     },
     {
       "path": "manifests/releases/global/default.quality.json",

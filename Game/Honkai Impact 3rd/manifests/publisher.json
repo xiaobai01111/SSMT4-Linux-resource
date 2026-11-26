@@ -4,17 +4,11 @@
       "entry": "BH3.exe",
       "formal": {
         "path": "cn/formal.json",
-        "sha256": "a17f662dddd7cfd4ad594bf70e9584d6ebe3218acdc9a876682050caed49cf51",
+        "sha256": "4a2d67b25b82fec6cde8be24b37adcb3ff0d7e963686c2cf301fbee0b6d5537f",
         "size": 2295,
-        "version": "9.1.0"
-      },
-      "installFolder": "Honkai Impact 3rd Game",
-      "predownload": {
-        "path": "cn/predownload.json",
-        "sha256": "bedc6efc69f73f24feb3cfdef11cde6da3526254d6874e99c4eb3676b40eecab",
-        "size": 1898,
         "version": "9.2.0"
       },
+      "installFolder": "Honkai Impact 3rd Game",
       "publisherBiz": "bh3_cn",
       "publisherGameId": "osvnlOc0S8"
     },

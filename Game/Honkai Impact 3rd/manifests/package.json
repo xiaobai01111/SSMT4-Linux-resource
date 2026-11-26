@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "sources.toml",
-      "sha256": "8d698a0713ad9b3d0367bf692923e4e41305da822991c73f0fd74b5b0fc6b255",
-      "size": 2020
+      "sha256": "a15d956f730f7c275994daf9bf417b37c85abeb3c9cff90260ecce4c316b27eb",
+      "size": 2026
     },
     {
       "path": "background.webp",
@@ -17,12 +17,12 @@
     },
     {
       "path": "manifests/index.json",
-      "sha256": "0a035af3a55eb605f1635a9156f321283b296b9aaa3b558b1598cb2e513794d8",
+      "sha256": "541e216dbeb659f1febb7db47e973184672503b9dcf1a930ba888231a19029d1",
       "size": 1673
     },
     {
       "path": "manifests/releases/cn/default.quality.json",
-      "sha256": "73f0bc5de667cc5c536500c2b0603545c7fade363b163eed2b720d10d99a9c93",
+      "sha256": "9ff2b3bdbd27dcd8dfbe5b581769474a1a583c06a5ae53a2ae8b0e2b1692ef21",
       "size": 887
     },
     {
@@ -56,6 +56,11 @@
       "size": 2385982
     },
     {
+      "path": "manifests/sophon/088e8629b4b8bc21d5a201a628f75545.zst",
+      "sha256": "ae66074594e311d2cec8b3846c2432ef3bb121e7d8340acfa3b5130993de10be",
+      "size": 2347544
+    },
+    {
       "path": "manifests/sophon/094fd6f62976785fde06c73b4f3d2b1f.zst",
       "sha256": "445777a2cd6934842670a4a77b4afbbf8ecfc0a18f46d8514176cd98615b678c",
       "size": 2312354
@@ -81,11 +86,6 @@
       "size": 2328934
     },
     {
-      "path": "manifests/sophon/84c18a31b9b3fe01615e3e41eaacf11e.zst",
-      "sha256": "369472a08714e0d49d3d9baf0699e73b2e763ec71d0ea60dc0de5f37a40c49fb",
-      "size": 2311845
-    },
-    {
       "path": "manifests/sophon/8995cc9d5338be0ecd1a41b3ea39e85b.zst",
       "sha256": "2d0be645c737848f0873c3e0328e52503029a2f2f456286ee734e89e75da742d",
       "size": 2406972
@@ -96,14 +96,14 @@
       "size": 104554
     },
     {
-      "path": "manifests/sophon/ca147c6baf702d2db95eac8c6158123b.zst",
-      "sha256": "0ef04e0ba13fe2d933db54b70048ba02378ba46b4dc7cacaa44b72da938bed4e",
-      "size": 133314
-    },
-    {
       "path": "manifests/sophon/dd931a31d0d936463113e0f0311c4d9e.zst",
       "sha256": "aa9b4b39e57cfa27d4fd75bff1fe3f75cccb57531816ed198bf0d4f9a23ea071",
       "size": 106143
+    },
+    {
+      "path": "manifests/sophon/dee7a377dec0f0c8257bf72518ee3530.zst",
+      "sha256": "9eea9397b3ab7096f24b1c8da2ce135c8d22fd3b381a3fb1a62ed5a332e44b37",
+      "size": 125202
     },
     {
       "path": "manifests/sophon/ee9d634d2263bb88f8774a968e8e92f0.zst",

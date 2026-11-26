@@ -5,14 +5,14 @@
       "categoryType": "CATEGORY_TYPE_RESOURCE",
       "chunks": {
         "compression": "zstd",
-        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X"
+        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm"
       },
       "manifest": {
-        "compressedBytes": 133314,
+        "compressedBytes": 125202,
         "compression": "zstd",
-        "unpackedBytes": 266969,
-        "unpackedMd5": "ca147c6baf702d2db95eac8c6158123b",
-        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X/manifest_62b6d203ba028e06_ca147c6baf702d2db95eac8c6158123b"
+        "unpackedBytes": 252105,
+        "unpackedMd5": "dee7a377dec0f0c8257bf72518ee3530",
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm/manifest_0bfe7362e4240e55_dee7a377dec0f0c8257bf72518ee3530"
       },
       "matchingField": "game",
       "name": "游戏资源-外网（新）",
@@ -20,10 +20,10 @@
         "CATEGORY_SCENARIO_FULL"
       ],
       "stats": {
-        "chunkCount": 1698,
-        "compressedBytes": 961810830,
-        "fileCount": 267,
-        "unpackedBytes": 1646633046
+        "chunkCount": 1597,
+        "compressedBytes": 878652466,
+        "fileCount": 266,
+        "unpackedBytes": 1539440709
       }
     },
     {
@@ -31,14 +31,14 @@
       "categoryType": "CATEGORY_TYPE_RESOURCE",
       "chunks": {
         "compression": "zstd",
-        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X"
+        "urlPrefix": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/chunks/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm"
       },
       "manifest": {
-        "compressedBytes": 2311845,
+        "compressedBytes": 2347544,
         "compression": "zstd",
-        "unpackedBytes": 4305230,
-        "unpackedMd5": "84c18a31b9b3fe01615e3e41eaacf11e",
-        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20260918/9.1.0/kXNsMsGnqG3X/manifest_0200028e306fd1a7_84c18a31b9b3fe01615e3e41eaacf11e"
+        "unpackedBytes": 4374200,
+        "unpackedMd5": "088e8629b4b8bc21d5a201a628f75545",
+        "url": "https://autopatchcn.bh3.com/ptpublic/rel/chunk/manifests/cxi8tkx5vdog/20261120/9.2.0/6GhYtIQmPLGm/manifest_3bd170bd71459d08_088e8629b4b8bc21d5a201a628f75545"
       },
       "matchingField": "asb",
       "name": "asb-外网",
@@ -46,10 +46,10 @@
         "CATEGORY_SCENARIO_FULL"
       ],
       "stats": {
-        "chunkCount": 29101,
-        "compressedBytes": 31113423236,
-        "fileCount": 807,
-        "unpackedBytes": 34132855537
+        "chunkCount": 29559,
+        "compressedBytes": 31553208152,
+        "fileCount": 834,
+        "unpackedBytes": 34622342371
       }
     }
   ],
@@ -67,5 +67,5 @@
     "version": "8.4.0"
   },
   "protocol": "sophon",
-  "version": "9.1.0"
+  "version": "9.2.0"
 }
